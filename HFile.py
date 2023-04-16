@@ -3,12 +3,24 @@ import time
 
 
 class HFile:
-    def __init__(self, name):
-        self.name = name
+    def __init__(self):
+        self.name = None
         self.createdAt = datetime.fromtimestamp(time.time()).strftime('%Y-%m-%d %H:%M:%S')
         self.table = []
         self.column_families = {}
         self.enabled = True
+
+    def create(self, name:str, *args:str):
+        self.name = name
+        self.column_families = {}
+        for cf in args:
+            self.column_families[cf] = []
+        print(f"created {self.name}, {', '.join(self.column_families.keys())}")
+
+    def list(self):
+            for row in self.table:
+                for i in row:
+                    print (row[i])
 
     def disable(self):
         '''
@@ -124,22 +136,23 @@ ________________________________________________________________________________
                 print(f"@! La tabla '{self.name}' se encuentra deshabilitada.")
 
 if __name__ == "__main__":
-    table = HFile('Ejemplo')
-    cell_data = {datetime.fromtimestamp(time.time()).strftime('%Y-%m-%d %H:%M:%S'): "value"}
-    cell_data2 = {datetime.fromtimestamp(time.time()).strftime('%Y-%m-%d %H:%M:%S'): "value2"}
-    table.table =   [
-                        {
-                            'row_key': 'row1',
-                            'column_key': ['family_column', 'column_qualifier'],
-                            'cell_data': cell_data
-                        }, 
-                        {
-                            'row_key': 'row2',
-                            'column_key': ['family_column2', 'column_qualifier2'],
-                            'cell_data': cell_data2
-                        }
-                    ]
-    table.column_families = {'family_column': ['column_qualifier', 'column_qualifier2']}
-    table.alter('family_column', new_name='hola')
-
-    table.Is_enabled()
+    # table = HFile('Ejemplo')
+    # cell_data = {datetime.fromtimestamp(time.time()).strftime('%Y-%m-%d %H:%M:%S'): "value"}
+    # cell_data2 = {datetime.fromtimestamp(time.time()).strftime('%Y-%m-%d %H:%M:%S'): "value2"}
+    # table.table =   [
+    #                     {
+    #                         'row_key': 'row1',
+    #                         'column_key': ['family_column', 'column_qualifier'],
+    #                         'cell_data': cell_data
+    #                     }, 
+    #                     {
+    #                         'row_key': 'row2',
+    #                         'column_key': ['family_column2', 'column_qualifier2'],
+    #                         'cell_data': cell_data2
+    #                     }
+    #                 ]
+    # table.column_families = {'family_column': ['column_qualifier', 'column_qualifier2']}
+    # table.list()
+    table = HFile()
+    create_table = table.create('Ejemplo','fam1','fam2')
+    #table.Is_enabled()
