@@ -43,7 +43,7 @@ class HFile:
             Deshabilitar una tabla.
         '''
         self.enabled = False
-        print(f"> La tabla '{self.name}' ha sido deshabilitada exitosamente!.")
+        print(f"\n> La tabla '{self.name}' ha sido deshabilitada exitosamente!.")
 
     def Is_enabled(self):
         '''
@@ -171,8 +171,17 @@ ________________________________________________________________________________
         return cant
     
     def truncate(self):
-        pass
-        # TODO
+        '''
+            Deshabilita, elimina data manteniendo estructura de column families y column qualifiers 
+            y vuelve a habilitar la tabla.
+        '''
+        print("\nTRUNCATE PROCESS...")
+        self.disable()
+        self.table = []
+        print(f"> La información de la tabla {self.name} ha sido eliminada exitosamente!.")
+        self.enabled = True        
+        print(f"> La tabla '{self.name}' ha sido habilitada exitosamente!.")
+        print("\nTRUNCATE COMPLETED!")
 
     
 if __name__ == "__main__":

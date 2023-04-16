@@ -222,12 +222,19 @@ class HBase:
             ------------
             - Si el nombre de la tabla no existe en la base de datos.
         '''
-        if table_name not in self.tables.keys():
-            hfile = HFile()
-            return hfile.count()
+        if table_name in self.tables.keys():
+            tableObj = self.tables[table_name]
+            return tableObj.count()
+        else:
+            print(f"@! La tabla '{table_name}' no existe.\n   Details: \n     '{table_name}' is not defined in HBase tables.\n")
+
+
+    def truncateTable(self, table_name:str):
+        if table_name in self.tables.keys():
+            tableObj = self.tables[table_name]
+            tableObj.truncate()
         else:
             print("@! El nombre indicado ya existe.\n   Details: \n     Duplicated table names can not be accepted.\n")
-
 
 
 if __name__ == "__main__":
@@ -254,3 +261,4 @@ if __name__ == "__main__":
     hbase.alterTable('Ejemplo', 'family_column', new_name='nueva_familia1')
     hbase.scanTable()
     print(hbase.tables)
+    hbase.truncateTable('Ejemplo')
