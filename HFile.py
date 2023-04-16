@@ -15,7 +15,7 @@ class HFile:
         self.column_families = {}
         for cf in args:
             self.column_families[cf] = []
-        print(f"created {self.name}, {', '.join(self.column_families.keys())}")
+        print(f"create {self.name}, {', '.join(self.column_families.keys())}")
 
     def list(self):
             for row in self.table:
