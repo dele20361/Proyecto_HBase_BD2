@@ -1,0 +1,2 @@
+- PySimpleGUI:
+    pip install PySimpleGUI
