@@ -48,6 +48,7 @@ class HFile:
     def Is_enabled(self):
         '''
             Obtener bandera para conocer si la tabla se encuentra deshabilitada o no.
+
             Retorna:
             --------
             - enabled (bool): Bandera en donde True indica que la tabla está habilitada y False indica que está deshabilitada.
