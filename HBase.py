@@ -51,14 +51,6 @@ class HBase:
             print(f"@! La tabla '{table_name}' no existe.\n   Details: \n     '{table_name}' is not defined in HBase tables.\n")
 
 
-    
-    def listTable(self):
-        # Conectar con HFile
-        pass
-        # TODO
-
-
-
     def disableTable(self, table_name:str):
         '''
             Deshabilitar tabla.
