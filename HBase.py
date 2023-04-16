@@ -1,5 +1,7 @@
 
 
+import datetime
+import time
 from HFile import HFile
 
 
@@ -23,14 +25,28 @@ class HBase:
 
 
     def dropall(self):
-        pass
-        #TODO
+        '''
+            Drop de todas las tablas en base de datos.
+        '''
+        self.tables = {}
 
 
     def deleteTable(self, table_name:str):
+        '''
+            Elimina toda la información de la tabla.
+
+            Parámetros:
+            -----------
+            - table_name (str): Nombre de la tabla a crear.
+
+            Excepciones:
+            ------------
+            - Si el nombre de la tabla no existe en la base de datos.
+
+        '''
         if table_name in self.tables.keys():
             tableObj = self.tables[table_name]
-            #TODO
+            tableObj.delete()
         else:
             print(f"@! La tabla '{table_name}' no existe.\n   Details: \n     '{table_name}' is not defined in HBase tables.\n")
 
@@ -53,7 +69,7 @@ class HBase:
 
             Excepciones:
             ------------
-            - Si el nombre de la tabla no existe en la estructura de HBase.
+            - Si el nombre de la tabla no existe en la base de datos.
 
         '''
         if table_name in self.tables.keys():
@@ -74,7 +90,7 @@ class HBase:
 
             Excepciones:
             ------------
-            - Si el nombre de la tabla no existe en la estructura de HBase.
+            - Si el nombre de la tabla no existe en la base de datos.
 
             Retorna:
             --------
@@ -100,7 +116,7 @@ class HBase:
 
         Excepciones:
         ------------
-        - Si no existe la tabla en la estructura de HBase.
+        - Si no existe la tabla en la base de datos.
         - Si la tabla se encuentra deshabilitada.
         - Si se especifica un nuevo nombre de familia de columnas que ya existe.
         - Si se intenta eliminar una familia de columnas que no existe.
@@ -115,14 +131,14 @@ class HBase:
         '''
         if table_name in self.tables.keys():
             tableObj = self.tables[table_name]
-            #TODO
+            tableObj.alter(column_family, new_name, delete)
         else:
             print(f"@! La tabla '{table_name}' no existe.\n   Details: \n     '{table_name}' is not defined in HBase tables.\n")
 
 
     def dropTable(self, table_name:str):
         '''
-            Eliminar tabla de estructura de HBase.
+            Eliminar tabla de base de datos.
 
             Parámetros:
             -----------
@@ -130,7 +146,7 @@ class HBase:
 
             Excepciones:
             ------------
-            - Si el nombre de la tabla no existe en la estructura de HBase.
+            - Si el nombre de la tabla no existe en la base de datos.
 
         '''
         if table_name in self.tables.keys():
@@ -143,7 +159,7 @@ class HBase:
 
     def describeTable(self, table_name:str):
         '''
-            Información de estructura de tabla.
+            Información de base de datos de tabla.
 
             Parámetros:
             -----------
@@ -151,7 +167,7 @@ class HBase:
 
             Excepciones:
             ------------
-            - Si el nombre de la tabla no existe en la estructura de HBase.
+            - Si el nombre de la tabla no existe en la base de datos.
             - Si la tabla se encuentra deshabilitada.
 
         '''
@@ -179,7 +195,7 @@ class HBase:
 
             Excepciones:
             ------------
-            - Si el nombre de la tabla ya existe en la estructura de HBase.
+            - Si el nombre de la tabla ya existe en la base de datos.
 
             Ejemplos:
             ---------
@@ -196,10 +212,52 @@ class HBase:
         else:
             print("@! El nombre indicado ya existe.\n   Details: \n     Duplicated table names can not be accepted.\n")
 
+
+    def countTable(self, table_name:str):
+        '''
+            Cantidad de filas en tabla.
+
+            Parámetros:
+            -----------
+            - table_name (str): Nombre de la tabla a crear.
+
+            Retorna:
+            --------
+            - Cantidad de filas en tabla.
+
+            Excepciones:
+            ------------
+            - Si el nombre de la tabla no existe en la base de datos.
+        '''
+        if table_name not in self.tables.keys():
+            hfile = HFile()
+            return hfile.count()
+        else:
+            print("@! El nombre indicado ya existe.\n   Details: \n     Duplicated table names can not be accepted.\n")
+
+
+
 if __name__ == "__main__":
     hbase = HBase()
-    hbase.createTable('Ejemplo', 'fam1')
-    hbase.list()
-    hbase.deleteall()
+    # hbase.createTable('Ejemplo', 'fam1')
+    # hbase.list()
+    # hbase.deleteall()
+    hbase.createTable('Ejemplo', 'family_column', 'family_column2')
+    cell_data = {'Monday': "value"}
+    cell_data2 = {'Wednesday': "value2"}
+    hbase.tables['Ejemplo'].table =   [
+                        {
+                            'row_key': 'row1',
+                            'column_key': ['family_column', 'column_qualifier'],
+                            'cell_data': cell_data
+                        }, 
+                        {
+                            'row_key': 'row2',
+                            'column_key': ['family_column2', 'column_qualifier2'],
+                            'cell_data': cell_data2
+                        }
+                    ]
+
+    hbase.alterTable('Ejemplo', 'family_column', new_name='nueva_familia1')
 
     print(hbase.tables)

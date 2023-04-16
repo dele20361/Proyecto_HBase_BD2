@@ -22,7 +22,7 @@ class HFile:
         self.name = name
         self.column_families = {}
         self.column_families = {cf: [] for cf in args}
-        print(f"> La tabla '{self.name}' se creó existosamente!.\n")
+        print(f"\n> La tabla '{self.name}' se creó existosamente!.\n")
 
     def scan(self):
         '''
@@ -36,7 +36,7 @@ class HFile:
 
                 print(f" -> Row = {rows} \n", f"-> Colum = {' '.join(colum)} \n", f"-> Timestamp = {' '.join(time)} \n")
         else:
-            print(f"@! La tabla '{self.name}' se encuentra deshabilitada.")
+            print(f"\n@! La tabla '{self.name}' se encuentra deshabilitada.")
 
     def disable(self):
         '''
@@ -53,7 +53,7 @@ class HFile:
             --------
             - enabled (bool): Bandera en donde True indica que la tabla está habilitada y False indica que está deshabilitada.
         '''
-        state = (f"> La tabla '{self.name}' se encuentra ")
+        state = (f"\n> La tabla '{self.name}' se encuentra ")
         state += 'habilitada.' if self.enabled else 'deshabilitada.'
         print(state)
         return self.enabled
@@ -99,9 +99,9 @@ class HFile:
                             if row['column_key'][0] == column_family_name:
                                 row['column_key'][0] = new_name
 
-                        print(f'> Cambio de nombre de column_family realizado exitosamente!.\n  Details: \n     Old value: {column_family_name} -> New value: {new_name}\n')
+                        print(f'\n> Cambio de nombre de column_family realizado exitosamente!.\n  Details: \n     Old value: {column_family_name} -> New value: {new_name}\n')
                     else:
-                        print("@! El nombre indicado ya existe.\n   Details: \n     Duplicated names can not be accepted.\n")
+                        print("\n@! El nombre indicado ya existe.\n   Details: \n     Duplicated names can not be accepted.\n")
                 # Eliminar column family
                 else:
                     if delete:
@@ -109,11 +109,11 @@ class HFile:
                         self.table = [row for row in self.table if row['column_key'][0] != column_family_name]
                         print(f'> Eliminación de column_family realizada exitosamente!.\n   Details: \n      Column_family deleted: {column_family_name}\n')
                     else:
-                        print("@! No se han indicado instrucciones a modificar.\n   Details: \n     Error in ALTER function.\n")
+                        print("\n@! No se han indicado instrucciones a modificar.\n   Details: \n     Error in ALTER function.\n")
             else:
-                print(f"@! No se encontró la column family '{column_family_name}' en la tabla '{self.name}'")
+                print(f"\n@! No se encontró la column family '{column_family_name}' en la tabla '{self.name}'")
         else:
-            print(f"@! La tabla '{self.name}' se encuentra deshabilitada.")
+            print(f"\n@! La tabla '{self.name}' se encuentra deshabilitada.")
 
 
     def delete(self):
@@ -149,7 +149,7 @@ ________________________________________________________________________________
 \n
 """)
         else:
-                print(f"@! La tabla '{self.name}' se encuentra deshabilitada.")
+                print(f"\n@! La tabla '{self.name}' se encuentra deshabilitada.")
 
 
     def put(self):
@@ -163,9 +163,12 @@ ________________________________________________________________________________
 
     
     def count(self):
-        pass
-        # TODO
-
+        '''
+            Cantidad de filas en tabla.
+        '''
+        cant = len(self.table)
+        print(f"\n> La tabla '{self.name}' cuenta con {cant} rows.")
+        return cant
     
     def truncate(self):
         pass
@@ -190,4 +193,3 @@ if __name__ == "__main__":
                         }
                     ]
     table.scan()
-    #table.Is_enabled()
