@@ -99,9 +99,9 @@ class HFile:
             print(f"@! La tabla '{self.name}' se encuentra deshabilitada.")
 
 
-    def drop(self):
+    def delete(self):
         '''
-            Eliminar una tabla. (Elimina toda la información de la tabla).
+            Elimina toda la información de la tabla.
         '''
         print(f"... Eliminando información de tabla '{self.name}'.")
         self.table = []

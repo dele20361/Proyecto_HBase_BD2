@@ -24,6 +24,12 @@ class HBase:
         #TODO
 
 
+    def deleteTable(self):
+        # Conectar con HFile
+        pass
+        # TODO
+
+    
     def createTable(self):
         # Conectar con HFile
         pass
@@ -66,4 +72,3 @@ class HBase:
         # TODO
 
 
-    
