@@ -175,10 +175,14 @@ ________________________________________________________________________________
         if self.enabled:
             for data_dict in self.table:
                 if data_dict['row_key'] == key_value:
+                    
                     colum = data_dict['column_key']
-                    time =  data_dict['cell_data']
-                    value = data_dict['value']
-                    print(f" > Colum = {','.join(colum)} \n",f"> Timestamp = {'.'.join(time)} \n",f"> Value = {value} \n")
+                    data = data_dict["cell_data"]
+                
+                    timestamp = list(data.keys())[0]
+                    value = data[timestamp]
+
+                    print(f" - Column: {colum[0]} : {colum[1]} \n", f"- Cell: {value} \n", f"- Timestamp: {timestamp}")
         else:
             print(f"\n@! La tabla '{self.name}' se encuentra deshabilitada.")
     
@@ -223,5 +227,5 @@ if __name__ == "__main__":
                         }
                    ]
     #table.put("Ejemplo","row2",'family_column2','age',5)
-    table.scan()
+    table.get("Ejemplo",'row1',)
     #print(table.table)
