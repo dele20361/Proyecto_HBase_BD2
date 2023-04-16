@@ -10,13 +10,16 @@ class HBase:
         # value = Objeto tabla
 
     def list(self):
-        pass
-        # TODO
+        print("-- Tablas Creadas --")
+        for key in self.tables.keys():
+            print(">",key)
+
 
 
     def deleteall(self):
-        pass
-        #TODO
+        for table_name in self.tables.keys():
+                tableObj = self.tables[table_name]
+                tableObj.delete()
 
 
     def dropall(self):
@@ -188,7 +191,7 @@ class HBase:
         '''
         if table_name not in self.tables.keys():
             hfile = HFile()
-            hfile.create(table_name, args)
+            hfile.create(table_name, *args)
             self.tables[table_name] = hfile
         else:
             print("@! El nombre indicado ya existe.\n   Details: \n     Duplicated table names can not be accepted.\n")
@@ -196,4 +199,7 @@ class HBase:
 if __name__ == "__main__":
     hbase = HBase()
     hbase.createTable('Ejemplo', 'fam1')
+    hbase.list()
+    hbase.deleteall()
 
+    print(hbase.tables)

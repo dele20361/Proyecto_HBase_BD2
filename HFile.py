@@ -123,7 +123,6 @@ class HFile:
         print(f"... Eliminando información de tabla '{self.name}'.")
         self.table = []
         self.column_families = {}
-        self.name = None
         self.enabled = False
 
 
