@@ -1,5 +1,8 @@
 
 
+from HFile import HFile
+
+
 class HBase:
     def __init__(self):
         self.tables = {}
@@ -74,4 +77,22 @@ class HBase:
         # TODO
 
 
-    # def scan(self):
+    def scanTable(self):
+        # Conectar con HFile
+        pass
+        # TODO
+        
+
+    def createTable(self, table_name:str, *args:str):
+        if table_name not in self.tables.keys():
+            hfile = HFile()
+            hfile.create(table_name, args)
+            self.tables[table_name] = hfile
+        else:
+            print("@! El nombre indicado ya existe.\n   Details: \n     Duplicated table names can not be accepted.\n")
+
+if __name__ == "__main__":
+    hbase = HBase()
+    hbase.createTable('Ejemplo', 'fam1')
+    print(hbase.tables)
+

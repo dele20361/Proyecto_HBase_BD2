@@ -13,9 +13,8 @@ class HFile:
     def create(self, name:str, *args:str):
         self.name = name
         self.column_families = {}
-        for cf in args:
-            self.column_families[cf] = []
-        print(f"> La tabla '{self.name}' se creó existosamente!.\n  Details: \n     Family columns: {', '.join(self.column_families.keys())}\n")
+        self.column_families = {cf: [] for cf in args}
+        print(f"> La tabla '{self.name}' se creó existosamente!.\n")
 
     def scan(self):
         for row in self.table:
