@@ -99,9 +99,9 @@ class HFile:
             print(f"@! La tabla '{self.name}' se encuentra deshabilitada.")
 
 
-    def drop(self):
+    def delete(self):
         '''
-            Eliminar una tabla. (Elimina toda la información de la tabla).
+            Elimina toda la información de la tabla.
         '''
         print(f"... Eliminando información de tabla '{self.name}'.")
         self.table = []
@@ -135,6 +135,32 @@ ________________________________________________________________________________
         else:
                 print(f"@! La tabla '{self.name}' se encuentra deshabilitada.")
 
+
+    def put(self):
+        pass
+        # TODO
+
+    
+    def get(self):
+        pass
+        # TODO
+
+    
+    def delete(self):
+        pass
+        # TODO
+
+    
+    def count(self):
+        pass
+        # TODO
+
+    
+    def truncate(self):
+        pass
+        # TODO
+
+    
 if __name__ == "__main__":
     # table = HFile('Ejemplo')
     # cell_data = {datetime.fromtimestamp(time.time()).strftime('%Y-%m-%d %H:%M:%S'): "value"}
