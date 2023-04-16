@@ -15,12 +15,12 @@ class HFile:
         self.column_families = {}
         for cf in args:
             self.column_families[cf] = []
-        print(f"create {self.name}, {', '.join(self.column_families.keys())}")
+        print(f"> La tabla '{self.name}' se creó existosamente!.\n  Details: \n     Family columns: {', '.join(self.column_families.keys())}\n")
 
-    def list(self):
-            for row in self.table:
-                for i in row:
-                    print (row[i])
+    def scan(self):
+        for row in self.table:
+            for i in row:
+                print (row[i])
 
     def disable(self):
         '''
@@ -146,11 +146,6 @@ ________________________________________________________________________________
         # TODO
 
     
-    def delete(self):
-        pass
-        # TODO
-
-    
     def count(self):
         pass
         # TODO
@@ -162,23 +157,21 @@ ________________________________________________________________________________
 
     
 if __name__ == "__main__":
-    # table = HFile('Ejemplo')
-    # cell_data = {datetime.fromtimestamp(time.time()).strftime('%Y-%m-%d %H:%M:%S'): "value"}
-    # cell_data2 = {datetime.fromtimestamp(time.time()).strftime('%Y-%m-%d %H:%M:%S'): "value2"}
-    # table.table =   [
-    #                     {
-    #                         'row_key': 'row1',
-    #                         'column_key': ['family_column', 'column_qualifier'],
-    #                         'cell_data': cell_data
-    #                     }, 
-    #                     {
-    #                         'row_key': 'row2',
-    #                         'column_key': ['family_column2', 'column_qualifier2'],
-    #                         'cell_data': cell_data2
-    #                     }
-    #                 ]
-    # table.column_families = {'family_column': ['column_qualifier', 'column_qualifier2']}
-    # table.list()
     table = HFile()
-    create_table = table.create('Ejemplo','fam1','fam2')
+    cell_data = {datetime.fromtimestamp(time.time()).strftime('%Y-%m-%d %H:%M:%S'): "value"}
+    cell_data2 = {datetime.fromtimestamp(time.time()).strftime('%Y-%m-%d %H:%M:%S'): "value2"}
+    table.create('Ejemplo','fam1','fam2')
+    table.table =   [
+                        {
+                            'row_key': 'row1',
+                            'column_key': ['family_column', 'column_qualifier'],
+                            'cell_data': cell_data
+                        }, 
+                        {
+                            'row_key': 'row2',
+                            'column_key': ['family_column2', 'column_qualifier2'],
+                            'cell_data': cell_data2
+                        }
+                    ]
+    table.scan()
     #table.Is_enabled()

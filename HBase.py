@@ -3,10 +3,17 @@
 class HBase:
     def __init__(self):
         self.tables = {}
+        # key = Nombre de tabla
+        # value = Objeto tabla
 
     def list(self):
         pass
         # TODO
+
+
+    def deleteall(self):
+        pass
+        #TODO
 
 
     def dropall(self):
@@ -15,11 +22,6 @@ class HBase:
 
 
     def drop(self):
-        pass
-        #TODO
-
-
-    def deleteall(self):
         pass
         #TODO
 
@@ -72,3 +74,4 @@ class HBase:
         # TODO
 
 
+    # def scan(self):
