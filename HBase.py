@@ -180,8 +180,9 @@ class HBase:
 
     def scanTable(self):
         # Conectar con HFile
-        pass
-        # TODO
+        for table_name in self.tables.keys():
+            tableObj = self.tables[table_name]
+            tableObj.scan()
 
 
     def createTable(self, table_name:str, *args:str):
@@ -259,5 +260,5 @@ if __name__ == "__main__":
                     ]
 
     hbase.alterTable('Ejemplo', 'family_column', new_name='nueva_familia1')
-
+    hbase.scanTable()
     print(hbase.tables)
