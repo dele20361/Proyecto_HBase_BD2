@@ -11,15 +11,32 @@ class HFile:
         self.enabled = True
 
     def create(self, name:str, *args:str):
+        '''
+            Crear tabla 
+
+            Parámetros:
+        -----------
+        - name (str): Nombre de la tabla .
+        - *args (str): Nombre de las columnas, su cantidad puede variar.
+        '''
         self.name = name
         self.column_families = {}
         self.column_families = {cf: [] for cf in args}
         print(f"> La tabla '{self.name}' se creó existosamente!.\n")
 
     def scan(self):
-        for row in self.table:
-            for i in row:
-                print (row[i])
+        '''
+            Mostrar data de la tabla 
+        '''
+        if self.enabled:
+            for row in self.table:
+                rows = row['row_key']
+                colum = row['column_key']
+                time =  row['cell_data']
+
+                print(f" -> Row = {rows} \n", f"-> Colum = {' '.join(colum)} \n", f"-> Timestamp = {' '.join(time)} \n")
+        else:
+            print(f"@! La tabla '{self.name}' se encuentra deshabilitada.")
 
     def disable(self):
         '''
