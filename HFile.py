@@ -34,7 +34,7 @@ class HFile:
                 colum = row['column_key']
                 time =  row['cell_data']
 
-                print(f" -> Row = {rows} \n", f"-> Colum = {' '.join(colum)} \n", f"-> Timestamp = {' '.join(time)} \n")
+                print(f" -> Row = {rows} \n", f"-> Colum = {' '.join(colum)} \n", f"-> Timestamp = {'.'.join(time)} \n")
         else:
             print(f"\n@! La tabla '{self.name}' se encuentra deshabilitada.")
 
@@ -152,14 +152,31 @@ ________________________________________________________________________________
                 print(f"\n@! La tabla '{self.name}' se encuentra deshabilitada.")
 
 
-    def put(self):
-        pass
-        # TODO
+    def put(self,table_name,row_id,family,clasificator,value):
+        if self.enabled:
+            temp = {}
+            temp2 = {clasificator: value}
+            temp['row_key'] = row_id
+            temp['column_key'] = [family,temp2]
+            temp['timestamp'] = str(datetime.now())
+            self.table.append(temp)
+            print(f"-> '{row_id}' ha sido agregado a la tabla '{table_name}'.")
+        else:
+            print(f"\n@! La tabla '{self.name}' se encuentra deshabilitada.")
+    
+    def get(self,table_name,key_value):
+        print(f"Mostrando datos de la tabla {table_name} de la columna {key_value}")
+        if self.enabled:
+            for data_dict in self.table:
+                if data_dict['row_key'] == key_value:
+                    colum = data_dict['column_key']
+                    time =  data_dict['cell_data']
+                    value = data_dict['value']
+                    print(f" > Colum = {','.join(colum)} \n",f"> Timestamp = {'.'.join(time)} \n",f"> Value = {value} \n")
+        else:
+            print(f"\n@! La tabla '{self.name}' se encuentra deshabilitada.")
 
     
-    def get(self):
-        pass
-        # TODO
 
     
     def count(self):
@@ -188,17 +205,21 @@ if __name__ == "__main__":
     table = HFile()
     cell_data = {datetime.fromtimestamp(time.time()).strftime('%Y-%m-%d %H:%M:%S'): "value"}
     cell_data2 = {datetime.fromtimestamp(time.time()).strftime('%Y-%m-%d %H:%M:%S'): "value2"}
-    table.create('Ejemplo','fam1','fam2')
-    table.table =   [
-                        {
-                            'row_key': 'row1',
-                            'column_key': ['family_column', 'column_qualifier'],
-                            'cell_data': cell_data
-                        }, 
-                        {
-                            'row_key': 'row2',
-                            'column_key': ['family_column2', 'column_qualifier2'],
-                            'cell_data': cell_data2
-                        }
-                    ]
+    table.create('Ejemplo','fam1')
+    # table.table =   [
+    #                     {
+    #                         'row_key': 'row1',
+    #                         'column_key': ['family_column', 'column_qualifier'],
+    #                         'cell_data': cell_data,
+    #                         'value': 4
+    #                     }, 
+    #                     {
+    #                         'row_key': 'row2',
+    #                         'column_key': ['family_column2', 'column_qualifier2'],
+    #                         'cell_data': cell_data2,
+    #                         'value': 4
+    #                     }
+    #                ]
+    table.put("Ejemplo","row2",'family_column2','age',5)
     table.scan()
+    #print(table.table)
