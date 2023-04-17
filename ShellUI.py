@@ -87,7 +87,38 @@ class ShellUI:
                     else:
                         print(f"@! Error.\n   Details: \n     Funcionalidad de ALTER: Modifica una tabla existente para eliminar o modificar nombre de la column family.\n")
 
-            # 
+            # dropTable
+            elif command.strip()[:len('drop')].lower() == 'drop':
+                params = [param.strip() for param in command[len('drop'):].split(',') if param.strip() != '']
+                if len(params) != 1 or (len(params) == 1 and params[0] == ''):
+                    print(f"@! Error.\n   Details: \n     Se pasaron {len(params)} parámetros de 1 parámetro necesario.\n")
+                else:
+                    hbase.dropTable(params[0][1:-1]) # Quitar comillas
+            
+            # describeTable
+            elif command.strip()[:len('describe')].lower() == 'describe':
+                params = [param.strip() for param in command[len('describe'):].split(',') if param.strip() != '']
+                if len(params) != 1 or (len(params) == 1 and params[0] == ''):
+                    print(f"@! Error.\n   Details: \n     Se pasaron {len(params)} parámetros de 1 parámetro necesario.\n")
+                else:
+                    hbase.describeTable(params[0][1:-1]) # Quitar comillas
+            
+            # countTable
+            elif command.strip()[:len('count')].lower() == 'count':
+                params = [param.strip() for param in command[len('count'):].split(',') if param.strip() != '']
+                if len(params) != 1 or (len(params) == 1 and params[0] == ''):
+                    print(f"@! Error.\n   Details: \n     Se pasaron {len(params)} parámetros de 1 parámetro necesario.\n")
+                else:
+                    hbase.countTable(params[0][1:-1]) # Quitar comillas
+            
+            # trucateTable
+            elif command.strip()[:len('trucate')].lower() == 'trucate':
+                params = [param.strip() for param in command[len('trucate'):].split(',') if param.strip() != '']
+                if len(params) != 1 or (len(params) == 1 and params[0] == ''):
+                    print(f"@! Error.\n   Details: \n     Se pasaron {len(params)} parámetros de 1 parámetro necesario.\n")
+                else:
+                    hbase.truncateTable(params[0][1:-1]) # Quitar comillas
+        
         # Cerrar la ventana
         window.Close()
 
