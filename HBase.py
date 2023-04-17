@@ -237,8 +237,13 @@ class HBase:
         else:
             print("@! El nombre indicado ya existe.\n   Details: \n     Duplicated table names can not be accepted.\n")
 
-    def putTable():
-        pass
+    def putTable(self,table_name,row_id,family,clasificator,value):
+        if table_name in self.tables.keys():
+            tableObj = self.tables[table_name]
+            tableObj.get(table_name, row_id,family,clasificator,value)
+        else:
+            print(f"@! La tabla '{table_name}' no existe.\n   Details: \n     '{table_name}' is not defined in HBase tables.\n")
+
     
     def getTable(self,table_name:str,key_value:str):
         if table_name in self.tables.keys():

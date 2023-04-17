@@ -127,11 +127,10 @@ class ShellUI:
                 else:
                     hbase.createTable(*params) # Pasar argumentos sin comillas
 
-
             # list tables 
             elif command.strip()[:len('list')].lower() == 'list':
                 hbase.list()
-
+#-------------------------------------------------------------------------------------------------------------------
             # scan table
             elif command.strip()[:len('scan')].lower() == 'scan':
                 params = [param.strip() for param in command[len('scan'):].split(',') if param.strip() != '']
@@ -153,7 +152,32 @@ class ShellUI:
                     print(params[0][1:-1])
                     print(params[1][1:-1])
                     hbase.getTable(params[0][1:-1], params[1][1:-1]) # Quitar comillas
+           
+            #Delete all 
+            elif command.strip()[:len('deleteall')].lower() == 'deleteall':
+                hbase.deleteall()
 
+            #Put data in table
+            elif command.strip()[:len('put')].lower() == 'put':
+                params = [param.strip() for param in command[len('put'):].split(',') if param.strip() != '']
+                
+                if len(params) != 5 or (len(params) == 5 and params[0] == ''):
+                    print(f"@! Error.\n   Details: \n     Se pasaron {len(params)} parámetros de 1 parámetro necesario.\n")
+
+                else:   
+                    print(params[0][1:-1])
+                    print(params[1][1:-1])
+                    print(params[2][1:-1])
+                    print(params[3][1:-1])
+                    print(params[4][1:-1])
+
+                    # tabla = params[0][1:-1]
+                    # row_id = params[1][1:-1]
+                    # family = params[2][1:-1]
+                    # clasificator =params[3][1:-1]
+                    # value= params[4][1:-1]
+                    hbase.putTable(params[0][1:-1], params[1][1:-1],params[2][1:-1],params[3][1:-1],params[4][1:-1]) # Quitar comillas
+                    #hbase.putTable(tabla,row_id,family,clasificator,value)
         # Cerrar la ventana
         window.Close()
 
