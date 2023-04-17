@@ -29,17 +29,15 @@ class HFile:
             Mostrar data de la tabla 
         '''
         if self.enabled:
-            print("\t\t-- Showing data of table --\n")
+            print("\t\t-- Mostrando datos de la tabla {self.name} --\n")
             for row in self.table:
                 rows = row['row_key']
                 colum = row['column_key']
                 data = row["cell_data"]
                 
                 timestamp = list(data.keys())[0]
-                
                 value = data[timestamp]
-
-            print(f" - Row = {rows} \n", f"- Colum + Cell = {colum[0]} : {colum[1]} , value = {value} \n" f" - Timestamp ={timestamp} \n")
+                print(f" - Row = {rows} \n", f"- Colum + Cell = {colum[0]} : {colum[1]} , value = {value} \n" f" - Timestamp ={timestamp} \n")
         else:
             print(f"\n@! La tabla '{self.name}' se encuentra deshabilitada.")
 
@@ -164,7 +162,6 @@ ________________________________________________________________________________
             temp['row_key'] = row_id
             temp['column_key'] = [family,clasificator]
             temp['cell_data'] = temp2
-            print(temp)
             self.table.append(temp)
             
             print(f"-> '{row_id}' ha sido agregado a la tabla '{table_name}'.")
@@ -172,7 +169,7 @@ ________________________________________________________________________________
             print(f"\n@! La tabla '{self.name}' se encuentra deshabilitada.")
     
     def get(self,table_name,key_value):
-        print(f"Mostrando datos de la tabla {table_name} de la columna {key_value}")
+        print(f"Mostrando datos de la tabla {table_name} de la columna {key_value} \n")
         if self.enabled:
             for data_dict in self.table:
                 if data_dict['row_key'] == key_value:
@@ -209,25 +206,3 @@ ________________________________________________________________________________
         print("\nTRUNCATE COMPLETED!")
 
     
-if __name__ == "__main__":
-    table = HFile()
-    cell_data = {datetime.fromtimestamp(time.time()).strftime('%Y-%m-%d %H:%M:%S'): "value"}
-    cell_data2 = {datetime.fromtimestamp(time.time()).strftime('%Y-%m-%d %H:%M:%S'): "value2"}
-    table.create('Ejemplo','fam1')
-    table.table =   [
-                        {
-                            'row_key': 'row1',
-                            'column_key': ['family_column', 'column_qualifier'],
-                            'cell_data': cell_data,
-
-                        }, 
-                        {
-                            'row_key': 'row2',
-                            'column_key': ['family_column2', 'column_qualifier2'],
-                            'cell_data': cell_data2,
-                        }
-                   ]
-    #table.put("Ejemplo","row2",'family_column2','age',5)
-    # table.get("Ejemplo",'row1')
-    #table.scan("Ejemplo")
-    # #print(table.table)

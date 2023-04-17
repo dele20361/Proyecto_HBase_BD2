@@ -20,8 +20,8 @@ class HBase:
 
 
     def deleteall(self):
-        for table_name in self.tables.keys():
-                tableObj = self.tables[table_name]
+        for key in self.tables.keys():
+                tableObj = self.tables[key]
                 tableObj.delete()
 
 
@@ -240,7 +240,7 @@ class HBase:
     def putTable(self,table_name,row_id,family,clasificator,value):
         if table_name in self.tables.keys():
             tableObj = self.tables[table_name]
-            tableObj.get(table_name, row_id,family,clasificator,value)
+            tableObj.put(table_name, row_id,family,clasificator,value)
         else:
             print(f"@! La tabla '{table_name}' no existe.\n   Details: \n     '{table_name}' is not defined in HBase tables.\n")
 
@@ -251,30 +251,3 @@ class HBase:
             tableObj.get(table_name, key_value)
         else:
             print(f"@! La tabla '{table_name}' no existe.\n   Details: \n     '{table_name}' is not defined in HBase tables.\n")
-
-
-if __name__ == "__main__":
-    hbase = HBase()
-    # hbase.createTable('Ejemplo', 'fam1')
-    # hbase.list()
-    # hbase.deleteall()
-    hbase.createTable('Ejemplo', 'family_column', 'family_column2')
-    cell_data = {'Monday': "value"}
-    cell_data2 = {'Wednesday': "value2"}
-    hbase.tables['Ejemplo'].table =   [
-                        {
-                            'row_key': 'row1',
-                            'column_key': ['family_column', 'column_qualifier'],
-                            'cell_data': cell_data
-                        }, 
-                        {
-                            'row_key': 'row2',
-                            'column_key': ['family_column2', 'column_qualifier2'],
-                            'cell_data': cell_data2
-                        }
-                    ]
-
-    #hbase.alterTable('Ejemplo', 'family_column', new_name='nueva_familia1')
-    #hbase.scanTable("Ejemplo")
-    #print(hbase.tables)
-    #hbase.truncateTable('Ejemplo')

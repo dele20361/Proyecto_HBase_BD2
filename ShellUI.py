@@ -9,7 +9,7 @@ class ShellUI:
             [sg.Text('Ingrese un comando:')],
             [sg.InputText(key='-IN-')],
             [sg.Button('Ejecutar'), sg.Button('Salir')],
-            [sg.Output(size=(80,20))]
+            [sg.Output(size=(80,20),key='-OUTPUT-')]
         ]
     
     def run(self):
@@ -26,6 +26,21 @@ class ShellUI:
             # Ejecutar el comando y mostrar el resultado en la ventana de salida
             hbase = HBase()
             hbase.createTable('Ejemplo', 'family_column', 'family_column2')
+            cell_data = {'Monday': "value"}
+            cell_data2 = {'Wednesday': "value2"}
+            hbase.tables['Ejemplo'].table =   [
+                                {
+                                    'row_key': 'row1',
+                                    'column_key': ['family_column', 'column_qualifier'],
+                                    'cell_data': cell_data
+                                }, 
+                                {
+                                    'row_key': 'row2',
+                                    'column_key': ['family_column2', 'column_qualifier2'],
+                                    'cell_data': cell_data2
+                                }
+                            ]
+            
             # dropall
             if command.strip()[:len('dropall')].lower() == 'dropall':
                 hbase.dropall()
@@ -130,32 +145,6 @@ class ShellUI:
             # list tables 
             elif command.strip()[:len('list')].lower() == 'list':
                 hbase.list()
-#-------------------------------------------------------------------------------------------------------------------
-            # scan table
-            elif command.strip()[:len('scan')].lower() == 'scan':
-                params = [param.strip() for param in command[len('scan'):].split(',') if param.strip() != '']
-                
-                if len(params) != 1 or (len(params) == 1 and params[0] == ''):
-                    print(f"@! Error.\n   Details: \n     Se pasaron {len(params)} parámetros de 1 parámetro necesario.\n")
-
-                else:   
-                    hbase.scanTable(params[0][1:-1]) # Quitar comillas
-            
-            #get table 
-            elif command.strip()[:len('get')].lower() == 'get':
-                params = [param.strip() for param in command[len('get'):].split(',') if param.strip() != '']
-                
-                if len(params) != 2 or (len(params) == 2 and params[0] == ''):
-                    print(f"@! Error.\n   Details: \n     Se pasaron {len(params)} parámetros de 1 parámetro necesario.\n")
-
-                else:   
-                    print(params[0][1:-1])
-                    print(params[1][1:-1])
-                    hbase.getTable(params[0][1:-1], params[1][1:-1]) # Quitar comillas
-           
-            #Delete all 
-            elif command.strip()[:len('deleteall')].lower() == 'deleteall':
-                hbase.deleteall()
 
             #Put data in table
             elif command.strip()[:len('put')].lower() == 'put':
@@ -165,19 +154,36 @@ class ShellUI:
                     print(f"@! Error.\n   Details: \n     Se pasaron {len(params)} parámetros de 1 parámetro necesario.\n")
 
                 else:   
-                    print(params[0][1:-1])
-                    print(params[1][1:-1])
-                    print(params[2][1:-1])
-                    print(params[3][1:-1])
-                    print(params[4][1:-1])
-
-                    # tabla = params[0][1:-1]
-                    # row_id = params[1][1:-1]
-                    # family = params[2][1:-1]
-                    # clasificator =params[3][1:-1]
-                    # value= params[4][1:-1]
                     hbase.putTable(params[0][1:-1], params[1][1:-1],params[2][1:-1],params[3][1:-1],params[4][1:-1]) # Quitar comillas
-                    #hbase.putTable(tabla,row_id,family,clasificator,value)
+
+            # scan table
+            elif command.strip()[:len('scan')].lower() == 'scan':
+                params = [param.strip() for param in command[len('scan'):].split(',') if param.strip() != '']
+                
+                if len(params) != 1 or (len(params) == 1 and params[0] == ''):
+                    print(f"@! Error.\n   Details: \n     Se pasaron {len(params)} parámetros de 1 parámetro necesario.\n")
+
+                else:   
+                    hbase.scanTable(params[0][1:-1]) # Quitar comillas
+
+#-------------------------------------------------------------------------------------------------------------------
+            #get table 
+            elif command.strip()[:len('get')].lower() == 'get':
+                params = [param.strip() for param in command[len('get'):].split(',') if param.strip() != '']
+                
+                if len(params) != 2 or (len(params) == 2 and params[0] == ''):
+                    print(f"@! Error.\n   Details: \n     Se pasaron {len(params)} parámetros de 2 parámetro necesario.\n")
+
+                else:   
+                    hbase.getTable(params[0][1:-1], params[1][1:-1]) # Quitar comillas
+           
+            #Delete all 
+            elif command == 'deleteall':
+                print("addd")
+                hbase.deleteall()
+
+            elif command == 'Clear' or command == 'clear' or command == 'clr':
+                window['-OUTPUT-'].update('')
         # Cerrar la ventana
         window.Close()
 
