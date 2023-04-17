@@ -64,7 +64,7 @@ class HFile:
 
     def alter(self, column_family_name: str, new_name: str = None, delete: bool = False):
         '''
-        Modifica una tabla existente para agregar o eliminar columnas o modificar propiedades de las columnas.
+        Modifica una tabla existente para eliminar o modificar nombre de la column family.
 
         Parámetros:
         -----------

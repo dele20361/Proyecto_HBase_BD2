@@ -11,6 +11,7 @@ class HBase:
         # key = Nombre de tabla
         # value = Objeto tabla
 
+
     def list(self):
         print("-- Tablas Creadas --")
         for key in self.tables.keys():
@@ -97,7 +98,7 @@ class HBase:
 
     def alterTable(self, table_name:str, column_family:str, new_name: str = None, delete:bool = False):
         '''
-        Modifica una tabla existente para agregar o eliminar columnas o modificar propiedades de las columnas.
+        Modifica una tabla existente para eliminar o modificar nombre de la column family.
 
         Parámetros:
         -----------
