@@ -3,7 +3,7 @@ import PySimpleGUI as sg
 
 class ShellUI:
     def __init__(self):
-        sg.theme('Dark')   # Tema de la interfaz
+        sg.theme('DarkGrey14')   # Tema de la interfaz
         # Definir los elementos de la interfaz
         self.layout = [
             [sg.Text('Ingrese un comando:')],
@@ -44,6 +44,11 @@ class ShellUI:
             # dropall
             if command.strip()[:len('dropall')].lower() == 'dropall':
                 hbase.dropall()
+            
+            #delete all data 
+            elif command.strip()[:len('deleteall')].lower() == 'deleteall':
+                print("addd")
+                hbase.deleteall()
 
             # deleteTable
             elif command.strip()[:len('delete')].lower() == 'delete':
@@ -51,6 +56,7 @@ class ShellUI:
                 if len(params) != 1 or (len(params) == 1 and params[0] == ''):
                     print(f"@! Error.\n   Details: \n     Se pasaron {len(params)} parámetros de 1 parámetro necesario.\n")
                 else:
+                    print("adadad")
                     hbase.deleteTable(params[0][1:-1]) # Quitar commilas del parámetro
             
             # disableTable
@@ -176,11 +182,6 @@ class ShellUI:
 
                 else:   
                     hbase.getTable(params[0][1:-1], params[1][1:-1]) # Quitar comillas
-           
-            #Delete all 
-            elif command == 'deleteall':
-                print("addd")
-                hbase.deleteall()
 
             elif command == 'Clear' or command == 'clear' or command == 'clr':
                 window['-OUTPUT-'].update('')
