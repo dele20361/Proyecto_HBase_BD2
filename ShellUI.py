@@ -1,8 +1,12 @@
 from HBase import HBase
 import PySimpleGUI as sg
+from Making_tables import *
 
 class ShellUI:
     def __init__(self):
+        self.hbase = HBase()
+        Music_table(self.hbase)
+        Users_table(self.hbase)
         sg.theme('DarkGrey14')   # Tema de la interfaz
         # Definir los elementos de la interfaz
         self.layout = [
@@ -14,7 +18,8 @@ class ShellUI:
     
     def run(self):
         # Crear la ventana
-        window = sg.Window('Shell').Layout(self.layout)
+        # window = sg.Window('Shell').Layout(self.layout)
+        window = sg.Window('Shell', layout=self.layout)
         while True:
             # Leer los eventos de la ventana
             event, values = window.Read()
@@ -24,30 +29,14 @@ class ShellUI:
             command = values['-IN-']
 
             # Ejecutar el comando y mostrar el resultado en la ventana de salida
-            hbase = HBase()
-            hbase.createTable('Ejemplo', 'family_column', 'family_column2')
-            cell_data = {'Monday': "value"}
-            cell_data2 = {'Wednesday': "value2"}
-            hbase.tables['Ejemplo'].table =   [
-                                {
-                                    'row_key': 'row1',
-                                    'column_key': ['family_column', 'column_qualifier'],
-                                    'cell_data': cell_data
-                                }, 
-                                {
-                                    'row_key': 'row2',
-                                    'column_key': ['family_column2', 'column_qualifier2'],
-                                    'cell_data': cell_data2
-                                }
-                            ]
-            
+
             # dropall
             if command.strip()[:len('dropall')].lower() == 'dropall':
-                hbase.dropall()
+                self.hbase.dropall()
             
             #delete all data 
             elif command.strip()[:len('deleteall')].lower() == 'deleteall':
-                hbase.deleteall()
+                self.hbase.deleteall()
 
             # deleteTable
             elif command.strip()[:len('delete')].lower() == 'delete':
@@ -55,7 +44,7 @@ class ShellUI:
                 if len(params) != 1 or (len(params) == 1 and params[0] == ''):
                     print(f"@! Error.\n   Details: \n     Se pasaron {len(params)} parámetros de 1 parámetro necesario.\n")
                 else:
-                    hbase.deleteTable(params[0][1:-1]) # Quitar commilas del parámetro
+                    self.hbase.deleteTable(params[0][1:-1]) # Quitar commilas del parámetro
             
             # disableTable
             elif command.strip()[:len('disable')].lower() == 'disable':
@@ -63,7 +52,7 @@ class ShellUI:
                 if len(params) != 1 or (len(params) == 1 and params[0] == ''):
                     print(f"@! Error.\n   Details: \n     Se pasaron {len(params)} parámetros de 1 parámetro necesario.\n")
                 else:
-                    hbase.disableTable(params[0][1:-1]) # Quitar commilas del parámetro
+                    self.hbase.disableTable(params[0][1:-1]) # Quitar commilas del parámetro
             
             # Is_enabled
             elif command.strip()[:len('is_enabled')].lower() == 'is_enabled':
@@ -71,7 +60,7 @@ class ShellUI:
                 if len(params) != 1 or (len(params) == 1 and params[0] == ''):
                     print(f"@! Error.\n   Details: \n     Se pasaron {len(params)} parámetros de 1 parámetro necesario.\n")
                 else:
-                    hbase.table_is_enabled(params[0][1:-1]) # Quitar commilas del parámetro
+                    self.hbase.table_is_enabled(params[0][1:-1]) # Quitar commilas del parámetro
             
             # alterTable
             elif command.strip()[:len('alter')].lower() == 'alter':
@@ -99,9 +88,9 @@ class ShellUI:
 
                     # Dependiendo de method llamar a función con distintos parámetros
                     if getMethod.upper() == 'METHOD' and getMethodValue.lower() == 'delete':
-                        hbase.alterTable(table_name, column_family, delete=True)
+                        self.hbase.alterTable(table_name, column_family, delete=True)
                     elif getMethod.upper() == 'NEW_NAME':
-                        hbase.alterTable(table_name, column_family, new_name=getMethodValue)
+                        self.hbase.alterTable(table_name, column_family, new_name=getMethodValue)
                     else:
                         print(f"@! Error.\n   Details: \n     Funcionalidad de ALTER: Modifica una tabla existente para eliminar o modificar nombre de la column family.\n")
 
@@ -111,7 +100,7 @@ class ShellUI:
                 if len(params) != 1 or (len(params) == 1 and params[0] == ''):
                     print(f"@! Error.\n   Details: \n     Se pasaron {len(params)} parámetros de 1 parámetro necesario.\n")
                 else:
-                    hbase.dropTable(params[0][1:-1]) # Quitar comillas
+                    self.hbase.dropTable(params[0][1:-1]) # Quitar comillas
             
             # describeTable
             elif command.strip()[:len('describe')].lower() == 'describe':
@@ -119,7 +108,7 @@ class ShellUI:
                 if len(params) != 1 or (len(params) == 1 and params[0] == ''):
                     print(f"@! Error.\n   Details: \n     Se pasaron {len(params)} parámetros de 1 parámetro necesario.\n")
                 else:
-                    hbase.describeTable(params[0][1:-1]) # Quitar comillas
+                    self.hbase.describeTable(params[0][1:-1]) # Quitar comillas
             
             # countTable
             elif command.strip()[:len('count')].lower() == 'count':
@@ -127,7 +116,7 @@ class ShellUI:
                 if len(params) != 1 or (len(params) == 1 and params[0] == ''):
                     print(f"@! Error.\n   Details: \n     Se pasaron {len(params)} parámetros de 1 parámetro necesario.\n")
                 else:
-                    hbase.countTable(params[0][1:-1]) # Quitar comillas
+                    self.hbase.countTable(params[0][1:-1]) # Quitar comillas
             
             # trucateTable
             elif command.strip()[:len('truncate')].lower() == 'truncate':
@@ -135,7 +124,7 @@ class ShellUI:
                 if len(params) != 1 or (len(params) == 1 and params[0] == ''):
                     print(f"@! Error.\n   Details: \n     Se pasaron {len(params)} parámetros de 1 parámetro necesario.\n")
                 else:
-                    hbase.truncateTable(params[0][1:-1]) # Quitar comillas
+                    self.hbase.truncateTable(params[0][1:-1]) # Quitar comillas
 
             # create table
             elif command.strip()[:len('create')].lower() == 'create':
@@ -143,11 +132,11 @@ class ShellUI:
                 if len(params) < 2 and params[0] == '':
                     print(f"@! Error.\n   Details: \n     Se pasaron {len(params)} parámetros.\n")
                 else:
-                    hbase.createTable(*params) # Pasar argumentos sin comillas
+                    self.hbase.createTable(*params) # Pasar argumentos sin comillas
 
             # list tables 
             elif command.strip()[:len('list')].lower() == 'list':
-                hbase.list()
+                self.hbase.list()
 
             #Put data in table
             elif command.strip()[:len('put')].lower() == 'put':
@@ -157,7 +146,7 @@ class ShellUI:
                     print(f"@! Error.\n   Details: \n     Se pasaron {len(params)} parámetros de 1 parámetro necesario.\n")
 
                 else:   
-                    hbase.putTable(params[0][1:-1], params[1][1:-1],params[2][1:-1],params[3][1:-1],params[4][1:-1]) # Quitar comillas
+                    self.hbase.putTable(params[0][1:-1], params[1][1:-1],params[2][1:-1],params[3][1:-1],params[4][1:-1]) # Quitar comillas
 
             # scan table
             elif command.strip()[:len('scan')].lower() == 'scan':
@@ -167,7 +156,7 @@ class ShellUI:
                     print(f"@! Error.\n   Details: \n     Se pasaron {len(params)} parámetros de 1 parámetro necesario.\n")
 
                 else:   
-                    hbase.scanTable(params[0][1:-1]) # Quitar comillas
+                    self.hbase.scanTable(params[0][1:-1]) # Quitar comillas
 
             #get table 
             elif command.strip()[:len('get')].lower() == 'get':
@@ -177,7 +166,7 @@ class ShellUI:
                 if len(params) != 2 and len(params) != 3:
                     print(f"@! Error.\n   Details: \n     Se pasaron {len(params)} parámetros de 2 a 3 parámetros necesario.\n")
                 elif len(params) == 2:
-                    hbase.getTable(params[0][1:-1], params[1][1:-1]) # Quitar comillas
+                    self.hbase.getTable(params[0][1:-1], params[1][1:-1]) # Quitar comillas
                 elif len(params) == 3:
                     name_fc = params[2]
                     method = name_fc[1:name_fc.index('=>')]
@@ -188,7 +177,7 @@ class ShellUI:
                         row_key = params[1][1:-1]
                         column_family = columnParts[0]
                         column_qualifier = columnParts[1]
-                        hbase.getTable(table_name, row_key, column_family, column_qualifier)
+                        self.hbase.getTable(table_name, row_key, column_family, column_qualifier)
                     else:
                         print(f"@! Error.\n   Details: \n     Método no definido. Si deseas buscar la infomación de un column family y una column utiliza COLUMN.\n")
 

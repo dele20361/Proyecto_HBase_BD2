@@ -1,11 +1,10 @@
 from HBase import HBase
 import json
 
-def Music_table():
+def Music_table(hb:HBase):
     with open('TablesInfo/Musica.json', 'r') as f:
         contenido = json.loads(f.read())
 
-    hb = HBase()
     hb.createTable("Musica","information","interacction")
     table_name = "Musica"
     family_name1 = "information"
@@ -30,11 +29,10 @@ def Music_table():
 
     #print(row_key)
 
-def Users_table():
+def Users_table(hb:HBase):
     with open('TablesInfo/Usuarios.json', 'r',encoding='utf-8') as f:
             contenido = json.loads(f.read())
 
-    hb = HBase()
     hb.createTable("Usuarios","personal_data","account")
     table_name = "Usuarios"
     family_name1 = "personal_data"
@@ -61,8 +59,3 @@ def Users_table():
         hb.putTable(table_name,row_key,family_name2,'contraseña',contraseña)
         hb.putTable(table_name,row_key,family_name2,'email',email)
         hb.putTable(table_name,row_key,family_name2,'Seguidores',Seguidores)
-
-
-Music_table()
-Users_table()
-
