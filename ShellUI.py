@@ -118,7 +118,42 @@ class ShellUI:
                     print(f"@! Error.\n   Details: \n     Se pasaron {len(params)} parámetros de 1 parámetro necesario.\n")
                 else:
                     hbase.truncateTable(params[0][1:-1]) # Quitar comillas
-        
+
+            # create table
+            elif command.strip()[:len('create')].lower() == 'create':
+                params = [param.strip().strip('\'\"') for param in command[len('create'):].split(',') if param.strip() != '']
+                if len(params) < 2 and params[0] == '':
+                    print(f"@! Error.\n   Detacreils: \n     Se pasaron {len(params)} parámetros.\n")
+                else:
+                    hbase.createTable(*params) # Pasar argumentos sin comillas
+
+
+            # list tables 
+            elif command.strip()[:len('list')].lower() == 'list':
+                hbase.list()
+
+            # scan table
+            elif command.strip()[:len('scan')].lower() == 'scan':
+                params = [param.strip() for param in command[len('scan'):].split(',') if param.strip() != '']
+                
+                if len(params) != 1 or (len(params) == 1 and params[0] == ''):
+                    print(f"@! Error.\n   Details: \n     Se pasaron {len(params)} parámetros de 1 parámetro necesario.\n")
+
+                else:   
+                    hbase.scanTable(params[0][1:-1]) # Quitar comillas
+            
+            #get table 
+            elif command.strip()[:len('get')].lower() == 'get':
+                params = [param.strip() for param in command[len('get'):].split(',') if param.strip() != '']
+                
+                if len(params) != 2 or (len(params) == 2 and params[0] == ''):
+                    print(f"@! Error.\n   Details: \n     Se pasaron {len(params)} parámetros de 1 parámetro necesario.\n")
+
+                else:   
+                    print(params[0][1:-1])
+                    print(params[1][1:-1])
+                    hbase.getTable(params[0][1:-1], params[1][1:-1]) # Quitar comillas
+
         # Cerrar la ventana
         window.Close()
 

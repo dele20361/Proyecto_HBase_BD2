@@ -36,9 +36,10 @@ class HFile:
                 data = row["cell_data"]
                 
                 timestamp = list(data.keys())[0]
+                
                 value = data[timestamp]
 
-                print(f" - Row = {rows} \n", f"- Colum + Cell = {colum[0]} : {colum[1]} , value = {value} \n" f" - Timestamp ={timestamp} \n")
+            print(f" - Row = {rows} \n", f"- Colum + Cell = {colum[0]} : {colum[1]} , value = {value} \n" f" - Timestamp ={timestamp} \n")
         else:
             print(f"\n@! La tabla '{self.name}' se encuentra deshabilitada.")
 
@@ -227,5 +228,6 @@ if __name__ == "__main__":
                         }
                    ]
     #table.put("Ejemplo","row2",'family_column2','age',5)
-    table.get("Ejemplo",'row1',)
-    #print(table.table)
+    # table.get("Ejemplo",'row1')
+    #table.scan("Ejemplo")
+    # #print(table.table)

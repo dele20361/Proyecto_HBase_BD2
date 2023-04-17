@@ -171,7 +171,7 @@ class HBase:
             print(f"@! La tabla '{table_name}' no existe.\n   Details: \n     '{table_name}' is not defined in HBase tables.\n")
 
 
-    def scanTable(self):
+    def scanTable(self,table_name:str):
         # Conectar con HFile
         for table_name in self.tables.keys():
             tableObj = self.tables[table_name]
@@ -237,6 +237,16 @@ class HBase:
         else:
             print("@! El nombre indicado ya existe.\n   Details: \n     Duplicated table names can not be accepted.\n")
 
+    def putTable():
+        pass
+    
+    def getTable(self,table_name:str,key_value:str):
+        if table_name in self.tables.keys():
+            tableObj = self.tables[table_name]
+            tableObj.get(table_name, key_value)
+        else:
+            print(f"@! La tabla '{table_name}' no existe.\n   Details: \n     '{table_name}' is not defined in HBase tables.\n")
+
 
 if __name__ == "__main__":
     hbase = HBase()
@@ -259,7 +269,7 @@ if __name__ == "__main__":
                         }
                     ]
 
-    hbase.alterTable('Ejemplo', 'family_column', new_name='nueva_familia1')
-    hbase.scanTable()
-    print(hbase.tables)
-    hbase.truncateTable('Ejemplo')
+    #hbase.alterTable('Ejemplo', 'family_column', new_name='nueva_familia1')
+    #hbase.scanTable("Ejemplo")
+    #print(hbase.tables)
+    #hbase.truncateTable('Ejemplo')
