@@ -1,5 +1,3 @@
-
-
 import datetime
 import time
 from HFile import HFile
@@ -245,9 +243,29 @@ class HBase:
             print(f"@! La tabla '{table_name}' no existe.\n   Details: \n     '{table_name}' is not defined in HBase tables.\n")
 
     
-    def getTable(self,table_name:str,key_value:str):
+    def getTable(self,table_name:str, row_key:str,family_column:str, column_qualifier:str):
         if table_name in self.tables.keys():
             tableObj = self.tables[table_name]
-            tableObj.get(table_name, key_value)
+            tableObj.get(table_name, row_key, family_column, column_qualifier)
         else:
             print(f"@! La tabla '{table_name}' no existe.\n   Details: \n     '{table_name}' is not defined in HBase tables.\n")
+
+
+if __name__ == "__main__":
+    table = HFile()
+    cell_data = {'Monday': "value"}
+    cell_data2 = {'Wednesday': "value2"}
+    table.create('Ejemplo','family_column','family_column2')
+    table.table =   [
+                        {
+                            'row_key': 'row1',
+                            'column_key': ['family_column', 'column_qualifier'],
+                            'cell_data': cell_data
+                        }, 
+                        {
+                            'row_key': 'row2',
+                            'column_key': ['family_column2', 'column_qualifier2'],
+                            'cell_data': cell_data2
+                        }
+                    ]
+    table.get('row1', 'family_columnn', 'column_qualifier')

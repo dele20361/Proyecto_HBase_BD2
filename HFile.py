@@ -10,6 +10,7 @@ class HFile:
         self.column_families = {}
         self.enabled = True
 
+
     def create(self, name:str, *args:str):
         '''
             Crear tabla 
@@ -24,6 +25,7 @@ class HFile:
         self.column_families = {cf: [] for cf in args}
         print(f"\n> La tabla '{self.name}' se creó existosamente!.\n")
 
+
     def scan(self):
         '''
             Mostrar data de la tabla 
@@ -37,9 +39,10 @@ class HFile:
                 
                 timestamp = list(data.keys())[0]
                 value = data[timestamp]
-                print(f" - Row = {rows} \n", f"- Colum + Cell = {colum[0]} : {colum[1]} , value = {value} \n" f" - Timestamp ={timestamp} \n")
+                print(f" - Row = {rows} \n", f"- Columns = {colum[0]}:{colum[1]}\n", f"- Timestamp = {timestamp} \n", f"- Value = {value} \n")
         else:
             print(f"\n@! La tabla '{self.name}' se encuentra deshabilitada.")
+
 
     def disable(self):
         '''
@@ -47,6 +50,7 @@ class HFile:
         '''
         self.enabled = False
         print(f"\n> La tabla '{self.name}' ha sido deshabilitada exitosamente!.")
+
 
     def Is_enabled(self):
         '''
@@ -60,6 +64,7 @@ class HFile:
         state += 'habilitada.' if self.enabled else 'deshabilitada.'
         print(state)
         return self.enabled
+
 
     def alter(self, column_family_name: str, new_name: str = None, delete: bool = False):
         '''
@@ -168,22 +173,26 @@ ________________________________________________________________________________
         else:
             print(f"\n@! La tabla '{self.name}' se encuentra deshabilitada.")
     
-    def get(self,table_name,key_value):
-        print(f"Mostrando datos de la tabla {table_name} de la columna {key_value} \n")
+
+    def get(self, row_key:str, family_column:str, column_qualifier:str):
+        found = False
         if self.enabled:
             for data_dict in self.table:
-                if data_dict['row_key'] == key_value:
-                    
-                    colum = data_dict['column_key']
+                columInfo = data_dict['column_key']
+                if data_dict['row_key'] == row_key and columInfo[0] == family_column and columInfo[1] == column_qualifier:
                     data = data_dict["cell_data"]
-                
                     timestamp = list(data.keys())[0]
                     value = data[timestamp]
+                    found = True
 
-                    print(f" - Column: {colum[0]} : {colum[1]} \n", f"- Cell: {value} \n", f"- Timestamp: {timestamp}")
+                    print(f" - Row = {row_key} \n", f"- Columns = {family_column}:{column_qualifier}\n", f"- Timestamp = {timestamp} \n", f"- Value = {value} \n")
+            
+            if not found:
+                print(f"\n@! La información dada no se encuentra en la tabla '{self.name}'.\n")
         else:
             print(f"\n@! La tabla '{self.name}' se encuentra deshabilitada.")
     
+
     def count(self):
         '''
             Cantidad de filas en tabla.
@@ -192,6 +201,7 @@ ________________________________________________________________________________
         print(f"\n> La tabla '{self.name}' cuenta con {cant} rows.")
         return cant
     
+
     def truncate(self):
         '''
             Deshabilita, elimina data manteniendo estructura de column families y column qualifiers 
