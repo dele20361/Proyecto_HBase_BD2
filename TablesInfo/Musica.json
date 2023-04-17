@@ -1,0 +1,7332 @@
+[{
+  "_id": {
+    "$oid": "63e066783cf334f3d900861e"
+  },
+  "titulo": "Calm Down - Cover",
+  "artista": "paolaContreras",
+  "likes": 3,
+  "comentarios": [
+    {
+      "comentario": "Tienes talento!",
+      "username": "paoDeLeon"
+    },
+    {
+      "comentario": "Me Encanta",
+      "username": "paoDeLeon"
+    }
+  ],
+  "genero": "Pop",
+  "duracion": 120,
+  "fecha_de_publicacion": "2023-12-01"
+},{
+  "_id": {
+    "$oid": "63e0675766d73c68aa2f2fa5"
+  },
+  "titulo": "Caraluna - Cover",
+  "artista": "paoDeLeon",
+  "likes": 2,
+  "comentarios": [
+    {
+      "comentario": "Que talento!",
+      "username": "glendyMolina"
+    },
+    {
+      "comentario": "Que bonita",
+      "username": "paoDeLeon"
+    },
+    {
+      "comentario": "Esta bonita",
+      "username": "paoDeLeon"
+    }
+  ],
+  "genero": "Tropipop",
+  "duracion": 140,
+  "fecha_de_publicacion": "2023-01-01"
+},{
+  "_id": {
+    "$oid": "63e06eac3cf334f3d900862d"
+  },
+  "titulo": "Fight",
+  "artista": "gabrielaGuerra",
+  "likes": 2,
+  "comentarios": [
+    {
+      "comentario": "Wow que buena canción",
+      "username": "paoDeLeon"
+    },
+    {
+      "comentario": "Me encantaria otra versión",
+      "username": "douglasDeLeon"
+    },
+    {
+      "comentario": "Sigue mostrando tu talento!",
+      "username": "glendyMolina"
+    }
+  ],
+  "genero": "Blues",
+  "duracion": 192,
+  "fecha_de_publicacion": "2023-01-01"
+},{
+  "_id": {
+    "$oid": "63e06c693cf334f3d9008624"
+  },
+  "titulo": "Volar",
+  "artista": "lilianOvalle",
+  "likes": 2,
+  "genero": "Urbano",
+  "duracion": 120,
+  "fecha_de_publicacion": "2022-12-01",
+  "comentarios": [
+    {
+      "comentario": "Me encanta",
+      "username": "paoDeLeon"
+    }
+  ]
+},{
+  "_id": {
+    "$oid": "63e06c3b3cf334f3d9008623"
+  },
+  "titulo": "Skinny Love",
+  "artista": "rodrigoNoriega",
+  "likes": 2,
+  "comentarios": [
+    {
+      "comentario": "Me encanta oirla mientras trabajo",
+      "username": "reginaHernandez"
+    },
+    {
+      "comentario": "Wow! Me gustó",
+      "username": "cris26"
+    },
+    {
+      "comentario": "Que excelente tema! ",
+      "username": "paoDeLeon"
+    }
+  ],
+  "genero": "Jazz",
+  "duracion": 100,
+  "fecha_de_publicacion": "2023-01-05"
+},{
+  "_id": {
+    "$oid": "63e06d983cf334f3d900862a"
+  },
+  "titulo": "Blue - Instrumental",
+  "artista": "joseAvila",
+  "likes": 2,
+  "comentarios": [
+    {
+      "comentario": "me encanta",
+      "username": "reginaHernandez"
+    }
+  ],
+  "genero": "Jazz",
+  "duracion": 140,
+  "fecha_de_publicacion": "2022-12-02"
+},{
+  "_id": {
+    "$oid": "63e06468a71edf4395ebe945"
+  },
+  "titulo": "As It Was - Cover",
+  "artista": "glendyMolina",
+  "likes": 10,
+  "comentarios": [
+    {
+      "comentario": "Me encanta tu cancion",
+      "username": "paoDeLeon"
+    },
+    {
+      "comentario": "Que bonito",
+      "username": "mario123"
+    }
+  ],
+  "genero": "Pop",
+  "duracion": 130,
+  "fecha_de_publicacion": "2023-01-01",
+  "cancion": {
+    "$oid": "63ead42f5698901c445efddc"
+  }
+},{
+  "_id": {
+    "$oid": "63e06edf3cf334f3d900862e"
+  },
+  "titulo": "Intentalo",
+  "artista": "glendyMolina",
+  "likes": 1,
+  "genero": "Pop",
+  "duracion": 120,
+  "fecha_de_publicacion": "2022-09-10"
+},{
+  "_id": {
+    "$oid": "63e06855827b66b290cead8f"
+  },
+  "titulo": "See you again - Cover",
+  "artista": "douglasDeLeon",
+  "likes": 1,
+  "comentarios": [
+    {
+      "comentario": "Buen cover",
+      "username": "glendyMolina"
+    }
+  ],
+  "genero": "Pop",
+  "duracion": 170,
+  "fecha_de_publicacion": "2023-01-01"
+},{
+  "_id": {
+    "$oid": "63e06ca03cf334f3d9008625"
+  },
+  "titulo": "Caraluna - Instrumental",
+  "artista": "paoDeLeon",
+  "likes": 2,
+  "comentarios": [
+    {
+      "comentario": "muy relajante!",
+      "username": "katherineLemus"
+    }
+  ],
+  "genero": "Tropipop",
+  "duracion": 140,
+  "fecha_de_publicacion": "2022-12-11"
+},{
+  "_id": {
+    "$oid": "63e06a8c3cf334f3d9008622"
+  },
+  "titulo": "On the Ground",
+  "artista": "mariaandreedl",
+  "likes": 3,
+  "comentarios": [
+    {
+      "comentario": "Muy buena canción!",
+      "username": "lilianOvalle"
+    },
+    {
+      "comentario": "Sigue subiendo música",
+      "username": "andreaGomez"
+    },
+    {
+      "comentario": "Buena rola!",
+      "username": "andreHernandez"
+    }
+  ],
+  "genero": "Jazz",
+  "duracion": 200,
+  "fecha_de_publicacion": "2023-30-01"
+},{
+  "_id": {
+    "$oid": "63e0665b06017bef12b973cb"
+  },
+  "titulo": "Efecto",
+  "artista": "douglasDeLeon",
+  "likes": 7,
+  "genero": "Urbano",
+  "duracion": 170,
+  "fecha_de_publicacion": "2023-01-01",
+  "comentarios": [
+    {
+      "comentario": "Que buenísima! ",
+      "username": "cris26"
+    },
+    {
+      "comentario": "La escucho siempre! ",
+      "username": "paoDeLeon"
+    }
+  ]
+},{
+  "_id": {
+    "$oid": "63e06e363cf334f3d900862c"
+  },
+  "titulo": "Let go",
+  "artista": "reginaHernandez",
+  "likes": 1,
+  "comentarios": [
+    {
+      "comentario": "me gusta",
+      "username": "douglasDeLeon"
+    }
+  ],
+  "genero": "Jazz",
+  "duracion": 140,
+  "fecha_de_publicacion": "2022-11-05"
+},{
+  "_id": {
+    "$oid": "63e06dc83cf334f3d900862b"
+  },
+  "titulo": "Gargola",
+  "artista": "douglasLiu",
+  "likes": 0,
+  "genero": "Urbano",
+  "duracion": 100,
+  "fecha_de_publicacion": "2023-01-09"
+},{
+  "_id": {
+    "$oid": "63e4785bba0d3128f10b309f"
+  },
+  "titulo": "Queen",
+  "artista": "CelesteDiaz",
+  "likes": 7,
+  "genero": "Blues",
+  "duracion": 149,
+  "fecha_de_publicacion": "2022-04-21"
+},{
+  "_id": {
+    "$oid": "63e4785bba0d3128f10b30bb"
+  },
+  "titulo": "Yellow",
+  "artista": "ErinBradshaw",
+  "likes": 8,
+  "genero": "Rap",
+  "duracion": 181,
+  "fecha_de_publicacion": "2022-12-27"
+},{
+  "_id": {
+    "$oid": "63e4785bba0d3128f10b30c3"
+  },
+  "titulo": "Prayer",
+  "artista": "AaronRush",
+  "likes": 3,
+  "genero": "Urbano",
+  "duracion": 187,
+  "fecha_de_publicacion": "2022-09-25"
+},{
+  "_id": {
+    "$oid": "63e4785bba0d3128f10b30e2"
+  },
+  "titulo": "We share",
+  "artista": "MaryWalls",
+  "likes": 5,
+  "genero": "Pop",
+  "duracion": 69,
+  "fecha_de_publicacion": "2022-06-24"
+},{
+  "_id": {
+    "$oid": "63e4785bba0d3128f10b30e3"
+  },
+  "titulo": "Thriller",
+  "artista": "JosephineWells",
+  "likes": 0,
+  "genero": "Rock",
+  "duracion": 162,
+  "fecha_de_publicacion": "2022-07-21"
+},{
+  "_id": {
+    "$oid": "63e4785bba0d3128f10b30a3"
+  },
+  "titulo": "Cuentale",
+  "artista": "HopeBoyd",
+  "likes": 6,
+  "genero": "Country",
+  "duracion": 165,
+  "fecha_de_publicacion": "2022-04-01"
+},{
+  "_id": {
+    "$oid": "63e4785bba0d3128f10b30b0"
+  },
+  "titulo": "Survive",
+  "artista": "KennedyAguirre",
+  "likes": 4,
+  "genero": "Pop",
+  "duracion": 110,
+  "fecha_de_publicacion": "2022-09-25"
+},{
+  "_id": {
+    "$oid": "63e4785bba0d3128f10b30b3"
+  },
+  "titulo": "Better off",
+  "artista": "LeoBonner",
+  "likes": 5,
+  "genero": "Urbano",
+  "duracion": 125,
+  "fecha_de_publicacion": "2022-02-05"
+},{
+  "_id": {
+    "$oid": "63e4785bba0d3128f10b30bf"
+  },
+  "titulo": "En blanco",
+  "artista": "MelodieCarey",
+  "likes": 6,
+  "genero": "Urbano",
+  "duracion": 79,
+  "fecha_de_publicacion": "2022-02-11"
+},{
+  "_id": {
+    "$oid": "63e4785bba0d3128f10b30c6"
+  },
+  "titulo": "Crayola",
+  "artista": "KatelynFischer",
+  "likes": 4,
+  "genero": "Urbano",
+  "duracion": 93,
+  "fecha_de_publicacion": "2022-03-29"
+},{
+  "_id": {
+    "$oid": "63e4785bba0d3128f10b30c7"
+  },
+  "titulo": "Alive",
+  "artista": "PandoraMays",
+  "likes": 0,
+  "genero": "Rap",
+  "duracion": 138,
+  "fecha_de_publicacion": "2023-01-27"
+},{
+  "_id": {
+    "$oid": "63e4785bba0d3128f10b30d7"
+  },
+  "titulo": "Baila asi",
+  "artista": "AvramByers",
+  "likes": 6,
+  "genero": "Blues",
+  "duracion": 145,
+  "fecha_de_publicacion": "2022-05-26"
+},{
+  "_id": {
+    "$oid": "63e4785bba0d3128f10b309a"
+  },
+  "titulo": "Fall",
+  "artista": "LeeWilliams",
+  "likes": 6,
+  "genero": "Country",
+  "duracion": 93,
+  "fecha_de_publicacion": "2022-10-22"
+},{
+  "_id": {
+    "$oid": "63e4785bba0d3128f10b30b4"
+  },
+  "titulo": "Alo",
+  "artista": "GradySpencer",
+  "likes": 5,
+  "genero": "Tropipop",
+  "duracion": 133,
+  "fecha_de_publicacion": "2022-11-21"
+},{
+  "_id": {
+    "$oid": "63e4785bba0d3128f10b30d2"
+  },
+  "titulo": "Amame",
+  "artista": "CobyBoyle",
+  "likes": 6,
+  "genero": "Blues",
+  "duracion": 128,
+  "fecha_de_publicacion": "2022-07-07"
+},{
+  "_id": {
+    "$oid": "63e4785bba0d3128f10b30a1"
+  },
+  "titulo": "Be mine",
+  "artista": "HashimHoffman",
+  "likes": 8,
+  "genero": "Blues",
+  "duracion": 120,
+  "fecha_de_publicacion": "2022-04-09"
+},{
+  "_id": {
+    "$oid": "63e4785bba0d3128f10b309c"
+  },
+  "titulo": "Baby",
+  "artista": "HamiltonHenson",
+  "likes": 7,
+  "genero": "Rock",
+  "duracion": 152,
+  "fecha_de_publicacion": "2022-04-16"
+},{
+  "_id": {
+    "$oid": "63e4785bba0d3128f10b30a9"
+  },
+  "titulo": "Paris",
+  "artista": "JaquelynBriggs",
+  "likes": 2,
+  "genero": "Rap",
+  "duracion": 144,
+  "fecha_de_publicacion": "2022-10-11"
+},{
+  "_id": {
+    "$oid": "63e4785bba0d3128f10b30ed"
+  },
+  "titulo": "Be mine",
+  "artista": "BurtonMichael",
+  "likes": 5,
+  "genero": "Urbano",
+  "duracion": 118,
+  "fecha_de_publicacion": "2022-10-11"
+},{
+  "_id": {
+    "$oid": "63e4785bba0d3128f10b30d4"
+  },
+  "titulo": "Worry",
+  "artista": "AshtonGilliam",
+  "likes": 8,
+  "genero": "Electronica",
+  "duracion": 134,
+  "fecha_de_publicacion": "2022-07-29"
+},{
+  "_id": {
+    "$oid": "63e4785bba0d3128f10b30a6"
+  },
+  "titulo": "Besame",
+  "artista": "JadeBradshaw",
+  "likes": 8,
+  "genero": "Pop",
+  "duracion": 137,
+  "fecha_de_publicacion": "2022-06-25"
+},{
+  "_id": {
+    "$oid": "63e4785bba0d3128f10b30f1"
+  },
+  "titulo": "Dancing",
+  "artista": "SydneyMcdowell",
+  "likes": 1,
+  "genero": "Jazz",
+  "duracion": 185,
+  "fecha_de_publicacion": "2023-01-18"
+},{
+  "_id": {
+    "$oid": "63e4785bba0d3128f10b30f5"
+  },
+  "titulo": "Thriller-Cover",
+  "artista": "VioletGiles",
+  "likes": 6,
+  "genero": "Country",
+  "duracion": 61,
+  "fecha_de_publicacion": "2022-02-09"
+},{
+  "_id": {
+    "$oid": "63e4785bba0d3128f10b30fb"
+  },
+  "titulo": "Amame",
+  "artista": "RobertFaulkner",
+  "likes": 4,
+  "genero": "Blues",
+  "duracion": 184,
+  "fecha_de_publicacion": "2022-05-30"
+},{
+  "_id": {
+    "$oid": "63e4785bba0d3128f10b30fc"
+  },
+  "titulo": "Loca",
+  "artista": "RalphKelley",
+  "likes": 1,
+  "genero": "Blues",
+  "duracion": 139,
+  "fecha_de_publicacion": "2022-02-19"
+},{
+  "_id": {
+    "$oid": "63e4785bba0d3128f10b30a0"
+  },
+  "titulo": "Paris",
+  "artista": "HayfaWooten",
+  "likes": 8,
+  "genero": "Electronica",
+  "duracion": 134,
+  "fecha_de_publicacion": "2022-10-22"
+},{
+  "_id": {
+    "$oid": "63e4785bba0d3128f10b30a2"
+  },
+  "titulo": "Your",
+  "artista": "ScottBishop",
+  "likes": 5,
+  "genero": "Electronica",
+  "duracion": 158,
+  "fecha_de_publicacion": "2022-03-24"
+},{
+  "_id": {
+    "$oid": "63e4785bba0d3128f10b30ab"
+  },
+  "titulo": "Mars",
+  "artista": "IndiaColon",
+  "likes": 7,
+  "genero": "Rap",
+  "duracion": 161,
+  "fecha_de_publicacion": "2022-08-01"
+},{
+  "_id": {
+    "$oid": "63e4785bba0d3128f10b30b2"
+  },
+  "titulo": "Caliente",
+  "artista": "IraBuck",
+  "likes": 9,
+  "genero": "Pop",
+  "duracion": 110,
+  "fecha_de_publicacion": "2022-03-11"
+},{
+  "_id": {
+    "$oid": "63e4785bba0d3128f10b30bd"
+  },
+  "titulo": "Belive",
+  "artista": "RebeccaMcdaniel",
+  "likes": 9,
+  "genero": "Country",
+  "duracion": 114,
+  "fecha_de_publicacion": "2022-02-11"
+},{
+  "_id": {
+    "$oid": "63e4785bba0d3128f10b30c9"
+  },
+  "titulo": "Fight",
+  "artista": "ScottBishop",
+  "likes": 2,
+  "genero": "Blues",
+  "duracion": 135,
+  "fecha_de_publicacion": "2022-10-13"
+},{
+  "_id": {
+    "$oid": "63e4785bba0d3128f10b30d8"
+  },
+  "titulo": "Alo",
+  "artista": "AvramByers",
+  "likes": 1,
+  "genero": "Tropipop",
+  "duracion": 166,
+  "fecha_de_publicacion": "2022-09-28"
+},{
+  "_id": {
+    "$oid": "63e4785bba0d3128f10b30df"
+  },
+  "titulo": "Fe",
+  "artista": "VioletGiles",
+  "likes": 1,
+  "genero": "Tropipop",
+  "duracion": 91,
+  "fecha_de_publicacion": "2022-11-13"
+},{
+  "_id": {
+    "$oid": "63e4785bba0d3128f10b30e1"
+  },
+  "titulo": "Down down",
+  "artista": "JasmineFlynn",
+  "likes": 9,
+  "genero": "Blues",
+  "duracion": 76,
+  "fecha_de_publicacion": "2022-05-14"
+},{
+  "_id": {
+    "$oid": "63e4785bba0d3128f10b30f6"
+  },
+  "titulo": "Alo",
+  "artista": "JustinGates",
+  "likes": 6,
+  "genero": "Tropipop",
+  "duracion": 133,
+  "fecha_de_publicacion": "2022-05-09"
+},{
+  "_id": {
+    "$oid": "63e4785bba0d3128f10b30a4"
+  },
+  "titulo": "8teen",
+  "artista": "OliverHopper",
+  "likes": 4,
+  "genero": "Country",
+  "duracion": 140,
+  "fecha_de_publicacion": "2022-05-12"
+},{
+  "_id": {
+    "$oid": "63e4785bba0d3128f10b30af"
+  },
+  "titulo": "Frio",
+  "artista": "JosephLindsey",
+  "likes": 1,
+  "genero": "Rap",
+  "duracion": 70,
+  "fecha_de_publicacion": "2022-05-27"
+},{
+  "_id": {
+    "$oid": "63e4785bba0d3128f10b30a8"
+  },
+  "titulo": "Rewind",
+  "artista": "MarvinDudley",
+  "likes": 5,
+  "genero": "Rap",
+  "duracion": 134,
+  "fecha_de_publicacion": "2022-05-29"
+},{
+  "_id": {
+    "$oid": "63e4785bba0d3128f10b30ae"
+  },
+  "titulo": "feel my love",
+  "artista": "EricSimpson",
+  "likes": 3,
+  "genero": "Electronica",
+  "duracion": 188,
+  "fecha_de_publicacion": "2022-11-09"
+},{
+  "_id": {
+    "$oid": "63e4785bba0d3128f10b30be"
+  },
+  "titulo": "Hey love",
+  "artista": "HermioneCash",
+  "likes": 5,
+  "genero": "Pop",
+  "duracion": 159,
+  "fecha_de_publicacion": "2022-10-19"
+},{
+  "_id": {
+    "$oid": "63e4785bba0d3128f10b30d9"
+  },
+  "titulo": "Survive",
+  "artista": "ForrestVincent",
+  "likes": 9,
+  "genero": "Pop",
+  "duracion": 66,
+  "fecha_de_publicacion": "2022-12-06"
+},{
+  "_id": {
+    "$oid": "63e4785bba0d3128f10b30dd"
+  },
+  "titulo": "We share",
+  "artista": "HamiltonConway",
+  "likes": 4,
+  "genero": "Urbano",
+  "duracion": 142,
+  "fecha_de_publicacion": "2022-04-15"
+},{
+  "_id": {
+    "$oid": "63e4785bba0d3128f10b30e6"
+  },
+  "titulo": "Caliente",
+  "artista": "HeddaMartinez",
+  "likes": 7,
+  "genero": "Blues",
+  "duracion": 60,
+  "fecha_de_publicacion": "2022-09-04"
+},{
+  "_id": {
+    "$oid": "63e4785bba0d3128f10b30eb"
+  },
+  "titulo": "Libre",
+  "artista": "PamelaHensley",
+  "likes": 6,
+  "genero": "Country",
+  "duracion": 68,
+  "fecha_de_publicacion": "2022-09-10"
+},{
+  "_id": {
+    "$oid": "63e4785bba0d3128f10b30f3"
+  },
+  "titulo": "who?",
+  "artista": "SukiMcdaniel",
+  "likes": 1,
+  "genero": "Jazz",
+  "duracion": 135,
+  "fecha_de_publicacion": "2023-01-05"
+},{
+  "_id": {
+    "$oid": "63e4785bba0d3128f10b30a5"
+  },
+  "titulo": "Hear me",
+  "artista": "TimonCollier",
+  "likes": 5,
+  "genero": "Blues",
+  "duracion": 105,
+  "fecha_de_publicacion": "2022-07-04"
+},{
+  "_id": {
+    "$oid": "63e4785bba0d3128f10b30c8"
+  },
+  "titulo": "Dancing",
+  "artista": "BaxterPark",
+  "likes": 5,
+  "genero": "Pop",
+  "duracion": 177,
+  "fecha_de_publicacion": "2022-05-07"
+},{
+  "_id": {
+    "$oid": "63e4785bba0d3128f10b30e9"
+  },
+  "titulo": "All night",
+  "artista": "FerrisMcclure",
+  "likes": 1,
+  "genero": "Jazz",
+  "duracion": 164,
+  "fecha_de_publicacion": "2023-01-13"
+},{
+  "_id": {
+    "$oid": "63e4785bba0d3128f10b30ee"
+  },
+  "titulo": "Sweet Home",
+  "artista": "VioletGiles",
+  "likes": 2,
+  "genero": "Urbano",
+  "duracion": 183,
+  "fecha_de_publicacion": "2022-09-21"
+},{
+  "_id": {
+    "$oid": "63e4785bba0d3128f10b30f8"
+  },
+  "titulo": "Your",
+  "artista": "VioletGiles",
+  "likes": 4,
+  "genero": "Pop",
+  "duracion": 182,
+  "fecha_de_publicacion": "2022-03-14"
+},{
+  "_id": {
+    "$oid": "63e4785bba0d3128f10b30b1"
+  },
+  "titulo": "Thriller",
+  "artista": "CailinGentry",
+  "likes": 1,
+  "genero": "Urbano",
+  "duracion": 107,
+  "fecha_de_publicacion": "2022-11-12"
+},{
+  "_id": {
+    "$oid": "63e4785bba0d3128f10b30b5"
+  },
+  "titulo": "A mi lado",
+  "artista": "RebeccaMcdaniel",
+  "likes": 2,
+  "genero": "Country",
+  "duracion": 129,
+  "fecha_de_publicacion": "2022-09-01"
+},{
+  "_id": {
+    "$oid": "63e4785bba0d3128f10b30ba"
+  },
+  "titulo": "Say",
+  "artista": "BurtonReid",
+  "likes": 0,
+  "genero": "Tropipop",
+  "duracion": 143,
+  "fecha_de_publicacion": "2022-07-30"
+},{
+  "_id": {
+    "$oid": "63e4785bba0d3128f10b30c0"
+  },
+  "titulo": "Worry",
+  "artista": "DonnaBoone",
+  "likes": 2,
+  "genero": "Rock",
+  "duracion": 151,
+  "fecha_de_publicacion": "2022-05-10"
+},{
+  "_id": {
+    "$oid": "63e4785bba0d3128f10b30c4"
+  },
+  "titulo": "Peace",
+  "artista": "HaleySantos",
+  "likes": 3,
+  "genero": "Rap",
+  "duracion": 162,
+  "fecha_de_publicacion": "2022-07-05"
+},{
+  "_id": {
+    "$oid": "63e4785bba0d3128f10b30d1"
+  },
+  "titulo": "Chill",
+  "artista": "MufutauHowell",
+  "likes": 4,
+  "genero": "Blues",
+  "duracion": 148,
+  "fecha_de_publicacion": "2022-05-20"
+},{
+  "_id": {
+    "$oid": "63e4785bba0d3128f10b30da"
+  },
+  "titulo": "8teen",
+  "artista": "VirginiaBlevins",
+  "likes": 5,
+  "genero": "Jazz",
+  "duracion": 180,
+  "fecha_de_publicacion": "2022-03-20"
+},{
+  "_id": {
+    "$oid": "63e4785bba0d3128f10b30db"
+  },
+  "titulo": "Alive",
+  "artista": "ChristineWall",
+  "likes": 2,
+  "genero": "Jazz",
+  "duracion": 146,
+  "fecha_de_publicacion": "2022-05-30"
+},{
+  "_id": {
+    "$oid": "63e4785bba0d3128f10b30fa"
+  },
+  "titulo": "Besame",
+  "artista": "MontanaDodson",
+  "likes": 3,
+  "genero": "Rock",
+  "duracion": 124,
+  "fecha_de_publicacion": "2022-05-05"
+},{
+  "_id": {
+    "$oid": "63e4785bba0d3128f10b30fd"
+  },
+  "titulo": "Yesterday",
+  "artista": "AutumnNash",
+  "likes": 8,
+  "genero": "Electronica",
+  "duracion": 159,
+  "fecha_de_publicacion": "2022-05-24"
+},{
+  "_id": {
+    "$oid": "63e4785bba0d3128f10b30ce"
+  },
+  "titulo": "Jugemos",
+  "artista": "CarolJackson",
+  "likes": 4,
+  "genero": "Blues",
+  "duracion": 187,
+  "fecha_de_publicacion": "2022-05-06"
+},{
+  "_id": {
+    "$oid": "63e4785bba0d3128f10b30dc"
+  },
+  "titulo": "Rewind",
+  "artista": "MechelleFowler",
+  "likes": 3,
+  "genero": "Urbano",
+  "duracion": 187,
+  "fecha_de_publicacion": "2023-01-17"
+},{
+  "_id": {
+    "$oid": "63e4785bba0d3128f10b30de"
+  },
+  "titulo": "Besame",
+  "artista": "MechelleFowler",
+  "likes": 6,
+  "genero": "Tropipop",
+  "duracion": 150,
+  "fecha_de_publicacion": "2022-08-04"
+},{
+  "_id": {
+    "$oid": "63e4785bba0d3128f10b30ea"
+  },
+  "titulo": "A mi lado",
+  "artista": "HarrietBond",
+  "likes": 7,
+  "genero": "Tropipop",
+  "duracion": 145,
+  "fecha_de_publicacion": "2022-10-09"
+},{
+  "_id": {
+    "$oid": "63e4785bba0d3128f10b30ac"
+  },
+  "titulo": "Rehab",
+  "artista": "ChaimBrady",
+  "likes": 8,
+  "genero": "Pop",
+  "duracion": 99,
+  "fecha_de_publicacion": "2022-12-05"
+},{
+  "_id": {
+    "$oid": "63e4785bba0d3128f10b30c2"
+  },
+  "titulo": "Oh la la",
+  "artista": "OliviaBrennan",
+  "likes": 1,
+  "genero": "Blues",
+  "duracion": 100,
+  "fecha_de_publicacion": "2022-03-25"
+},{
+  "_id": {
+    "$oid": "63e4785bba0d3128f10b30d6"
+  },
+  "titulo": "8teen",
+  "artista": "ScottBishop",
+  "likes": 4,
+  "genero": "Country",
+  "duracion": 93,
+  "fecha_de_publicacion": "2022-10-06"
+},{
+  "_id": {
+    "$oid": "63e4785bba0d3128f10b30e4"
+  },
+  "titulo": "Prayer",
+  "artista": "ThorVazquez",
+  "likes": 6,
+  "genero": "Pop",
+  "duracion": 122,
+  "fecha_de_publicacion": "2022-03-10"
+},{
+  "_id": {
+    "$oid": "63e4785bba0d3128f10b30e7"
+  },
+  "titulo": "Better off",
+  "artista": "LanceMcgee",
+  "likes": 6,
+  "genero": "Jazz",
+  "duracion": 124,
+  "fecha_de_publicacion": "2022-08-24"
+},{
+  "_id": {
+    "$oid": "63e4785bba0d3128f10b30ef"
+  },
+  "titulo": "Alive",
+  "artista": "GarthGibson",
+  "likes": 2,
+  "genero": "Rock",
+  "duracion": 136,
+  "fecha_de_publicacion": "2022-12-25"
+},{
+  "_id": {
+    "$oid": "63e4785bba0d3128f10b309e"
+  },
+  "titulo": "Down down",
+  "artista": "MarciaCole",
+  "likes": 12,
+  "genero": "Country",
+  "duracion": 123,
+  "fecha_de_publicacion": "2022-11-03",
+  "comentarios": [
+    {
+      "comentario": "Mi favorita! ",
+      "username": "paoDeLeon"
+    }
+  ]
+},{
+  "_id": {
+    "$oid": "63e4785bba0d3128f10b30aa"
+  },
+  "titulo": "Hear me",
+  "artista": "KarlyDickson",
+  "likes": 4,
+  "genero": "Rock",
+  "duracion": 108,
+  "fecha_de_publicacion": "2022-05-14"
+},{
+  "_id": {
+    "$oid": "63e4785bba0d3128f10b30b9"
+  },
+  "titulo": "8teen",
+  "artista": "GayGross",
+  "likes": 7,
+  "genero": "Pop",
+  "duracion": 139,
+  "fecha_de_publicacion": "2022-02-18"
+},{
+  "_id": {
+    "$oid": "63e4785bba0d3128f10b30cf"
+  },
+  "titulo": "Under water",
+  "artista": "GarthMurray",
+  "likes": 5,
+  "genero": "Rap",
+  "duracion": 115,
+  "fecha_de_publicacion": "2023-01-21"
+},{
+  "_id": {
+    "$oid": "63e4785bba0d3128f10b30f2"
+  },
+  "titulo": "We share",
+  "artista": "ThaneDejesus",
+  "likes": 7,
+  "genero": "Pop",
+  "duracion": 82,
+  "fecha_de_publicacion": "2022-06-04"
+},{
+  "_id": {
+    "$oid": "63e4785bba0d3128f10b30f7"
+  },
+  "titulo": "Thriller-Cover",
+  "artista": "HayfaCraig",
+  "likes": 0,
+  "genero": "Rock",
+  "duracion": 168,
+  "fecha_de_publicacion": "2022-03-25"
+},{
+  "_id": {
+    "$oid": "63e4785bba0d3128f10b30f9"
+  },
+  "titulo": "After School",
+  "artista": "MasonBoone",
+  "likes": 1,
+  "genero": "Tropipop",
+  "duracion": 89,
+  "fecha_de_publicacion": "2022-12-27"
+},{
+  "_id": {
+    "$oid": "63e4785bba0d3128f10b309b"
+  },
+  "titulo": "Amame",
+  "artista": "RossHughes",
+  "likes": 9,
+  "genero": "Rap",
+  "duracion": 70,
+  "fecha_de_publicacion": "2022-08-08"
+},{
+  "_id": {
+    "$oid": "63e4785bba0d3128f10b309d"
+  },
+  "titulo": "Let us play",
+  "artista": "OlegKing",
+  "likes": 8,
+  "genero": "Jazz",
+  "duracion": 187,
+  "fecha_de_publicacion": "2022-06-08"
+},{
+  "_id": {
+    "$oid": "63e4785bba0d3128f10b30b6"
+  },
+  "titulo": "Under water",
+  "artista": "RubyWallace",
+  "likes": 2,
+  "genero": "Tropipop",
+  "duracion": 99,
+  "fecha_de_publicacion": "2022-01-31"
+},{
+  "_id": {
+    "$oid": "63e4785bba0d3128f10b30b7"
+  },
+  "titulo": "Yellow",
+  "artista": "QuembyGarner",
+  "likes": 3,
+  "genero": "Blues",
+  "duracion": 179,
+  "fecha_de_publicacion": "2022-05-07"
+},{
+  "_id": {
+    "$oid": "63e4785bba0d3128f10b30b8"
+  },
+  "titulo": "midnight",
+  "artista": "DesireeCalderon",
+  "likes": 8,
+  "genero": "Pop",
+  "duracion": 119,
+  "fecha_de_publicacion": "2022-05-25"
+},{
+  "_id": {
+    "$oid": "63e4785bba0d3128f10b30c1"
+  },
+  "titulo": "Volar",
+  "artista": "GraceBoyer",
+  "likes": 5,
+  "genero": "Jazz",
+  "duracion": 76,
+  "fecha_de_publicacion": "2022-12-03"
+},{
+  "_id": {
+    "$oid": "63e4785bba0d3128f10b30ca"
+  },
+  "titulo": "Peace",
+  "artista": "ScottCook",
+  "likes": 2,
+  "genero": "Blues",
+  "duracion": 119,
+  "fecha_de_publicacion": "2022-09-13"
+},{
+  "_id": {
+    "$oid": "63e4785bba0d3128f10b30cc"
+  },
+  "titulo": "California",
+  "artista": "JennaAcosta",
+  "likes": 8,
+  "genero": "Country",
+  "duracion": 133,
+  "fecha_de_publicacion": "2022-12-08"
+},{
+  "_id": {
+    "$oid": "63e4785bba0d3128f10b30cd"
+  },
+  "titulo": "Fall",
+  "artista": "JordanBullock",
+  "likes": 4,
+  "genero": "Rock",
+  "duracion": 156,
+  "fecha_de_publicacion": "2023-01-06"
+},{
+  "_id": {
+    "$oid": "63e4785bba0d3128f10b30d3"
+  },
+  "titulo": "Fe",
+  "artista": "EveByers",
+  "likes": 2,
+  "genero": "Country",
+  "duracion": 102,
+  "fecha_de_publicacion": "2023-01-15"
+},{
+  "_id": {
+    "$oid": "63e4785bba0d3128f10b30d5"
+  },
+  "titulo": "Deyabu",
+  "artista": "MarvinDudley",
+  "likes": 8,
+  "genero": "Rock",
+  "duracion": 128,
+  "fecha_de_publicacion": "2022-11-18"
+},{
+  "_id": {
+    "$oid": "63e4785bba0d3128f10b30e0"
+  },
+  "titulo": "Under water",
+  "artista": "OprahMcgowan",
+  "likes": 2,
+  "genero": "Urbano",
+  "duracion": 133,
+  "fecha_de_publicacion": "2022-05-02"
+},{
+  "_id": {
+    "$oid": "63e4785bba0d3128f10b30e8"
+  },
+  "titulo": "Hear me",
+  "artista": "MaisieBurgess",
+  "likes": 9,
+  "genero": "Electronica",
+  "duracion": 71,
+  "fecha_de_publicacion": "2022-09-03"
+},{
+  "_id": {
+    "$oid": "63e4785bba0d3128f10b30a7"
+  },
+  "titulo": "Alo",
+  "artista": "HayfaChurch",
+  "likes": 9,
+  "genero": "Jazz",
+  "duracion": 144,
+  "fecha_de_publicacion": "2022-02-23"
+},{
+  "_id": {
+    "$oid": "63e4785bba0d3128f10b30ad"
+  },
+  "titulo": "Respect",
+  "artista": "CaldwellOrtiz",
+  "likes": 6,
+  "genero": "Blues",
+  "duracion": 184,
+  "fecha_de_publicacion": "2022-02-14"
+},{
+  "_id": {
+    "$oid": "63e4785bba0d3128f10b30cb"
+  },
+  "titulo": "Grace",
+  "artista": "TigerMyers",
+  "likes": 2,
+  "genero": "Rap",
+  "duracion": 145,
+  "fecha_de_publicacion": "2022-12-21"
+},{
+  "_id": {
+    "$oid": "63e4785bba0d3128f10b30bc"
+  },
+  "titulo": "My way",
+  "artista": "McKenzieLeblanc",
+  "likes": 4,
+  "genero": "Electronica",
+  "duracion": 152,
+  "fecha_de_publicacion": "2022-02-10"
+},{
+  "_id": {
+    "$oid": "63e4785bba0d3128f10b30f4"
+  },
+  "titulo": "On me",
+  "artista": "FrancescaRamirez",
+  "likes": 5,
+  "genero": "Jazz",
+  "duracion": 165,
+  "fecha_de_publicacion": "2022-09-29"
+},{
+  "_id": {
+    "$oid": "63e4785bba0d3128f10b30c5"
+  },
+  "titulo": "On me",
+  "artista": "PaulBlackwell",
+  "likes": 8,
+  "genero": "Rap",
+  "duracion": 102,
+  "fecha_de_publicacion": "2022-02-20"
+},{
+  "_id": {
+    "$oid": "63e4785bba0d3128f10b30d0"
+  },
+  "titulo": "Jugemos",
+  "artista": "SoniaGarrett",
+  "likes": 0,
+  "genero": "Tropipop",
+  "duracion": 74,
+  "fecha_de_publicacion": "2022-01-31"
+},{
+  "_id": {
+    "$oid": "63e4785bba0d3128f10b30e5"
+  },
+  "titulo": "Yesterday",
+  "artista": "ReubenWilliams",
+  "likes": 6,
+  "genero": "Blues",
+  "duracion": 93,
+  "fecha_de_publicacion": "2022-11-24"
+},{
+  "_id": {
+    "$oid": "63e4785bba0d3128f10b30ec"
+  },
+  "titulo": "Thriller",
+  "artista": "ChancellorHarrington",
+  "likes": 1,
+  "genero": "Country",
+  "duracion": 128,
+  "fecha_de_publicacion": "2022-09-05"
+},{
+  "_id": {
+    "$oid": "63e4785bba0d3128f10b30f0"
+  },
+  "titulo": "Volar",
+  "artista": "HayfaCraig",
+  "likes": 9,
+  "genero": "Pop",
+  "duracion": 142,
+  "fecha_de_publicacion": "2022-07-29"
+},{
+  "_id": {
+    "$oid": "63e478f3ba0d3128f10b30ff"
+  },
+  "titulo": "The song",
+  "artista": "QuynNielsen",
+  "likes": 0,
+  "comentarios": [
+    {
+      "comentario": "Buen ritmo",
+      "usuario": "FrancisDickson"
+    },
+    {
+      "comentario": "Buen ritmo",
+      "usuario": "ChelseaMassey"
+    },
+    {
+      "comentario": "Buen ritmo",
+      "usuario": "TalonAguirre"
+    }
+  ],
+  "genero": "Rap",
+  "duracion": 76,
+  "fecha_de_publicacion": "2022-07-02"
+},{
+  "_id": {
+    "$oid": "63e478f3ba0d3128f10b310d"
+  },
+  "titulo": "Que nadie opine",
+  "artista": "GraceHarris",
+  "likes": 2,
+  "comentarios": [
+    {
+      "comentario": "Me encanta",
+      "usuario": "AutumnNash"
+    },
+    {
+      "comentario": "Cuando plubicaras mas musica",
+      "usuario": "HollyVazquez"
+    },
+    {
+      "comentario": "Tienes talento",
+      "usuario": "GarthGibson"
+    }
+  ],
+  "genero": "Jazz",
+  "duracion": 187,
+  "fecha_de_publicacion": "2022-04-18"
+},{
+  "_id": {
+    "$oid": "63e478f3ba0d3128f10b3107"
+  },
+  "titulo": "The song",
+  "artista": "CairoBeasley",
+  "likes": 4,
+  "comentarios": [
+    {
+      "comentario": "Directo a me gusta",
+      "usuario": "MarciaCole"
+    },
+    {
+      "comentario": "Wow, me gusta",
+      "usuario": "IlianaAlbert"
+    },
+    {
+      "comentario": ":) Excelente",
+      "usuario": "JosephLindsey"
+    }
+  ],
+  "genero": "Pop",
+  "duracion": 127,
+  "fecha_de_publicacion": "2022-03-31"
+},{
+  "_id": {
+    "$oid": "63e478f3ba0d3128f10b3108"
+  },
+  "titulo": "The remix",
+  "artista": "BrookeWoods",
+  "likes": 5,
+  "comentarios": [
+    {
+      "comentario": "Que cancion!",
+      "usuario": "KarlyDickson"
+    },
+    {
+      "comentario": "Que cancion!",
+      "usuario": "HenryPickett"
+    },
+    {
+      "comentario": "Me encanta",
+      "usuario": "LillithBurt"
+    }
+  ],
+  "genero": "Country",
+  "duracion": 144,
+  "fecha_de_publicacion": "2023-01-17"
+},{
+  "_id": {
+    "$oid": "63e478f3ba0d3128f10b310e"
+  },
+  "titulo": "El rio",
+  "artista": "LanceMcgee",
+  "likes": 6,
+  "comentarios": [
+    {
+      "comentario": "Buen trabajo",
+      "usuario": "AllistairAnderson"
+    },
+    {
+      "comentario": "Me encanta",
+      "usuario": "ThaneDejesus"
+    },
+    {
+      "comentario": "Buen trabajo",
+      "usuario": "MerrittMcintyre"
+    }
+  ],
+  "genero": "Pop",
+  "duracion": 81,
+  "fecha_de_publicacion": "2022-04-08"
+},{
+  "_id": {
+    "$oid": "63e478f3ba0d3128f10b3114"
+  },
+  "titulo": "Here I go",
+  "artista": "SophiaCallahan",
+  "likes": 8,
+  "comentarios": [
+    {
+      "comentario": "Tienes talento",
+      "usuario": "RudyardDaniel"
+    },
+    {
+      "comentario": "Wow, me gusta",
+      "usuario": "AllistairAnderson"
+    },
+    {
+      "comentario": "Que cancion!",
+      "usuario": "LoisRiddle"
+    }
+  ],
+  "genero": "Jazz",
+  "duracion": 141,
+  "fecha_de_publicacion": "2022-09-15"
+},{
+  "_id": {
+    "$oid": "63e478f3ba0d3128f10b3116"
+  },
+  "titulo": "Me vuelvo loco",
+  "artista": "AdamCruz",
+  "likes": 6,
+  "comentarios": [
+    {
+      "comentario": "Buen ritmo",
+      "usuario": "BurtonReid"
+    },
+    {
+      "comentario": "Wow, me gusta",
+      "usuario": "MichelleTodd"
+    },
+    {
+      "comentario": "Mi cancion favorita",
+      "usuario": "CelesteDiaz"
+    }
+  ],
+  "genero": "Blues",
+  "duracion": 142,
+  "fecha_de_publicacion": "2022-09-21"
+},{
+  "_id": {
+    "$oid": "63e478f3ba0d3128f10b311a"
+  },
+  "titulo": "Let us dance",
+  "artista": "MarvinDudley",
+  "likes": 4,
+  "comentarios": [
+    {
+      "comentario": "Mi cancion favorita",
+      "usuario": "ToddFlowers"
+    },
+    {
+      "comentario": "Buen trabajo",
+      "usuario": "EmersonAshley"
+    },
+    {
+      "comentario": "Directo a me gusta",
+      "usuario": "DillonHardin"
+    }
+  ],
+  "genero": "Urbano",
+  "duracion": 60,
+  "fecha_de_publicacion": "2022-09-18"
+},{
+  "_id": {
+    "$oid": "63e478f3ba0d3128f10b311f"
+  },
+  "titulo": "Dejandolo ir",
+  "artista": "DillonHardin",
+  "likes": 4,
+  "comentarios": [
+    {
+      "comentario": "Mi cancion favorita",
+      "usuario": "KatoDorsey"
+    },
+    {
+      "comentario": "Directo a me gusta",
+      "usuario": "LaurelRuiz"
+    },
+    {
+      "comentario": ":) Excelente",
+      "usuario": "ThaddeusByrd"
+    }
+  ],
+  "genero": "Electronica",
+  "duracion": 181,
+  "fecha_de_publicacion": "2022-03-02"
+},{
+  "_id": {
+    "$oid": "63e478f3ba0d3128f10b314a"
+  },
+  "titulo": "La tension",
+  "artista": "HannahHerring",
+  "likes": 7,
+  "comentarios": [
+    {
+      "comentario": "Directo a me gusta",
+      "usuario": "LeeMcmahon"
+    },
+    {
+      "comentario": "Tienes talento",
+      "usuario": "HedyCross"
+    },
+    {
+      "comentario": "Buen ritmo",
+      "usuario": "ZoeHall"
+    }
+  ],
+  "genero": "Electronica",
+  "duracion": 68,
+  "fecha_de_publicacion": "2022-11-19"
+},{
+  "_id": {
+    "$oid": "63e478f3ba0d3128f10b314c"
+  },
+  "titulo": "Se acabo",
+  "artista": "SalvadorChan",
+  "likes": 9,
+  "comentarios": [
+    {
+      "comentario": "Buen ritmo",
+      "usuario": "JennaMcbride"
+    },
+    {
+      "comentario": "Buen trabajo",
+      "usuario": "KaiMerrill"
+    },
+    {
+      "comentario": "Mi cancion favorita",
+      "usuario": "EricBruce"
+    }
+  ],
+  "genero": "Country",
+  "duracion": 96,
+  "fecha_de_publicacion": "2022-08-17"
+},{
+  "_id": {
+    "$oid": "63e478f3ba0d3128f10b3156"
+  },
+  "titulo": "Hate me",
+  "artista": "VirginiaBlevins",
+  "likes": 6,
+  "comentarios": [
+    {
+      "comentario": "Mi cancion favorita",
+      "usuario": "LaraHyde"
+    },
+    {
+      "comentario": "Tienes talento",
+      "usuario": "MaiaStanley"
+    },
+    {
+      "comentario": "Cuando plubicaras mas musica",
+      "usuario": "DaceyHuber"
+    }
+  ],
+  "genero": "Tropipop",
+  "duracion": 188,
+  "fecha_de_publicacion": "2022-09-12"
+},{
+  "_id": {
+    "$oid": "63e478f3ba0d3128f10b312a"
+  },
+  "titulo": "Let us dance",
+  "artista": "PenelopeJefferson",
+  "likes": 7,
+  "comentarios": [
+    {
+      "comentario": "Wow, me gusta",
+      "usuario": "EricBruce"
+    },
+    {
+      "comentario": "Wow, me gusta",
+      "usuario": "KarlyDickson"
+    },
+    {
+      "comentario": ":) Excelente",
+      "usuario": "MontanaDodson"
+    }
+  ],
+  "genero": "Rap",
+  "duracion": 161,
+  "fecha_de_publicacion": "2022-07-10"
+},{
+  "_id": {
+    "$oid": "63e478f3ba0d3128f10b3131"
+  },
+  "titulo": "Folish",
+  "artista": "NoellePotts",
+  "likes": 7,
+  "comentarios": [
+    {
+      "comentario": "Me encanta",
+      "usuario": "BerthaMendoza"
+    },
+    {
+      "comentario": "Muy buena cancion",
+      "usuario": "DorisLittle"
+    },
+    {
+      "comentario": "Wow, me gusta",
+      "usuario": "DillonHardin"
+    }
+  ],
+  "genero": "Electronica",
+  "duracion": 70,
+  "fecha_de_publicacion": "2022-07-16"
+},{
+  "_id": {
+    "$oid": "63e478f3ba0d3128f10b3137"
+  },
+  "titulo": "Al no verte",
+  "artista": "TimonHewitt",
+  "likes": 1,
+  "comentarios": [
+    {
+      "comentario": "Cuando plubicaras mas musica",
+      "usuario": "DriscollPerez"
+    },
+    {
+      "comentario": "Wow, me gusta",
+      "usuario": "ScottCook"
+    },
+    {
+      "comentario": "Muy buena cancion",
+      "usuario": "LaurelRuiz"
+    }
+  ],
+  "genero": "Rock",
+  "duracion": 84,
+  "fecha_de_publicacion": "2022-09-26"
+},{
+  "_id": {
+    "$oid": "63e478f3ba0d3128f10b3138"
+  },
+  "titulo": "Touch me",
+  "artista": "UrielRivers",
+  "likes": 6,
+  "comentarios": [
+    {
+      "comentario": "Me encanta",
+      "usuario": "ChavaAlvarez"
+    },
+    {
+      "comentario": "Mi cancion favorita",
+      "usuario": "TimonHewitt"
+    },
+    {
+      "comentario": "Que cancion!",
+      "usuario": "HiramSkinner"
+    }
+  ],
+  "genero": "Jazz",
+  "duracion": 115,
+  "fecha_de_publicacion": "2022-11-14"
+},{
+  "_id": {
+    "$oid": "63e478f3ba0d3128f10b3140"
+  },
+  "titulo": "Nada es igual",
+  "artista": "IraBarber",
+  "likes": 5,
+  "comentarios": [
+    {
+      "comentario": "Muy buena cancion",
+      "usuario": "CelesteDiaz"
+    },
+    {
+      "comentario": "Que cancion!",
+      "usuario": "MarisOneil"
+    },
+    {
+      "comentario": "Buen ritmo",
+      "usuario": "VirginiaChurch"
+    }
+  ],
+  "genero": "Country",
+  "duracion": 188,
+  "fecha_de_publicacion": "2022-09-19"
+},{
+  "_id": {
+    "$oid": "63e478f3ba0d3128f10b3159"
+  },
+  "titulo": "Perreo",
+  "artista": "ThaneDejesus",
+  "likes": 1,
+  "comentarios": [
+    {
+      "comentario": "Buen trabajo",
+      "usuario": "GarthMurray"
+    },
+    {
+      "comentario": "Muy buena cancion",
+      "usuario": "LydiaBest"
+    },
+    {
+      "comentario": "Me encanta",
+      "usuario": "DonovanRodgers"
+    }
+  ],
+  "genero": "Urbano",
+  "duracion": 182,
+  "fecha_de_publicacion": "2022-06-17"
+},{
+  "_id": {
+    "$oid": "63e478f3ba0d3128f10b312c"
+  },
+  "titulo": "Cantame",
+  "artista": "StoneWeeks",
+  "likes": 2,
+  "comentarios": [
+    {
+      "comentario": "Mi cancion favorita",
+      "usuario": "HectorLambert"
+    },
+    {
+      "comentario": "Directo a me gusta",
+      "usuario": "ScottBishop"
+    },
+    {
+      "comentario": "Que cancion!",
+      "usuario": "HopeWall"
+    }
+  ],
+  "genero": "Pop",
+  "duracion": 175,
+  "fecha_de_publicacion": "2023-02-06"
+},{
+  "_id": {
+    "$oid": "63e478f3ba0d3128f10b3104"
+  },
+  "titulo": "You and me",
+  "artista": "QuynNielsen",
+  "likes": 0,
+  "comentarios": [
+    {
+      "comentario": "Cuando plubicaras mas musica",
+      "usuario": "AngelicaMiller"
+    },
+    {
+      "comentario": "Wow, me gusta",
+      "usuario": "JudahParks"
+    },
+    {
+      "comentario": ":) Excelente",
+      "usuario": "GiselleFord"
+    }
+  ],
+  "genero": "Blues",
+  "duracion": 87,
+  "fecha_de_publicacion": "2022-11-26"
+},{
+  "_id": {
+    "$oid": "63e478f3ba0d3128f10b3102"
+  },
+  "titulo": "Sme life",
+  "artista": "DrakeMcfadden",
+  "likes": 6,
+  "comentarios": [
+    {
+      "comentario": "Me encanta",
+      "usuario": "SladeMurphy"
+    },
+    {
+      "comentario": "Me encanta",
+      "usuario": "AphroditeRich"
+    },
+    {
+      "comentario": "Mi cancion favorita",
+      "usuario": "WynneIrwin"
+    }
+  ],
+  "genero": "Country",
+  "duracion": 174,
+  "fecha_de_publicacion": "2022-10-26"
+},{
+  "_id": {
+    "$oid": "63e478f3ba0d3128f10b314e"
+  },
+  "titulo": "Tell me lies",
+  "artista": "LaraRivera",
+  "likes": 9,
+  "comentarios": [
+    {
+      "comentario": "Cuando plubicaras mas musica",
+      "usuario": "RyleeChan"
+    },
+    {
+      "comentario": "Tienes talento",
+      "usuario": "VioletGiles"
+    },
+    {
+      "comentario": "Wow, me gusta",
+      "usuario": "MasonBoone"
+    }
+  ],
+  "genero": "Electronica",
+  "duracion": 65,
+  "fecha_de_publicacion": "2022-10-13"
+},{
+  "_id": {
+    "$oid": "63e478f3ba0d3128f10b315e"
+  },
+  "titulo": "Tu y yo",
+  "artista": "SachaCain",
+  "likes": 7,
+  "comentarios": [
+    {
+      "comentario": "Mi cancion favorita",
+      "usuario": "MaggyPatel"
+    },
+    {
+      "comentario": "Buen ritmo",
+      "usuario": "UrsulaHawkins"
+    },
+    {
+      "comentario": "Me encanta",
+      "usuario": "VioletHolmes"
+    }
+  ],
+  "genero": "Tropipop",
+  "duracion": 68,
+  "fecha_de_publicacion": "2022-03-09"
+},{
+  "_id": {
+    "$oid": "63e478f3ba0d3128f10b3109"
+  },
+  "titulo": "Deseos",
+  "artista": "BevisMcdowell",
+  "likes": 3,
+  "comentarios": [
+    {
+      "comentario": "Que cancion!",
+      "usuario": "AlfredaMcclain"
+    },
+    {
+      "comentario": "Que cancion!",
+      "usuario": "HyattClay"
+    },
+    {
+      "comentario": "Cuando plubicaras mas musica",
+      "usuario": "PhoebeKing"
+    }
+  ],
+  "genero": "Rock",
+  "duracion": 102,
+  "fecha_de_publicacion": "2022-06-16"
+},{
+  "_id": {
+    "$oid": "63e478f3ba0d3128f10b310a"
+  },
+  "titulo": "Tu y yo",
+  "artista": "SavannahMckenzie",
+  "likes": 4,
+  "comentarios": [
+    {
+      "comentario": "Buen trabajo",
+      "usuario": "CoraNorton"
+    },
+    {
+      "comentario": "Muy buena cancion",
+      "usuario": "ChristineWall"
+    },
+    {
+      "comentario": "Buen ritmo",
+      "usuario": "HedyCross"
+    }
+  ],
+  "genero": "Pop",
+  "duracion": 136,
+  "fecha_de_publicacion": "2022-03-03"
+},{
+  "_id": {
+    "$oid": "63e478f3ba0d3128f10b3133"
+  },
+  "titulo": "Fool me",
+  "artista": "OlegKing",
+  "likes": 3,
+  "comentarios": [
+    {
+      "comentario": "Mi cancion favorita",
+      "usuario": "LeoBonner"
+    },
+    {
+      "comentario": "Cuando plubicaras mas musica",
+      "usuario": "SalvadorFlynn"
+    },
+    {
+      "comentario": "Me encanta",
+      "usuario": "JennaAcosta"
+    }
+  ],
+  "genero": "Electronica",
+  "duracion": 94,
+  "fecha_de_publicacion": "2022-04-21"
+},{
+  "_id": {
+    "$oid": "63e478f3ba0d3128f10b3134"
+  },
+  "titulo": "Love",
+  "artista": "BerthaMendoza",
+  "likes": 1,
+  "comentarios": [
+    {
+      "comentario": "Buen trabajo",
+      "usuario": "UriahLane"
+    },
+    {
+      "comentario": "Buen trabajo",
+      "usuario": "HarrietBond"
+    },
+    {
+      "comentario": "Buen ritmo",
+      "usuario": "FrancescaRamirez"
+    }
+  ],
+  "genero": "Country",
+  "duracion": 67,
+  "fecha_de_publicacion": "2022-07-26"
+},{
+  "_id": {
+    "$oid": "63e478f3ba0d3128f10b3141"
+  },
+  "titulo": "The remix",
+  "artista": "FrancisCastro",
+  "likes": 8,
+  "comentarios": [
+    {
+      "comentario": "Me encanta",
+      "usuario": "JudahParks"
+    },
+    {
+      "comentario": "Mi cancion favorita",
+      "usuario": "HopBest"
+    },
+    {
+      "comentario": "Buen ritmo",
+      "usuario": "SheaParker"
+    }
+  ],
+  "genero": "Jazz",
+  "duracion": 99,
+  "fecha_de_publicacion": "2023-01-09"
+},{
+  "_id": {
+    "$oid": "63e478f3ba0d3128f10b314b"
+  },
+  "titulo": "Stars",
+  "artista": "NelleBritt",
+  "likes": 0,
+  "comentarios": [
+    {
+      "comentario": "Buen ritmo",
+      "usuario": "JordanBullock"
+    },
+    {
+      "comentario": ":) Excelente",
+      "usuario": "AaronRush"
+    },
+    {
+      "comentario": ":) Excelente",
+      "usuario": "LaraRivera"
+    }
+  ],
+  "genero": "Urbano",
+  "duracion": 180,
+  "fecha_de_publicacion": "2022-07-18"
+},{
+  "_id": {
+    "$oid": "63e478f3ba0d3128f10b3103"
+  },
+  "titulo": "Por tenerte",
+  "artista": "PandoraMays",
+  "likes": 9,
+  "comentarios": [
+    {
+      "comentario": "Buen trabajo",
+      "usuario": "LeeWilliams"
+    },
+    {
+      "comentario": "Cuando plubicaras mas musica",
+      "usuario": "HayfaCraig"
+    },
+    {
+      "comentario": "Tienes talento",
+      "usuario": "DaraHolden"
+    }
+  ],
+  "genero": "Rap",
+  "duracion": 131,
+  "fecha_de_publicacion": "2022-08-18"
+},{
+  "_id": {
+    "$oid": "63e478f3ba0d3128f10b3112"
+  },
+  "titulo": "Conmigo te vas",
+  "artista": "ChaimBrady",
+  "likes": 5,
+  "comentarios": [
+    {
+      "comentario": "Que cancion!",
+      "usuario": "JustinGonzales"
+    },
+    {
+      "comentario": "Buen ritmo",
+      "usuario": "SebastianGilmore"
+    },
+    {
+      "comentario": "Wow, me gusta",
+      "usuario": "DillonHardin"
+    }
+  ],
+  "genero": "Electronica",
+  "duracion": 148,
+  "fecha_de_publicacion": "2022-06-02"
+},{
+  "_id": {
+    "$oid": "63e478f3ba0d3128f10b311b"
+  },
+  "titulo": "let it go",
+  "artista": "MichelleTodd",
+  "likes": 8,
+  "comentarios": [
+    {
+      "comentario": "Mi cancion favorita",
+      "usuario": "ZeusBlanchard"
+    },
+    {
+      "comentario": "Directo a me gusta",
+      "usuario": "StevenClark"
+    },
+    {
+      "comentario": "Mi cancion favorita",
+      "usuario": "CelesteDecker"
+    }
+  ],
+  "genero": "Jazz",
+  "duracion": 170,
+  "fecha_de_publicacion": "2023-01-13"
+},{
+  "_id": {
+    "$oid": "63e478f3ba0d3128f10b311c"
+  },
+  "titulo": "Se acabo",
+  "artista": "SophiaCallahan",
+  "likes": 2,
+  "comentarios": [
+    {
+      "comentario": "Cuando plubicaras mas musica",
+      "usuario": "ChelseaMassey"
+    },
+    {
+      "comentario": "Que cancion!",
+      "usuario": "ArmandoMarshall"
+    },
+    {
+      "comentario": "Wow, me gusta",
+      "usuario": "SoniaConner"
+    }
+  ],
+  "genero": "Electronica",
+  "duracion": 73,
+  "fecha_de_publicacion": "2022-08-01"
+},{
+  "_id": {
+    "$oid": "63e478f3ba0d3128f10b3105"
+  },
+  "titulo": "Romance",
+  "artista": "HiramSkinner",
+  "likes": 0,
+  "comentarios": [
+    {
+      "comentario": "Buen trabajo",
+      "usuario": "ThorVazquez"
+    },
+    {
+      "comentario": "Que cancion!",
+      "usuario": "DeborahCollins"
+    },
+    {
+      "comentario": "Buen trabajo",
+      "usuario": "ChandaAlexander"
+    }
+  ],
+  "genero": "Country",
+  "duracion": 61,
+  "fecha_de_publicacion": "2023-01-26"
+},{
+  "_id": {
+    "$oid": "63e478f3ba0d3128f10b3111"
+  },
+  "titulo": "Mami dime",
+  "artista": "PaulBlackwell",
+  "likes": 8,
+  "comentarios": [
+    {
+      "comentario": "Mi cancion favorita",
+      "usuario": "JasmineFlynn"
+    },
+    {
+      "comentario": "Mi cancion favorita",
+      "usuario": "MaggyPatel"
+    },
+    {
+      "comentario": "Wow, me gusta",
+      "usuario": "AmalJackson"
+    }
+  ],
+  "genero": "Rap",
+  "duracion": 187,
+  "fecha_de_publicacion": "2022-03-07"
+},{
+  "_id": {
+    "$oid": "63e478f3ba0d3128f10b3126"
+  },
+  "titulo": "Not yours",
+  "artista": "HeddaMartinez",
+  "likes": 0,
+  "comentarios": [
+    {
+      "comentario": "Tienes talento",
+      "usuario": "JenetteMcneil"
+    },
+    {
+      "comentario": "Muy buena cancion",
+      "usuario": "JoleneVillarreal"
+    },
+    {
+      "comentario": "Wow, me gusta",
+      "usuario": "ChaimKinney"
+    }
+  ],
+  "genero": "Rap",
+  "duracion": 92,
+  "fecha_de_publicacion": "2023-01-08"
+},{
+  "_id": {
+    "$oid": "63e478f3ba0d3128f10b3135"
+  },
+  "titulo": "Te invito",
+  "artista": "RothLangley",
+  "likes": 3,
+  "comentarios": [
+    {
+      "comentario": "Buen ritmo",
+      "usuario": "QuinnAlexander"
+    },
+    {
+      "comentario": "Mi cancion favorita",
+      "usuario": "MiraSimon"
+    },
+    {
+      "comentario": "Buen ritmo",
+      "usuario": "HarperLogan"
+    }
+  ],
+  "genero": "Pop",
+  "duracion": 64,
+  "fecha_de_publicacion": "2022-08-19"
+},{
+  "_id": {
+    "$oid": "63e478f3ba0d3128f10b3145"
+  },
+  "titulo": "Fool me",
+  "artista": "WinterSuarez",
+  "likes": 6,
+  "comentarios": [
+    {
+      "comentario": "Muy buena cancion",
+      "usuario": "RoseAguilar"
+    },
+    {
+      "comentario": "Buen ritmo",
+      "usuario": "RalphGood"
+    },
+    {
+      "comentario": "Cuando plubicaras mas musica",
+      "usuario": "DaraHolden"
+    }
+  ],
+  "genero": "Rock",
+  "duracion": 68,
+  "fecha_de_publicacion": "2023-01-25"
+},{
+  "_id": {
+    "$oid": "63e478f3ba0d3128f10b3148"
+  },
+  "titulo": "Mami dime",
+  "artista": "AllistairAnderson",
+  "likes": 4,
+  "comentarios": [
+    {
+      "comentario": "Buen trabajo",
+      "usuario": "SteelKirkland"
+    },
+    {
+      "comentario": "Wow, me gusta",
+      "usuario": "EricSimpson"
+    },
+    {
+      "comentario": "Cuando plubicaras mas musica",
+      "usuario": "SoniaConner"
+    }
+  ],
+  "genero": "Country",
+  "duracion": 181,
+  "fecha_de_publicacion": "2022-06-09"
+},{
+  "_id": {
+    "$oid": "63e478f3ba0d3128f10b3149"
+  },
+  "titulo": "Shine",
+  "artista": "LacotaBurt",
+  "likes": 5,
+  "comentarios": [
+    {
+      "comentario": "Muy buena cancion",
+      "usuario": "DaceyHuber"
+    },
+    {
+      "comentario": "Me encanta",
+      "usuario": "LamarCoffey"
+    },
+    {
+      "comentario": "Wow, me gusta",
+      "usuario": "RalphKelley"
+    }
+  ],
+  "genero": "Jazz",
+  "duracion": 131,
+  "fecha_de_publicacion": "2023-01-26"
+},{
+  "_id": {
+    "$oid": "63e478f3ba0d3128f10b3157"
+  },
+  "titulo": "Leave me",
+  "artista": "EmmanuelEmerson",
+  "likes": 2,
+  "comentarios": [
+    {
+      "comentario": "Directo a me gusta",
+      "usuario": "DesireeCalderon"
+    },
+    {
+      "comentario": "Buen ritmo",
+      "usuario": "CallumWilkerson"
+    },
+    {
+      "comentario": "Tienes talento",
+      "usuario": "QuinnMadden"
+    }
+  ],
+  "genero": "Urbano",
+  "duracion": 183,
+  "fecha_de_publicacion": "2022-06-29"
+},{
+  "_id": {
+    "$oid": "63e478f3ba0d3128f10b3161"
+  },
+  "titulo": "Deseos",
+  "artista": "KirbyBruce",
+  "likes": 6,
+  "comentarios": [
+    {
+      "comentario": "Buen trabajo",
+      "usuario": "LacyTerry"
+    },
+    {
+      "comentario": "Muy buena cancion",
+      "usuario": "RajahRogers"
+    },
+    {
+      "comentario": "Wow, me gusta",
+      "usuario": "DesireeCalderon"
+    }
+  ],
+  "genero": "Jazz",
+  "duracion": 104,
+  "fecha_de_publicacion": "2022-12-06"
+},{
+  "_id": {
+    "$oid": "63e478f3ba0d3128f10b3115"
+  },
+  "titulo": "Folish",
+  "artista": "DesireeCalderon",
+  "likes": 6,
+  "comentarios": [
+    {
+      "comentario": "Me encanta",
+      "usuario": "ChesterLeon"
+    },
+    {
+      "comentario": "Wow, me gusta",
+      "usuario": "CairoBeasley"
+    },
+    {
+      "comentario": "Mi cancion favorita",
+      "usuario": "BeauPhillips"
+    }
+  ],
+  "genero": "Urbano",
+  "duracion": 67,
+  "fecha_de_publicacion": "2023-01-16"
+},{
+  "_id": {
+    "$oid": "63e478f3ba0d3128f10b3119"
+  },
+  "titulo": "Go for more",
+  "artista": "NasimWhitaker",
+  "likes": 0,
+  "comentarios": [
+    {
+      "comentario": ":) Excelente",
+      "usuario": "LaithFloyd"
+    },
+    {
+      "comentario": "Tienes talento",
+      "usuario": "OctaviusJefferson"
+    },
+    {
+      "comentario": "Mi cancion favorita",
+      "usuario": "AmalJackson"
+    }
+  ],
+  "genero": "Rap",
+  "duracion": 189,
+  "fecha_de_publicacion": "2022-03-17"
+},{
+  "_id": {
+    "$oid": "63e478f3ba0d3128f10b311d"
+  },
+  "titulo": "It is okya",
+  "artista": "JustineMullen",
+  "likes": 3,
+  "comentarios": [
+    {
+      "comentario": "Directo a me gusta",
+      "usuario": "AxelHinton"
+    },
+    {
+      "comentario": "Tienes talento",
+      "usuario": "ClarkeMoran"
+    },
+    {
+      "comentario": "Tienes talento",
+      "usuario": "DeannaFulton"
+    }
+  ],
+  "genero": "Country",
+  "duracion": 179,
+  "fecha_de_publicacion": "2022-07-15"
+},{
+  "_id": {
+    "$oid": "63e478f3ba0d3128f10b311e"
+  },
+  "titulo": "Let us dance",
+  "artista": "ArmandBrennan",
+  "likes": 8,
+  "comentarios": [
+    {
+      "comentario": "Tienes talento",
+      "usuario": "DanaNoel"
+    },
+    {
+      "comentario": "Me encanta",
+      "usuario": "FletcherLynch"
+    },
+    {
+      "comentario": ":) Excelente",
+      "usuario": "GrantMcconnell"
+    }
+  ],
+  "genero": "Rock",
+  "duracion": 171,
+  "fecha_de_publicacion": "2022-11-18"
+},{
+  "_id": {
+    "$oid": "63e478f3ba0d3128f10b3152"
+  },
+  "titulo": "Love you",
+  "artista": "DillonHardin",
+  "likes": 3,
+  "comentarios": [
+    {
+      "comentario": "Buen trabajo",
+      "usuario": "AquilaGuzman"
+    },
+    {
+      "comentario": "Directo a me gusta",
+      "usuario": "IraBuck"
+    },
+    {
+      "comentario": "Buen ritmo",
+      "usuario": "JaymeSlater"
+    }
+  ],
+  "genero": "Electronica",
+  "duracion": 116,
+  "fecha_de_publicacion": "2022-02-18"
+},{
+  "_id": {
+    "$oid": "63e478f3ba0d3128f10b315d"
+  },
+  "titulo": "Let it be",
+  "artista": "SalvadorChan",
+  "likes": 6,
+  "comentarios": [
+    {
+      "comentario": "Que cancion!",
+      "usuario": "AzaliaPittman"
+    },
+    {
+      "comentario": "Wow, me gusta",
+      "usuario": "HayfaWooten"
+    },
+    {
+      "comentario": "Cuando plubicaras mas musica",
+      "usuario": "OliviaBrennan"
+    }
+  ],
+  "genero": "Jazz",
+  "duracion": 117,
+  "fecha_de_publicacion": "2022-04-05"
+},{
+  "_id": {
+    "$oid": "63e478f3ba0d3128f10b30fe"
+  },
+  "titulo": "Tu y yo",
+  "artista": "HollyVazquez",
+  "likes": 4,
+  "comentarios": [
+    {
+      "comentario": "Muy buena cancion",
+      "usuario": "NigelGriffith"
+    },
+    {
+      "comentario": "Tienes talento",
+      "usuario": "FrancescaRamirez"
+    },
+    {
+      "comentario": "Cuando plubicaras mas musica",
+      "usuario": "JenetteMcneil"
+    }
+  ],
+  "genero": "Country",
+  "duracion": 158,
+  "fecha_de_publicacion": "2022-04-22"
+},{
+  "_id": {
+    "$oid": "63e478f3ba0d3128f10b3118"
+  },
+  "titulo": "Si tu no estas",
+  "artista": "AaronRush",
+  "likes": 9,
+  "comentarios": [
+    {
+      "comentario": "Buen ritmo",
+      "usuario": "IraBarber"
+    },
+    {
+      "comentario": "Wow, me gusta",
+      "usuario": "SolomonStewart"
+    },
+    {
+      "comentario": "Directo a me gusta",
+      "usuario": "RothHolden"
+    }
+  ],
+  "genero": "Blues",
+  "duracion": 91,
+  "fecha_de_publicacion": "2022-09-22"
+},{
+  "_id": {
+    "$oid": "63e478f3ba0d3128f10b3128"
+  },
+  "titulo": "El recordatorio",
+  "artista": "FerrisMcclure",
+  "likes": 1,
+  "comentarios": [
+    {
+      "comentario": "Muy buena cancion",
+      "usuario": "MartinaCarlson"
+    },
+    {
+      "comentario": "Cuando plubicaras mas musica",
+      "usuario": "SolomonStewart"
+    },
+    {
+      "comentario": "Me encanta",
+      "usuario": "BurtonMichael"
+    }
+  ],
+  "genero": "Tropipop",
+  "duracion": 94,
+  "fecha_de_publicacion": "2023-01-31"
+},{
+  "_id": {
+    "$oid": "63e478f3ba0d3128f10b3129"
+  },
+  "titulo": "Tus retratos",
+  "artista": "VannaPerez",
+  "likes": 5,
+  "comentarios": [
+    {
+      "comentario": ":) Excelente",
+      "usuario": "HayfaCraig"
+    },
+    {
+      "comentario": "Tienes talento",
+      "usuario": "GrantMcconnell"
+    },
+    {
+      "comentario": "Mi cancion favorita",
+      "usuario": "ChelseaMassey"
+    }
+  ],
+  "genero": "Tropipop",
+  "duracion": 154,
+  "fecha_de_publicacion": "2023-01-16"
+},{
+  "_id": {
+    "$oid": "63e478f3ba0d3128f10b312f"
+  },
+  "titulo": "Touch me",
+  "artista": "LawrenceVance",
+  "likes": 3,
+  "comentarios": [
+    {
+      "comentario": "Cuando plubicaras mas musica",
+      "usuario": "SebastianGilmore"
+    },
+    {
+      "comentario": "Me encanta",
+      "usuario": "JelaniMolina"
+    },
+    {
+      "comentario": "Muy buena cancion",
+      "usuario": "HollyVazquez"
+    }
+  ],
+  "genero": "Rock",
+  "duracion": 178,
+  "fecha_de_publicacion": "2022-09-03"
+},{
+  "_id": {
+    "$oid": "63e478f3ba0d3128f10b3132"
+  },
+  "titulo": "Tell me lies",
+  "artista": "CleoJennings",
+  "likes": 8,
+  "comentarios": [
+    {
+      "comentario": "Mi cancion favorita",
+      "usuario": "SylvesterBeard"
+    },
+    {
+      "comentario": "Cuando plubicaras mas musica",
+      "usuario": "JacksonDoyle"
+    },
+    {
+      "comentario": "Buen ritmo",
+      "usuario": "DeborahCollins"
+    }
+  ],
+  "genero": "Urbano",
+  "duracion": 116,
+  "fecha_de_publicacion": "2022-10-20"
+},{
+  "_id": {
+    "$oid": "63e478f3ba0d3128f10b3139"
+  },
+  "titulo": "let it go",
+  "artista": "AquilaGuzman",
+  "likes": 9,
+  "comentarios": [
+    {
+      "comentario": "Tienes talento",
+      "usuario": "HamiltonConway"
+    },
+    {
+      "comentario": "Directo a me gusta",
+      "usuario": "TaShyaAshley"
+    },
+    {
+      "comentario": "Buen ritmo",
+      "usuario": "HermioneCash"
+    }
+  ],
+  "genero": "Urbano",
+  "duracion": 98,
+  "fecha_de_publicacion": "2023-01-09"
+},{
+  "_id": {
+    "$oid": "63e478f3ba0d3128f10b3158"
+  },
+  "titulo": "Te quiero",
+  "artista": "TalonAguirre",
+  "likes": 3,
+  "comentarios": [
+    {
+      "comentario": "Tienes talento",
+      "usuario": "StoneWeeks"
+    },
+    {
+      "comentario": "Tienes talento",
+      "usuario": "JosephineWells"
+    },
+    {
+      "comentario": "Buen trabajo",
+      "usuario": "TimothyAlvarado"
+    }
+  ],
+  "genero": "Electronica",
+  "duracion": 172,
+  "fecha_de_publicacion": "2022-03-21"
+},{
+  "_id": {
+    "$oid": "63e478f3ba0d3128f10b315f"
+  },
+  "titulo": "Conmigo te vas",
+  "artista": "KelsieBrennan",
+  "likes": 4,
+  "comentarios": [
+    {
+      "comentario": "Que cancion!",
+      "usuario": "HamiltonHenson"
+    },
+    {
+      "comentario": "Cuando plubicaras mas musica",
+      "usuario": "HiramSkinner"
+    },
+    {
+      "comentario": "Tienes talento",
+      "usuario": "SladeSparks"
+    }
+  ],
+  "genero": "Tropipop",
+  "duracion": 169,
+  "fecha_de_publicacion": "2022-02-11"
+},{
+  "_id": {
+    "$oid": "63e478f3ba0d3128f10b310b"
+  },
+  "titulo": "Tu rostro",
+  "artista": "LanaCombs",
+  "likes": 2,
+  "comentarios": [
+    {
+      "comentario": "Buen trabajo",
+      "usuario": "WylieBell"
+    },
+    {
+      "comentario": "Buen ritmo",
+      "usuario": "AdamCruz"
+    },
+    {
+      "comentario": "Wow, me gusta",
+      "usuario": "BiancaBright"
+    }
+  ],
+  "genero": "Rap",
+  "duracion": 169,
+  "fecha_de_publicacion": "2022-10-24"
+},{
+  "_id": {
+    "$oid": "63e478f3ba0d3128f10b3101"
+  },
+  "titulo": "Not yours",
+  "artista": "JasperCarroll",
+  "likes": 2,
+  "comentarios": [
+    {
+      "comentario": "Me encanta",
+      "usuario": "EllaElliott"
+    },
+    {
+      "comentario": "Mi cancion favorita",
+      "usuario": "TamaraEllis"
+    },
+    {
+      "comentario": "Cuando plubicaras mas musica",
+      "usuario": "HamiltonConway"
+    }
+  ],
+  "genero": "Jazz",
+  "duracion": 74,
+  "fecha_de_publicacion": "2022-10-11"
+},{
+  "_id": {
+    "$oid": "63e478f3ba0d3128f10b3106"
+  },
+  "titulo": "It is okay",
+  "artista": "GayGross",
+  "likes": 5,
+  "comentarios": [
+    {
+      "comentario": "Tienes talento",
+      "usuario": "GrayOchoa"
+    },
+    {
+      "comentario": "Que cancion!",
+      "usuario": "HowardMarks"
+    },
+    {
+      "comentario": "Buen ritmo",
+      "usuario": "WendyRollins"
+    }
+  ],
+  "genero": "Electronica",
+  "duracion": 71,
+  "fecha_de_publicacion": "2022-03-26"
+},{
+  "_id": {
+    "$oid": "63e478f3ba0d3128f10b3127"
+  },
+  "titulo": "The song",
+  "artista": "RoseAguilar",
+  "likes": 3,
+  "comentarios": [
+    {
+      "comentario": "Directo a me gusta",
+      "usuario": "BaxterPark"
+    },
+    {
+      "comentario": "Que cancion!",
+      "usuario": "NathanGraves"
+    },
+    {
+      "comentario": "Buen ritmo",
+      "usuario": "ChesterLeon"
+    }
+  ],
+  "genero": "Jazz",
+  "duracion": 70,
+  "fecha_de_publicacion": "2022-08-30"
+},{
+  "_id": {
+    "$oid": "63e478f3ba0d3128f10b312b"
+  },
+  "titulo": "Infractions",
+  "artista": "LarsHayes",
+  "likes": 7,
+  "comentarios": [
+    {
+      "comentario": "Muy buena cancion",
+      "usuario": "McKenzieDonovan"
+    },
+    {
+      "comentario": "Que cancion!",
+      "usuario": "LydiaBest"
+    },
+    {
+      "comentario": "Wow, me gusta",
+      "usuario": "KareemDickerson"
+    }
+  ],
+  "genero": "Rock",
+  "duracion": 72,
+  "fecha_de_publicacion": "2022-09-09"
+},{
+  "_id": {
+    "$oid": "63e478f3ba0d3128f10b313e"
+  },
+  "titulo": "Singing",
+  "artista": "AlfredaMcclain",
+  "likes": 6,
+  "comentarios": [
+    {
+      "comentario": ":) Excelente",
+      "usuario": "ImaniCurtis"
+    },
+    {
+      "comentario": "Mi cancion favorita",
+      "usuario": "CleoJennings"
+    },
+    {
+      "comentario": "Wow, me gusta",
+      "usuario": "ArdenClayton"
+    }
+  ],
+  "genero": "Rock",
+  "duracion": 60,
+  "fecha_de_publicacion": "2022-09-19"
+},{
+  "_id": {
+    "$oid": "63e478f3ba0d3128f10b3154"
+  },
+  "titulo": "Let it be",
+  "artista": "DonnaBoone",
+  "likes": 5,
+  "comentarios": [
+    {
+      "comentario": "Buen trabajo",
+      "usuario": "KelsieBrennan"
+    },
+    {
+      "comentario": "Que cancion!",
+      "usuario": "VictoriaRiddle"
+    },
+    {
+      "comentario": "Muy buena cancion",
+      "usuario": "NelleBritt"
+    }
+  ],
+  "genero": "Country",
+  "duracion": 171,
+  "fecha_de_publicacion": "2022-11-27"
+},{
+  "_id": {
+    "$oid": "63e478f3ba0d3128f10b315c"
+  },
+  "titulo": "Abusa",
+  "artista": "FerrisMcclure",
+  "likes": 6,
+  "comentarios": [
+    {
+      "comentario": "Muy buena cancion",
+      "usuario": "StevenClark"
+    },
+    {
+      "comentario": "Wow, me gusta",
+      "usuario": "SeanBarron"
+    },
+    {
+      "comentario": "Que cancion!",
+      "usuario": "DeannaRogers"
+    }
+  ],
+  "genero": "Country",
+  "duracion": 116,
+  "fecha_de_publicacion": "2022-06-05"
+},{
+  "_id": {
+    "$oid": "63e478f3ba0d3128f10b3122"
+  },
+  "titulo": "Mad",
+  "artista": "ClarkeMercado",
+  "likes": 8,
+  "comentarios": [
+    {
+      "comentario": "Buen ritmo",
+      "usuario": "HopeWall"
+    },
+    {
+      "comentario": "Mi cancion favorita",
+      "usuario": "AdaraShaffer"
+    },
+    {
+      "comentario": "Buen ritmo",
+      "usuario": "KeithMaynard"
+    }
+  ],
+  "genero": "Rap",
+  "duracion": 175,
+  "fecha_de_publicacion": "2022-02-23"
+},{
+  "_id": {
+    "$oid": "63e478f3ba0d3128f10b3121"
+  },
+  "titulo": "Nada es perfecto",
+  "artista": "UrsulaLove",
+  "likes": 0,
+  "comentarios": [
+    {
+      "comentario": "Mi cancion favorita",
+      "usuario": "TeaganSantos"
+    },
+    {
+      "comentario": "Mi cancion favorita",
+      "usuario": "GiselaWhite"
+    },
+    {
+      "comentario": "Cuando plubicaras mas musica",
+      "usuario": "KuameWolf"
+    }
+  ],
+  "genero": "Electronica",
+  "duracion": 132,
+  "fecha_de_publicacion": "2022-06-10"
+},{
+  "_id": {
+    "$oid": "63e478f3ba0d3128f10b3123"
+  },
+  "titulo": "No te escuses",
+  "artista": "MarisWhitaker",
+  "likes": 4,
+  "comentarios": [
+    {
+      "comentario": "Directo a me gusta",
+      "usuario": "SebastianGilmore"
+    },
+    {
+      "comentario": "Cuando plubicaras mas musica",
+      "usuario": "MelanieCleveland"
+    },
+    {
+      "comentario": "Muy buena cancion",
+      "usuario": "BryarHardin"
+    }
+  ],
+  "genero": "Country",
+  "duracion": 114,
+  "fecha_de_publicacion": "2022-08-24"
+},{
+  "_id": {
+    "$oid": "63e478f3ba0d3128f10b312d"
+  },
+  "titulo": "Por tenerte",
+  "artista": "EveByers",
+  "likes": 5,
+  "comentarios": [
+    {
+      "comentario": "Directo a me gusta",
+      "usuario": "MelyssaCummings"
+    },
+    {
+      "comentario": "Buen trabajo",
+      "usuario": "ChastityWoodard"
+    },
+    {
+      "comentario": "Me encanta",
+      "usuario": "DaraBowen"
+    }
+  ],
+  "genero": "Jazz",
+  "duracion": 84,
+  "fecha_de_publicacion": "2022-06-11"
+},{
+  "_id": {
+    "$oid": "63e478f3ba0d3128f10b3153"
+  },
+  "titulo": "Te quiero",
+  "artista": "SybillTillman",
+  "likes": 7,
+  "comentarios": [
+    {
+      "comentario": "Buen trabajo",
+      "usuario": "GalenaMayer"
+    },
+    {
+      "comentario": "Me encanta",
+      "usuario": "AngelicaMiller"
+    },
+    {
+      "comentario": "Cuando plubicaras mas musica",
+      "usuario": "BurtonShelton"
+    }
+  ],
+  "genero": "Urbano",
+  "duracion": 144,
+  "fecha_de_publicacion": "2022-04-06"
+},{
+  "_id": {
+    "$oid": "63e478f3ba0d3128f10b315b"
+  },
+  "titulo": "Que nadie opine",
+  "artista": "SladeSparks",
+  "likes": 8,
+  "comentarios": [
+    {
+      "comentario": "Muy buena cancion",
+      "usuario": "UrielRivers"
+    },
+    {
+      "comentario": "Mi cancion favorita",
+      "usuario": "MartinaCarlson"
+    },
+    {
+      "comentario": "Buen ritmo",
+      "usuario": "RileyBarnett"
+    }
+  ],
+  "genero": "Country",
+  "duracion": 154,
+  "fecha_de_publicacion": "2022-09-05"
+},{
+  "_id": {
+    "$oid": "63e478f3ba0d3128f10b3160"
+  },
+  "titulo": "Folish",
+  "artista": "NigelHall",
+  "likes": 8,
+  "comentarios": [
+    {
+      "comentario": "Wow, me gusta",
+      "usuario": "DaraHolden"
+    },
+    {
+      "comentario": "Que cancion!",
+      "usuario": "SladeMurphy"
+    },
+    {
+      "comentario": "Muy buena cancion",
+      "usuario": "FreyaHunt"
+    }
+  ],
+  "genero": "Urbano",
+  "duracion": 169,
+  "fecha_de_publicacion": "2022-06-18"
+},{
+  "_id": {
+    "$oid": "63e478f3ba0d3128f10b313b"
+  },
+  "titulo": "Same course",
+  "artista": "LeoBonner",
+  "likes": 5,
+  "comentarios": [
+    {
+      "comentario": "Cuando plubicaras mas musica",
+      "usuario": "IgorBest"
+    },
+    {
+      "comentario": "Buen ritmo",
+      "usuario": "DriscollPerez"
+    },
+    {
+      "comentario": "Que cancion!",
+      "usuario": "MaggyPatel"
+    }
+  ],
+  "genero": "Blues",
+  "duracion": 169,
+  "fecha_de_publicacion": "2022-09-08"
+},{
+  "_id": {
+    "$oid": "63e478f3ba0d3128f10b3117"
+  },
+  "titulo": "Go for more",
+  "artista": "HoytHaney",
+  "likes": 1,
+  "comentarios": [
+    {
+      "comentario": "Que cancion!",
+      "usuario": "JermaineGross"
+    },
+    {
+      "comentario": "Directo a me gusta",
+      "usuario": "MadesonBenson"
+    },
+    {
+      "comentario": "Tienes talento",
+      "usuario": "QuinnMadden"
+    }
+  ],
+  "genero": "Country",
+  "duracion": 147,
+  "fecha_de_publicacion": "2022-08-30"
+},{
+  "_id": {
+    "$oid": "63e478f3ba0d3128f10b313a"
+  },
+  "titulo": "Al no verte",
+  "artista": "TimonPowell",
+  "likes": 6,
+  "comentarios": [
+    {
+      "comentario": "Wow, me gusta",
+      "usuario": "DesireeCalderon"
+    },
+    {
+      "comentario": "Directo a me gusta",
+      "usuario": "BryarHardin"
+    },
+    {
+      "comentario": "Mi cancion favorita",
+      "usuario": "ThaneHaynes"
+    }
+  ],
+  "genero": "Rap",
+  "duracion": 118,
+  "fecha_de_publicacion": "2022-06-01"
+},{
+  "_id": {
+    "$oid": "63e478f3ba0d3128f10b3136"
+  },
+  "titulo": "Enemies",
+  "artista": "FayBenton",
+  "likes": 5,
+  "comentarios": [
+    {
+      "comentario": "Directo a me gusta",
+      "usuario": "LanaCombs"
+    },
+    {
+      "comentario": "Que cancion!",
+      "usuario": "SelmaHicks"
+    },
+    {
+      "comentario": "Que cancion!",
+      "usuario": "SelmaHicks"
+    }
+  ],
+  "genero": "Rap",
+  "duracion": 107,
+  "fecha_de_publicacion": "2022-10-12"
+},{
+  "_id": {
+    "$oid": "63e478f3ba0d3128f10b3146"
+  },
+  "titulo": "Amapolas",
+  "artista": "JillianMoreno",
+  "likes": 9,
+  "comentarios": [
+    {
+      "comentario": "Directo a me gusta",
+      "usuario": "BradyLandry"
+    },
+    {
+      "comentario": "Mi cancion favorita",
+      "usuario": "KimCrosby"
+    },
+    {
+      "comentario": "Mi cancion favorita",
+      "usuario": "QuamarKennedy"
+    }
+  ],
+  "genero": "Jazz",
+  "duracion": 149,
+  "fecha_de_publicacion": "2022-11-15"
+},{
+  "_id": {
+    "$oid": "63e478f3ba0d3128f10b3147"
+  },
+  "titulo": "Let us try",
+  "artista": "KaseemMeadows",
+  "likes": 3,
+  "comentarios": [
+    {
+      "comentario": "Wow, me gusta",
+      "usuario": "ClarkeMoran"
+    },
+    {
+      "comentario": "Buen ritmo",
+      "usuario": "MaiteMiles"
+    },
+    {
+      "comentario": ":) Excelente",
+      "usuario": "AphroditeRich"
+    }
+  ],
+  "genero": "Tropipop",
+  "duracion": 79,
+  "fecha_de_publicacion": "2022-05-24"
+},{
+  "_id": {
+    "$oid": "63e478f3ba0d3128f10b3150"
+  },
+  "titulo": "Touch me",
+  "artista": "TimonHewitt",
+  "likes": 4,
+  "comentarios": [
+    {
+      "comentario": "Directo a me gusta",
+      "usuario": "TannerSimpson"
+    },
+    {
+      "comentario": "Buen trabajo",
+      "usuario": "JordanSantos"
+    },
+    {
+      "comentario": "Wow, me gusta",
+      "usuario": "GiselleFord"
+    }
+  ],
+  "genero": "Electronica",
+  "duracion": 128,
+  "fecha_de_publicacion": "2022-06-19"
+},{
+  "_id": {
+    "$oid": "63e478f3ba0d3128f10b313c"
+  },
+  "titulo": "Nada es perfecto",
+  "artista": "JoleneVillarreal",
+  "likes": 2,
+  "comentarios": [
+    {
+      "comentario": "Wow, me gusta",
+      "usuario": "HaleyJennings"
+    },
+    {
+      "comentario": "Wow, me gusta",
+      "usuario": "RalphGood"
+    },
+    {
+      "comentario": "Me encanta",
+      "usuario": "CadmanLindsay"
+    }
+  ],
+  "genero": "Country",
+  "duracion": 103,
+  "fecha_de_publicacion": "2022-04-01"
+},{
+  "_id": {
+    "$oid": "63e478f3ba0d3128f10b3142"
+  },
+  "titulo": "The song",
+  "artista": "MaryWalls",
+  "likes": 1,
+  "comentarios": [
+    {
+      "comentario": "Que cancion!",
+      "usuario": "LaraHyde"
+    },
+    {
+      "comentario": "Wow, me gusta",
+      "usuario": "CassidyPrice"
+    },
+    {
+      "comentario": "Buen trabajo",
+      "usuario": "RothLangley"
+    }
+  ],
+  "genero": "Tropipop",
+  "duracion": 101,
+  "fecha_de_publicacion": "2022-10-12"
+},{
+  "_id": {
+    "$oid": "63e478f3ba0d3128f10b3144"
+  },
+  "titulo": "It is okya",
+  "artista": "PhoebeKing",
+  "likes": 3,
+  "comentarios": [
+    {
+      "comentario": "Que cancion!",
+      "usuario": "JenetteMcneil"
+    },
+    {
+      "comentario": "Buen ritmo",
+      "usuario": "PetraBarber"
+    },
+    {
+      "comentario": "Buen trabajo",
+      "usuario": "RudyardDaniel"
+    }
+  ],
+  "genero": "Jazz",
+  "duracion": 185,
+  "fecha_de_publicacion": "2022-06-22"
+},{
+  "_id": {
+    "$oid": "63e478f3ba0d3128f10b310f"
+  },
+  "titulo": "let it go",
+  "artista": "AshtonLawson",
+  "likes": 3,
+  "comentarios": [
+    {
+      "comentario": "Cuando plubicaras mas musica",
+      "usuario": "ArdenClayton"
+    },
+    {
+      "comentario": "Me encanta",
+      "usuario": "LaraHyde"
+    },
+    {
+      "comentario": "Cuando plubicaras mas musica",
+      "usuario": "JosephLindsey"
+    }
+  ],
+  "genero": "Tropipop",
+  "duracion": 168,
+  "fecha_de_publicacion": "2022-12-14"
+},{
+  "_id": {
+    "$oid": "63e478f3ba0d3128f10b310c"
+  },
+  "titulo": "Que nadie opine",
+  "artista": "PetraBarber",
+  "likes": 4,
+  "comentarios": [
+    {
+      "comentario": "Muy buena cancion",
+      "usuario": "TannerSimpson"
+    },
+    {
+      "comentario": "Tienes talento",
+      "usuario": "MartinaCarlson"
+    },
+    {
+      "comentario": ":) Excelente",
+      "usuario": "BurtonShelton"
+    }
+  ],
+  "genero": "Pop",
+  "duracion": 163,
+  "fecha_de_publicacion": "2022-05-07"
+},{
+  "_id": {
+    "$oid": "63e478f3ba0d3128f10b3100"
+  },
+  "titulo": "Tell me lies",
+  "artista": "MarvinDudley",
+  "likes": 7,
+  "comentarios": [
+    {
+      "comentario": "Me encanta",
+      "usuario": "TimonCollier"
+    },
+    {
+      "comentario": "Muy buena cancion",
+      "usuario": "RhiannonChase"
+    },
+    {
+      "comentario": "Que cancion!",
+      "usuario": "JustineMullen"
+    }
+  ],
+  "genero": "Rap",
+  "duracion": 187,
+  "fecha_de_publicacion": "2022-06-03"
+},{
+  "_id": {
+    "$oid": "63e478f3ba0d3128f10b3110"
+  },
+  "titulo": "La nota",
+  "artista": "DanaHester",
+  "likes": 7,
+  "comentarios": [
+    {
+      "comentario": "Me encanta",
+      "usuario": "FrancisCastro"
+    },
+    {
+      "comentario": "Me encanta",
+      "usuario": "DrakeNavarro"
+    },
+    {
+      "comentario": "Wow, me gusta",
+      "usuario": "TimonPowell"
+    }
+  ],
+  "genero": "Country",
+  "duracion": 154,
+  "fecha_de_publicacion": "2022-05-19"
+},{
+  "_id": {
+    "$oid": "63e478f3ba0d3128f10b3113"
+  },
+  "titulo": "Te quiero",
+  "artista": "QuinnAlexander",
+  "likes": 9,
+  "comentarios": [
+    {
+      "comentario": "Cuando plubicaras mas musica",
+      "usuario": "DeannaRogers"
+    },
+    {
+      "comentario": "Wow, me gusta",
+      "usuario": "MaggieDunn"
+    },
+    {
+      "comentario": "Buen trabajo",
+      "usuario": "SteelLancaster"
+    }
+  ],
+  "genero": "Pop",
+  "duracion": 162,
+  "fecha_de_publicacion": "2022-05-14"
+},{
+  "_id": {
+    "$oid": "63e478f3ba0d3128f10b3120"
+  },
+  "titulo": "Desenfoca",
+  "artista": "KeelieWalter",
+  "likes": 3,
+  "comentarios": [
+    {
+      "comentario": "Mi cancion favorita",
+      "usuario": "TeaganSantos"
+    },
+    {
+      "comentario": "Tienes talento",
+      "usuario": "AbelBrooks"
+    },
+    {
+      "comentario": "Cuando plubicaras mas musica",
+      "usuario": "ChelseaMassey"
+    }
+  ],
+  "genero": "Urbano",
+  "duracion": 113,
+  "fecha_de_publicacion": "2022-03-29"
+},{
+  "_id": {
+    "$oid": "63e478f3ba0d3128f10b3124"
+  },
+  "titulo": "Conmigo te vas",
+  "artista": "CailinGentry",
+  "likes": 1,
+  "comentarios": [
+    {
+      "comentario": "Me encanta",
+      "usuario": "AmenaElliott"
+    },
+    {
+      "comentario": "Me encanta",
+      "usuario": "JadeBradshaw"
+    },
+    {
+      "comentario": "Mi cancion favorita",
+      "usuario": "DeclanNewton"
+    }
+  ],
+  "genero": "Urbano",
+  "duracion": 86,
+  "fecha_de_publicacion": "2022-08-17"
+},{
+  "_id": {
+    "$oid": "63e478f3ba0d3128f10b3125"
+  },
+  "titulo": "Todo momento",
+  "artista": "GraceHarris",
+  "likes": 2,
+  "comentarios": [
+    {
+      "comentario": "Buen ritmo",
+      "usuario": "LanceMcgee"
+    },
+    {
+      "comentario": "Directo a me gusta",
+      "usuario": "JordanBullock"
+    },
+    {
+      "comentario": "Muy buena cancion",
+      "usuario": "MadesonBenson"
+    }
+  ],
+  "genero": "Rock",
+  "duracion": 173,
+  "fecha_de_publicacion": "2022-03-08"
+},{
+  "_id": {
+    "$oid": "63e478f3ba0d3128f10b313f"
+  },
+  "titulo": "Amapolas",
+  "artista": "UrielRivers",
+  "likes": 5,
+  "comentarios": [
+    {
+      "comentario": "Directo a me gusta",
+      "usuario": "WendyRollins"
+    },
+    {
+      "comentario": "Tienes talento",
+      "usuario": "DriscollPerez"
+    },
+    {
+      "comentario": "Buen trabajo",
+      "usuario": "LydiaBest"
+    }
+  ],
+  "genero": "Urbano",
+  "duracion": 140,
+  "fecha_de_publicacion": "2022-05-22"
+},{
+  "_id": {
+    "$oid": "63e478f3ba0d3128f10b3143"
+  },
+  "titulo": "Tu y yo",
+  "artista": "ChelseaMassey",
+  "likes": 6,
+  "comentarios": [
+    {
+      "comentario": "Tienes talento",
+      "usuario": "McKenzieDonovan"
+    },
+    {
+      "comentario": "Muy buena cancion",
+      "usuario": "OlegKing"
+    },
+    {
+      "comentario": "Que cancion!",
+      "usuario": "RahimFields"
+    }
+  ],
+  "genero": "Tropipop",
+  "duracion": 122,
+  "fecha_de_publicacion": "2022-09-14"
+},{
+  "_id": {
+    "$oid": "63e478f3ba0d3128f10b3151"
+  },
+  "titulo": "El rio",
+  "artista": "BevisGalloway",
+  "likes": 8,
+  "comentarios": [
+    {
+      "comentario": "Tienes talento",
+      "usuario": "LesleyRosario"
+    },
+    {
+      "comentario": "Buen ritmo",
+      "usuario": "HerrodRowe"
+    },
+    {
+      "comentario": "Que cancion!",
+      "usuario": "RaphaelMorrow"
+    }
+  ],
+  "genero": "Jazz",
+  "duracion": 129,
+  "fecha_de_publicacion": "2023-01-01"
+},{
+  "_id": {
+    "$oid": "63e478f3ba0d3128f10b315a"
+  },
+  "titulo": "Riendonos",
+  "artista": "MaiteCrosby",
+  "likes": 1,
+  "comentarios": [
+    {
+      "comentario": "Directo a me gusta",
+      "usuario": "GayGross"
+    },
+    {
+      "comentario": "Buen trabajo",
+      "usuario": "RalphKelley"
+    },
+    {
+      "comentario": ":) Excelente",
+      "usuario": "JelaniMolina"
+    }
+  ],
+  "genero": "Blues",
+  "duracion": 98,
+  "fecha_de_publicacion": "2022-04-26"
+},{
+  "_id": {
+    "$oid": "63e478f3ba0d3128f10b3155"
+  },
+  "titulo": "Hate me",
+  "artista": "RossHughes",
+  "likes": 4,
+  "comentarios": [
+    {
+      "comentario": "Buen ritmo",
+      "usuario": "MartinaCarlson"
+    },
+    {
+      "comentario": "Me encanta",
+      "usuario": "RussellBranch"
+    },
+    {
+      "comentario": "Buen ritmo",
+      "usuario": "CoraNorton"
+    }
+  ],
+  "genero": "Rock",
+  "duracion": 143,
+  "fecha_de_publicacion": "2022-03-05"
+},{
+  "_id": {
+    "$oid": "63e478f3ba0d3128f10b312e"
+  },
+  "titulo": "Solo",
+  "artista": "DeannaRogers",
+  "likes": 4,
+  "comentarios": [
+    {
+      "comentario": "Mi cancion favorita",
+      "usuario": "DaltonMichael"
+    },
+    {
+      "comentario": "Me encanta",
+      "usuario": "GrantCalderon"
+    },
+    {
+      "comentario": "Buen ritmo",
+      "usuario": "DillonHardin"
+    }
+  ],
+  "genero": "Urbano",
+  "duracion": 89,
+  "fecha_de_publicacion": "2022-07-02"
+},{
+  "_id": {
+    "$oid": "63e478f3ba0d3128f10b3130"
+  },
+  "titulo": "Que nadie opine",
+  "artista": "CadmanLindsay",
+  "likes": 3,
+  "comentarios": [
+    {
+      "comentario": "Buen ritmo",
+      "usuario": "PrescottCasey"
+    },
+    {
+      "comentario": ":) Excelente",
+      "usuario": "MadesonCunningham"
+    },
+    {
+      "comentario": "Buen trabajo",
+      "usuario": "SeanBarron"
+    }
+  ],
+  "genero": "Electronica",
+  "duracion": 177,
+  "fecha_de_publicacion": "2022-10-05"
+},{
+  "_id": {
+    "$oid": "63e478f3ba0d3128f10b313d"
+  },
+  "titulo": "Fuego",
+  "artista": "TaShyaAshley",
+  "likes": 7,
+  "comentarios": [
+    {
+      "comentario": "Me encanta",
+      "usuario": "KuameWolf"
+    },
+    {
+      "comentario": "Wow, me gusta",
+      "usuario": "CelesteDiaz"
+    },
+    {
+      "comentario": "Buen ritmo",
+      "usuario": "ChancellorHarrington"
+    }
+  ],
+  "genero": "Pop",
+  "duracion": 123,
+  "fecha_de_publicacion": "2022-10-04"
+},{
+  "_id": {
+    "$oid": "63e478f3ba0d3128f10b314d"
+  },
+  "titulo": "Go for more",
+  "artista": "IdolaOsborn",
+  "likes": 2,
+  "comentarios": [
+    {
+      "comentario": "Buen ritmo",
+      "usuario": "BrendenPreston"
+    },
+    {
+      "comentario": "Cuando plubicaras mas musica",
+      "usuario": "DavisBurris"
+    },
+    {
+      "comentario": "Cuando plubicaras mas musica",
+      "usuario": "CadmanLindsay"
+    }
+  ],
+  "genero": "Urbano",
+  "duracion": 155,
+  "fecha_de_publicacion": "2022-08-04"
+},{
+  "_id": {
+    "$oid": "63e478f3ba0d3128f10b314f"
+  },
+  "titulo": "Deseos",
+  "artista": "AltheaThomas",
+  "likes": 6,
+  "comentarios": [
+    {
+      "comentario": "Directo a me gusta",
+      "usuario": "BurtonShelton"
+    },
+    {
+      "comentario": "Wow, me gusta",
+      "usuario": "SladeSparks"
+    },
+    {
+      "comentario": "Que cancion!",
+      "usuario": "JamalHarding"
+    }
+  ],
+  "genero": "Rock",
+  "duracion": 159,
+  "fecha_de_publicacion": "2022-12-22"
+},{
+  "_id": {
+    "$oid": "63e47cfcba0d3128f10b3170"
+  },
+  "titulo": "Curame",
+  "artista": "ChaimBerry",
+  "likes": 3,
+  "comentarios": [
+    {
+      "comentario": "Buen ritmo",
+      "usuario": "QuinnMadden"
+    },
+    {
+      "comentario": "Que cancion!",
+      "usuario": "HaleyJennings"
+    }
+  ],
+  "genero": "Urbano",
+  "duracion": 103,
+  "fecha_de_publicacion": "2023-01-09"
+},{
+  "_id": {
+    "$oid": "63e47cfcba0d3128f10b3180"
+  },
+  "titulo": "Intentemos nuevamente",
+  "artista": "HyattClay",
+  "likes": 6,
+  "comentarios": [
+    {
+      "comentario": ":) Excelente",
+      "usuario": "AquilaSkinner"
+    },
+    {
+      "comentario": "Buen trabajo",
+      "usuario": "LawrenceVance"
+    }
+  ],
+  "genero": "Jazz",
+  "duracion": 115,
+  "fecha_de_publicacion": "2022-05-20"
+},{
+  "_id": {
+    "$oid": "63e47cfcba0d3128f10b317d"
+  },
+  "titulo": "El proceso",
+  "artista": "DillonHardin",
+  "likes": 9,
+  "comentarios": [
+    {
+      "comentario": "Buen ritmo",
+      "usuario": "CaesarOneil"
+    },
+    {
+      "comentario": "Mi cancion favorita",
+      "usuario": "CarolJackson"
+    }
+  ],
+  "genero": "Rap",
+  "duracion": 115,
+  "fecha_de_publicacion": "2022-09-08"
+},{
+  "_id": {
+    "$oid": "63e47cfcba0d3128f10b3165"
+  },
+  "titulo": "Curame",
+  "artista": "ScottCook",
+  "likes": 1,
+  "comentarios": [
+    {
+      "comentario": "Cuando plubicaras mas musica",
+      "usuario": "HarperBlackburn"
+    },
+    {
+      "comentario": "Mi cancion favorita",
+      "usuario": "NasimWhitaker"
+    }
+  ],
+  "genero": "Tropipop",
+  "duracion": 69,
+  "fecha_de_publicacion": "2022-11-01"
+},{
+  "_id": {
+    "$oid": "63e47cfcba0d3128f10b3175"
+  },
+  "titulo": "Delux",
+  "artista": "JustinGates",
+  "likes": 0,
+  "comentarios": [
+    {
+      "comentario": "Buen ritmo",
+      "usuario": "EmmaChristensen"
+    },
+    {
+      "comentario": "Que cancion!",
+      "usuario": "RaymondWatkins"
+    }
+  ],
+  "genero": "Rock",
+  "duracion": 110,
+  "fecha_de_publicacion": "2022-08-22"
+},{
+  "_id": {
+    "$oid": "63e47cfcba0d3128f10b316a"
+  },
+  "titulo": "Nuestro pecado",
+  "artista": "GloriaHorne",
+  "likes": 8,
+  "comentarios": [
+    {
+      "comentario": "Buen ritmo",
+      "usuario": "AbelBrooks"
+    },
+    {
+      "comentario": "Buen ritmo",
+      "usuario": "CoraNorton"
+    }
+  ],
+  "genero": "Urbano",
+  "duracion": 134,
+  "fecha_de_publicacion": "2022-07-11"
+},{
+  "_id": {
+    "$oid": "63e47cfcba0d3128f10b3167"
+  },
+  "titulo": "Delux",
+  "artista": "HarperLogan",
+  "likes": 7,
+  "comentarios": [
+    {
+      "comentario": "Tienes talento",
+      "usuario": "JelaniMolina"
+    },
+    {
+      "comentario": "Cuando plubicaras mas musica",
+      "usuario": "OlympiaConway"
+    }
+  ],
+  "genero": "Electronica",
+  "duracion": 177,
+  "fecha_de_publicacion": "2022-10-06"
+},{
+  "_id": {
+    "$oid": "63e47cfcba0d3128f10b319c"
+  },
+  "titulo": "Exotica",
+  "artista": "DavisBurris",
+  "likes": 8,
+  "comentarios": [
+    {
+      "comentario": "Que cancion!",
+      "usuario": "LacyTerry"
+    },
+    {
+      "comentario": "Cuando plubicaras mas musica",
+      "usuario": "AphroditeRich"
+    }
+  ],
+  "genero": "Jazz",
+  "duracion": 60,
+  "fecha_de_publicacion": "2022-04-06"
+},{
+  "_id": {
+    "$oid": "63e47cfcba0d3128f10b3172"
+  },
+  "titulo": "Nuestro pecado",
+  "artista": "GarthMurray",
+  "likes": 4,
+  "comentarios": [
+    {
+      "comentario": "Wow, me gusta",
+      "usuario": "MyraColon"
+    },
+    {
+      "comentario": "Wow, me gusta",
+      "usuario": "ZacharyMacias"
+    }
+  ],
+  "genero": "Rock",
+  "duracion": 123,
+  "fecha_de_publicacion": "2022-04-11"
+},{
+  "_id": {
+    "$oid": "63e47cfcba0d3128f10b318a"
+  },
+  "titulo": "Take off",
+  "artista": "KimLeblanc",
+  "likes": 8,
+  "comentarios": [
+    {
+      "comentario": "Buen trabajo",
+      "usuario": "MadesonBenson"
+    },
+    {
+      "comentario": "Buen ritmo",
+      "usuario": "MasonBoone"
+    }
+  ],
+  "genero": "Country",
+  "duracion": 159,
+  "fecha_de_publicacion": "2022-09-18"
+},{
+  "_id": {
+    "$oid": "63e47cfcba0d3128f10b316b"
+  },
+  "titulo": "Curame",
+  "artista": "HannahHerring",
+  "likes": 5,
+  "comentarios": [
+    {
+      "comentario": "Tienes talento",
+      "usuario": "KeaneTyson"
+    },
+    {
+      "comentario": "Wow, me gusta",
+      "usuario": "JennaAcosta"
+    }
+  ],
+  "genero": "Pop",
+  "duracion": 160,
+  "fecha_de_publicacion": "2022-03-06"
+},{
+  "_id": {
+    "$oid": "63e47cfcba0d3128f10b3166"
+  },
+  "titulo": "Bad",
+  "artista": "QuinnAlexander",
+  "likes": 4,
+  "comentarios": [
+    {
+      "comentario": "Mi cancion favorita",
+      "usuario": "SybillTillman"
+    },
+    {
+      "comentario": "Muy buena cancion",
+      "usuario": "HiramSkinner"
+    }
+  ],
+  "genero": "Rock",
+  "duracion": 141,
+  "fecha_de_publicacion": "2022-10-20"
+},{
+  "_id": {
+    "$oid": "63e47cfcba0d3128f10b3198"
+  },
+  "titulo": "Heart",
+  "artista": "MaiaStanley",
+  "likes": 6,
+  "comentarios": [
+    {
+      "comentario": "Que cancion!",
+      "usuario": "LarsPowell"
+    },
+    {
+      "comentario": "Cuando plubicaras mas musica",
+      "usuario": "AnneHobbs"
+    }
+  ],
+  "genero": "Pop",
+  "duracion": 86,
+  "fecha_de_publicacion": "2022-06-02"
+},{
+  "_id": {
+    "$oid": "63e47cfcba0d3128f10b3179"
+  },
+  "titulo": "Take off",
+  "artista": "DeannaFulton",
+  "likes": 2,
+  "comentarios": [
+    {
+      "comentario": "Me encanta",
+      "usuario": "RothLangley"
+    },
+    {
+      "comentario": "Buen ritmo",
+      "usuario": "BiancaBright"
+    }
+  ],
+  "genero": "Blues",
+  "duracion": 123,
+  "fecha_de_publicacion": "2023-01-23"
+},{
+  "_id": {
+    "$oid": "63e47cfcba0d3128f10b31a1"
+  },
+  "titulo": "Hey girl",
+  "artista": "NasimWhitaker",
+  "likes": 1,
+  "comentarios": [
+    {
+      "comentario": "Muy buena cancion",
+      "usuario": "AmalJackson"
+    },
+    {
+      "comentario": "Tienes talento",
+      "usuario": "VirginiaChurch"
+    }
+  ],
+  "genero": "Pop",
+  "duracion": 139,
+  "fecha_de_publicacion": "2022-07-13"
+},{
+  "_id": {
+    "$oid": "63e47cfcba0d3128f10b31af"
+  },
+  "titulo": "Single",
+  "artista": "ChelseaMassey",
+  "likes": 6,
+  "comentarios": [
+    {
+      "comentario": "Me encanta",
+      "usuario": "SybillTillman"
+    },
+    {
+      "comentario": "Directo a me gusta",
+      "usuario": "GraceBoyer"
+    }
+  ],
+  "genero": "Rock",
+  "duracion": 156,
+  "fecha_de_publicacion": "2023-01-26"
+},{
+  "_id": {
+    "$oid": "63e47cfcba0d3128f10b31c0"
+  },
+  "titulo": "Intentemos nuevamente",
+  "artista": "TimonHewitt",
+  "likes": 1,
+  "comentarios": [
+    {
+      "comentario": "Buen ritmo",
+      "usuario": "DrakeNavarro"
+    },
+    {
+      "comentario": "Cuando plubicaras mas musica",
+      "usuario": "HayfaWooten"
+    }
+  ],
+  "genero": "Tropipop",
+  "duracion": 60,
+  "fecha_de_publicacion": "2022-07-03"
+},{
+  "_id": {
+    "$oid": "63e47cfcba0d3128f10b31c6"
+  },
+  "titulo": "My name",
+  "artista": "JillianCooke",
+  "likes": 5,
+  "comentarios": [
+    {
+      "comentario": "Buen ritmo",
+      "usuario": "ScottCole"
+    },
+    {
+      "comentario": "Buen ritmo",
+      "usuario": "TannerSimpson"
+    }
+  ],
+  "genero": "Country",
+  "duracion": 140,
+  "fecha_de_publicacion": "2022-07-05"
+},{
+  "_id": {
+    "$oid": "63e47cfcba0d3128f10b318e"
+  },
+  "titulo": "Lo que necesito",
+  "artista": "MelissaWilson",
+  "likes": 3,
+  "comentarios": [
+    {
+      "comentario": "Tienes talento",
+      "usuario": "ChavaAlvarez"
+    },
+    {
+      "comentario": ":) Excelente",
+      "usuario": "WylieBell"
+    }
+  ],
+  "genero": "Blues",
+  "duracion": 121,
+  "fecha_de_publicacion": "2023-01-18"
+},{
+  "_id": {
+    "$oid": "63e47cfcba0d3128f10b3178"
+  },
+  "titulo": "El proceso",
+  "artista": "SachaCain",
+  "likes": 1,
+  "comentarios": [
+    {
+      "comentario": "Que cancion!",
+      "usuario": "MichelleTodd"
+    },
+    {
+      "comentario": "Wow, me gusta",
+      "usuario": "GiselaWhite"
+    }
+  ],
+  "genero": "Jazz",
+  "duracion": 79,
+  "fecha_de_publicacion": "2022-08-28"
+},{
+  "_id": {
+    "$oid": "63e47cfcba0d3128f10b317a"
+  },
+  "titulo": "No me dejes",
+  "artista": "KellieBridges",
+  "likes": 6,
+  "comentarios": [
+    {
+      "comentario": "Me encanta",
+      "usuario": "MartinaCarlson"
+    },
+    {
+      "comentario": "Buen trabajo",
+      "usuario": "ThorVazquez"
+    }
+  ],
+  "genero": "Pop",
+  "duracion": 79,
+  "fecha_de_publicacion": "2022-12-17"
+},{
+  "_id": {
+    "$oid": "63e47cfcba0d3128f10b317e"
+  },
+  "titulo": "Te descubri",
+  "artista": "SebastianGilmore",
+  "likes": 6,
+  "comentarios": [
+    {
+      "comentario": "Me encanta",
+      "usuario": "BiancaBright"
+    },
+    {
+      "comentario": "Directo a me gusta",
+      "usuario": "JustineMullen"
+    }
+  ],
+  "genero": "Tropipop",
+  "duracion": 136,
+  "fecha_de_publicacion": "2022-06-09"
+},{
+  "_id": {
+    "$oid": "63e47cfcba0d3128f10b3189"
+  },
+  "titulo": "My head",
+  "artista": "GrantRoss",
+  "likes": 6,
+  "comentarios": [
+    {
+      "comentario": "Wow, me gusta",
+      "usuario": "MaiteCrosby"
+    },
+    {
+      "comentario": "Directo a me gusta",
+      "usuario": "SukiMcdaniel"
+    }
+  ],
+  "genero": "Rock",
+  "duracion": 132,
+  "fecha_de_publicacion": "2022-07-30"
+},{
+  "_id": {
+    "$oid": "63e47cfcba0d3128f10b3192"
+  },
+  "titulo": "Strong",
+  "artista": "TimonCollier",
+  "likes": 5,
+  "comentarios": [
+    {
+      "comentario": "Directo a me gusta",
+      "usuario": "ThaneDejesus"
+    },
+    {
+      "comentario": "Buen trabajo",
+      "usuario": "RaphaelMorrow"
+    }
+  ],
+  "genero": "Pop",
+  "duracion": 81,
+  "fecha_de_publicacion": "2022-06-02"
+},{
+  "_id": {
+    "$oid": "63e47cfcba0d3128f10b3196"
+  },
+  "titulo": "Bad",
+  "artista": "HedyNguyen",
+  "likes": 5,
+  "comentarios": [
+    {
+      "comentario": "Directo a me gusta",
+      "usuario": "MonaKeller"
+    },
+    {
+      "comentario": "Muy buena cancion",
+      "usuario": "ScottCook"
+    }
+  ],
+  "genero": "Country",
+  "duracion": 87,
+  "fecha_de_publicacion": "2023-02-01"
+},{
+  "_id": {
+    "$oid": "63e47cfcba0d3128f10b319b"
+  },
+  "titulo": "No",
+  "artista": "OrlaRyan",
+  "likes": 4,
+  "comentarios": [
+    {
+      "comentario": "Wow, me gusta",
+      "usuario": "KimCrosby"
+    },
+    {
+      "comentario": "Cuando plubicaras mas musica",
+      "usuario": "CaldwellOrtiz"
+    }
+  ],
+  "genero": "Urbano",
+  "duracion": 79,
+  "fecha_de_publicacion": "2022-03-13"
+},{
+  "_id": {
+    "$oid": "63e47cfcba0d3128f10b31a7"
+  },
+  "titulo": "Bad",
+  "artista": "IdolaOsborn",
+  "likes": 1,
+  "comentarios": [
+    {
+      "comentario": "Wow, me gusta",
+      "usuario": "WadeHaney"
+    },
+    {
+      "comentario": ":) Excelente",
+      "usuario": "WinterSuarez"
+    }
+  ],
+  "genero": "Blues",
+  "duracion": 69,
+  "fecha_de_publicacion": "2022-10-28"
+},{
+  "_id": {
+    "$oid": "63e47cfcba0d3128f10b31aa"
+  },
+  "titulo": "Nuestro pecado",
+  "artista": "MarkMacias",
+  "likes": 4,
+  "comentarios": [
+    {
+      "comentario": "Tienes talento",
+      "usuario": "RaymondAvila"
+    },
+    {
+      "comentario": "Muy buena cancion",
+      "usuario": "HirokoMaddox"
+    }
+  ],
+  "genero": "Urbano",
+  "duracion": 73,
+  "fecha_de_publicacion": "2022-02-18"
+},{
+  "_id": {
+    "$oid": "63e47cfcba0d3128f10b31b4"
+  },
+  "titulo": "Something bad",
+  "artista": "GrayOchoa",
+  "likes": 2,
+  "comentarios": [
+    {
+      "comentario": "Muy buena cancion",
+      "usuario": "OlegKing"
+    },
+    {
+      "comentario": "Buen trabajo",
+      "usuario": "KelsieBrennan"
+    }
+  ],
+  "genero": "Tropipop",
+  "duracion": 187,
+  "fecha_de_publicacion": "2022-08-24"
+},{
+  "_id": {
+    "$oid": "63e47cfcba0d3128f10b317c"
+  },
+  "titulo": "One life",
+  "artista": "BevisMcdowell",
+  "likes": 8,
+  "comentarios": [
+    {
+      "comentario": "Que cancion!",
+      "usuario": "DanaNoel"
+    },
+    {
+      "comentario": "Me encanta",
+      "usuario": "SolomonStewart"
+    }
+  ],
+  "genero": "Urbano",
+  "duracion": 183,
+  "fecha_de_publicacion": "2022-06-27"
+},{
+  "_id": {
+    "$oid": "63e47cfcba0d3128f10b3184"
+  },
+  "titulo": "No lo nieges",
+  "artista": "WendyRollins",
+  "likes": 0,
+  "comentarios": [
+    {
+      "comentario": "Directo a me gusta",
+      "usuario": "AquilaSkinner"
+    },
+    {
+      "comentario": "Buen ritmo",
+      "usuario": "ErinBradshaw"
+    }
+  ],
+  "genero": "Urbano",
+  "duracion": 135,
+  "fecha_de_publicacion": "2022-12-25"
+},{
+  "_id": {
+    "$oid": "63e47cfcba0d3128f10b3194"
+  },
+  "titulo": "No lo nieges",
+  "artista": "OctaviusJefferson",
+  "likes": 9,
+  "comentarios": [
+    {
+      "comentario": "Buen ritmo",
+      "usuario": "ChastityWoodard"
+    },
+    {
+      "comentario": "Directo a me gusta",
+      "usuario": "NoelaniAguirre"
+    }
+  ],
+  "genero": "Rap",
+  "duracion": 129,
+  "fecha_de_publicacion": "2022-12-09"
+},{
+  "_id": {
+    "$oid": "63e47cfcba0d3128f10b319e"
+  },
+  "titulo": "No",
+  "artista": "SylvesterBeard",
+  "likes": 7,
+  "comentarios": [
+    {
+      "comentario": "Muy buena cancion",
+      "usuario": "LarsHayes"
+    },
+    {
+      "comentario": ":) Excelente",
+      "usuario": "JasperCarroll"
+    }
+  ],
+  "genero": "Electronica",
+  "duracion": 108,
+  "fecha_de_publicacion": "2022-09-26"
+},{
+  "_id": {
+    "$oid": "63e47cfcba0d3128f10b31a8"
+  },
+  "titulo": "No lo nieges",
+  "artista": "BeckCasey",
+  "likes": 8,
+  "comentarios": [
+    {
+      "comentario": "Buen trabajo",
+      "usuario": "CameronSpencer"
+    },
+    {
+      "comentario": "Tienes talento",
+      "usuario": "HayfaChurch"
+    }
+  ],
+  "genero": "Rap",
+  "duracion": 168,
+  "fecha_de_publicacion": "2023-01-31"
+},{
+  "_id": {
+    "$oid": "63e47cfcba0d3128f10b31b7"
+  },
+  "titulo": "11x3",
+  "artista": "HannahHerring",
+  "likes": 2,
+  "comentarios": [
+    {
+      "comentario": "Directo a me gusta",
+      "usuario": "FletcherLynch"
+    },
+    {
+      "comentario": "Me encanta",
+      "usuario": "HoytPerez"
+    }
+  ],
+  "genero": "Rock",
+  "duracion": 124,
+  "fecha_de_publicacion": "2022-12-03"
+},{
+  "_id": {
+    "$oid": "63e47cfcba0d3128f10b31c1"
+  },
+  "titulo": "Nuestro secreto",
+  "artista": "GrantRoss",
+  "likes": 6,
+  "comentarios": [
+    {
+      "comentario": "Cuando plubicaras mas musica",
+      "usuario": "DexterFoley"
+    },
+    {
+      "comentario": "Wow, me gusta",
+      "usuario": "KaseemMeadows"
+    }
+  ],
+  "genero": "Rock",
+  "duracion": 111,
+  "fecha_de_publicacion": "2023-01-23"
+},{
+  "_id": {
+    "$oid": "63e47cfcba0d3128f10b31a3"
+  },
+  "titulo": "Hopeless",
+  "artista": "FrancescaRamirez",
+  "likes": 2,
+  "comentarios": [
+    {
+      "comentario": "Mi cancion favorita",
+      "usuario": "PamelaHensley"
+    },
+    {
+      "comentario": "Buen ritmo",
+      "usuario": "DonovanRodgers"
+    }
+  ],
+  "genero": "Tropipop",
+  "duracion": 184,
+  "fecha_de_publicacion": "2022-12-10"
+},{
+  "_id": {
+    "$oid": "63e47cfcba0d3128f10b31be"
+  },
+  "titulo": "Se acabo",
+  "artista": "KionaFloyd",
+  "likes": 3,
+  "comentarios": [
+    {
+      "comentario": "Que cancion!",
+      "usuario": "CadmanLindsay"
+    },
+    {
+      "comentario": ":) Excelente",
+      "usuario": "WadeHaney"
+    }
+  ],
+  "genero": "Blues",
+  "duracion": 168,
+  "fecha_de_publicacion": "2022-07-24"
+},{
+  "_id": {
+    "$oid": "63e47cfcba0d3128f10b31c2"
+  },
+  "titulo": "Pecado",
+  "artista": "CleoJennings",
+  "likes": 3,
+  "comentarios": [
+    {
+      "comentario": "Buen ritmo",
+      "usuario": "HarrietJefferson"
+    },
+    {
+      "comentario": "Cuando plubicaras mas musica",
+      "usuario": "KuameWolf"
+    }
+  ],
+  "genero": "Pop",
+  "duracion": 81,
+  "fecha_de_publicacion": "2022-08-12"
+},{
+  "_id": {
+    "$oid": "63e47cfcba0d3128f10b31c5"
+  },
+  "titulo": "Seven",
+  "artista": "HayfaWooten",
+  "likes": 3,
+  "comentarios": [
+    {
+      "comentario": "Me encanta",
+      "usuario": "NoelPoole"
+    },
+    {
+      "comentario": ":) Excelente",
+      "usuario": "ChelseaMassey"
+    }
+  ],
+  "genero": "Jazz",
+  "duracion": 145,
+  "fecha_de_publicacion": "2022-09-09"
+},{
+  "_id": {
+    "$oid": "63e47cfcba0d3128f10b3183"
+  },
+  "titulo": "Drown me",
+  "artista": "JosephLindsey",
+  "likes": 3,
+  "comentarios": [
+    {
+      "comentario": "Directo a me gusta",
+      "usuario": "EmersonAshley"
+    },
+    {
+      "comentario": "Buen trabajo",
+      "usuario": "BaxterHouse"
+    }
+  ],
+  "genero": "Rock",
+  "duracion": 115,
+  "fecha_de_publicacion": "2022-07-17"
+},{
+  "_id": {
+    "$oid": "63e47cfcba0d3128f10b318c"
+  },
+  "titulo": "Under my body",
+  "artista": "KeelieWalter",
+  "likes": 6,
+  "comentarios": [
+    {
+      "comentario": "Me encanta",
+      "usuario": "ThorVazquez"
+    },
+    {
+      "comentario": "Tienes talento",
+      "usuario": "MarciaCole"
+    }
+  ],
+  "genero": "Tropipop",
+  "duracion": 140,
+  "fecha_de_publicacion": "2022-11-24"
+},{
+  "_id": {
+    "$oid": "63e47cfcba0d3128f10b31a4"
+  },
+  "titulo": "Sigue buscandome",
+  "artista": "KuameWolf",
+  "likes": 1,
+  "comentarios": [
+    {
+      "comentario": "Muy buena cancion",
+      "usuario": "WadeBowers"
+    },
+    {
+      "comentario": "Cuando plubicaras mas musica",
+      "usuario": "JaquelynBriggs"
+    }
+  ],
+  "genero": "Electronica",
+  "duracion": 155,
+  "fecha_de_publicacion": "2022-12-02"
+},{
+  "_id": {
+    "$oid": "63e47cfcba0d3128f10b31ab"
+  },
+  "titulo": "Just to me",
+  "artista": "SalvadorChan",
+  "likes": 5,
+  "comentarios": [
+    {
+      "comentario": "Que cancion!",
+      "usuario": "KaseemMeadows"
+    },
+    {
+      "comentario": "Directo a me gusta",
+      "usuario": "DonnaBoone"
+    }
+  ],
+  "genero": "Pop",
+  "duracion": 118,
+  "fecha_de_publicacion": "2022-12-15"
+},{
+  "_id": {
+    "$oid": "63e47cfcba0d3128f10b31bd"
+  },
+  "titulo": "Como cobarde",
+  "artista": "HopeWall",
+  "likes": 0,
+  "comentarios": [
+    {
+      "comentario": "Que cancion!",
+      "usuario": "LawrenceVance"
+    },
+    {
+      "comentario": "Buen ritmo",
+      "usuario": "ToddFlowers"
+    }
+  ],
+  "genero": "Blues",
+  "duracion": 90,
+  "fecha_de_publicacion": "2022-04-11"
+},{
+  "_id": {
+    "$oid": "63e47cfcba0d3128f10b316c"
+  },
+  "titulo": "Flex",
+  "artista": "HuCabrera",
+  "likes": 4,
+  "comentarios": [
+    {
+      "comentario": "Mi cancion favorita",
+      "usuario": "HannahHerring"
+    },
+    {
+      "comentario": "Que cancion!",
+      "usuario": "NevadaKline"
+    }
+  ],
+  "genero": "Jazz",
+  "duracion": 92,
+  "fecha_de_publicacion": "2022-06-28"
+},{
+  "_id": {
+    "$oid": "63e47cfcba0d3128f10b318b"
+  },
+  "titulo": "Seven",
+  "artista": "BevisMcdowell",
+  "likes": 6,
+  "comentarios": [
+    {
+      "comentario": "Wow, me gusta",
+      "usuario": "OlegKing"
+    },
+    {
+      "comentario": "Mi cancion favorita",
+      "usuario": "KennedyAguirre"
+    }
+  ],
+  "genero": "Rock",
+  "duracion": 105,
+  "fecha_de_publicacion": "2022-11-05"
+},{
+  "_id": {
+    "$oid": "63e47cfcba0d3128f10b319f"
+  },
+  "titulo": "Tus besos",
+  "artista": "AstraLamb",
+  "likes": 5,
+  "comentarios": [
+    {
+      "comentario": "Que cancion!",
+      "usuario": "HayleyKennedy"
+    },
+    {
+      "comentario": "Buen ritmo",
+      "usuario": "KuameWolf"
+    }
+  ],
+  "genero": "Rock",
+  "duracion": 60,
+  "fecha_de_publicacion": "2022-10-28"
+},{
+  "_id": {
+    "$oid": "63e47cfcba0d3128f10b31a9"
+  },
+  "titulo": "Dark side",
+  "artista": "HayleyKennedy",
+  "likes": 3,
+  "comentarios": [
+    {
+      "comentario": "Wow, me gusta",
+      "usuario": "AxelHinton"
+    },
+    {
+      "comentario": "Me encanta",
+      "usuario": "MontanaNorris"
+    }
+  ],
+  "genero": "Rap",
+  "duracion": 68,
+  "fecha_de_publicacion": "2022-02-27"
+},{
+  "_id": {
+    "$oid": "63e47cfcba0d3128f10b31b0"
+  },
+  "titulo": "Bad",
+  "artista": "SoniaGarrett",
+  "likes": 6,
+  "comentarios": [
+    {
+      "comentario": "Directo a me gusta",
+      "usuario": "UrsulaLove"
+    },
+    {
+      "comentario": "Cuando plubicaras mas musica",
+      "usuario": "MartenaHansen"
+    }
+  ],
+  "genero": "Blues",
+  "duracion": 102,
+  "fecha_de_publicacion": "2022-03-09"
+},{
+  "_id": {
+    "$oid": "63e47cfcba0d3128f10b31b1"
+  },
+  "titulo": "Nuestro secreto",
+  "artista": "UrsulaLove",
+  "likes": 7,
+  "comentarios": [
+    {
+      "comentario": "Muy buena cancion",
+      "usuario": "MarisOneil"
+    },
+    {
+      "comentario": "Buen trabajo",
+      "usuario": "MirandaOrtiz"
+    }
+  ],
+  "genero": "Rap",
+  "duracion": 143,
+  "fecha_de_publicacion": "2022-11-07"
+},{
+  "_id": {
+    "$oid": "63e47cfcba0d3128f10b3171"
+  },
+  "titulo": "Lo que se siente",
+  "artista": "PrescottCasey",
+  "likes": 2,
+  "comentarios": [
+    {
+      "comentario": "Buen ritmo",
+      "usuario": "IdolaOsborn"
+    },
+    {
+      "comentario": "Buen trabajo",
+      "usuario": "KionaFloyd"
+    }
+  ],
+  "genero": "Electronica",
+  "duracion": 145,
+  "fecha_de_publicacion": "2022-03-14"
+},{
+  "_id": {
+    "$oid": "63e47cfcba0d3128f10b3187"
+  },
+  "titulo": "Not now",
+  "artista": "HollyRatliff",
+  "likes": 2,
+  "comentarios": [
+    {
+      "comentario": "Me encanta",
+      "usuario": "NeveGaines"
+    },
+    {
+      "comentario": "Que cancion!",
+      "usuario": "CelestePotter"
+    }
+  ],
+  "genero": "Pop",
+  "duracion": 65,
+  "fecha_de_publicacion": "2022-07-17"
+},{
+  "_id": {
+    "$oid": "63e47cfcba0d3128f10b318d"
+  },
+  "titulo": "My name",
+  "artista": "AnastasiaBernard",
+  "likes": 9,
+  "comentarios": [
+    {
+      "comentario": "Wow, me gusta",
+      "usuario": "SybillWoods"
+    },
+    {
+      "comentario": "Buen trabajo",
+      "usuario": "JustinGonzales"
+    }
+  ],
+  "genero": "Electronica",
+  "duracion": 64,
+  "fecha_de_publicacion": "2022-05-18"
+},{
+  "_id": {
+    "$oid": "63e47cfcba0d3128f10b31a5"
+  },
+  "titulo": "Time to impress",
+  "artista": "LaraRivera",
+  "likes": 7,
+  "comentarios": [
+    {
+      "comentario": "Buen trabajo",
+      "usuario": "CelestePotter"
+    },
+    {
+      "comentario": "Tienes talento",
+      "usuario": "MaisieBurgess"
+    }
+  ],
+  "genero": "Country",
+  "duracion": 188,
+  "fecha_de_publicacion": "2022-05-03"
+},{
+  "_id": {
+    "$oid": "63e47cfcba0d3128f10b31ae"
+  },
+  "titulo": "Navegando",
+  "artista": "QuinnWarren",
+  "likes": 6,
+  "comentarios": [
+    {
+      "comentario": "Me encanta",
+      "usuario": "GiselaWhite"
+    },
+    {
+      "comentario": ":) Excelente",
+      "usuario": "CharlotteGarcia"
+    }
+  ],
+  "genero": "Urbano",
+  "duracion": 162,
+  "fecha_de_publicacion": "2023-01-27"
+},{
+  "_id": {
+    "$oid": "63e47cfcba0d3128f10b31b8"
+  },
+  "titulo": "Pecado",
+  "artista": "MartinaCarlson",
+  "likes": 7,
+  "comentarios": [
+    {
+      "comentario": "Tienes talento",
+      "usuario": "HuCabrera"
+    },
+    {
+      "comentario": "Wow, me gusta",
+      "usuario": "LaraRivera"
+    }
+  ],
+  "genero": "Rock",
+  "duracion": 142,
+  "fecha_de_publicacion": "2022-06-25"
+},{
+  "_id": {
+    "$oid": "63e47cfcba0d3128f10b31c4"
+  },
+  "titulo": "No me dejes",
+  "artista": "NevadaKline",
+  "likes": 2,
+  "comentarios": [
+    {
+      "comentario": ":) Excelente",
+      "usuario": "SylvesterBeard"
+    },
+    {
+      "comentario": "Mi cancion favorita",
+      "usuario": "SelmaHicks"
+    }
+  ],
+  "genero": "Tropipop",
+  "duracion": 150,
+  "fecha_de_publicacion": "2022-06-25"
+},{
+  "_id": {
+    "$oid": "63e47cfcba0d3128f10b3176"
+  },
+  "titulo": "Just to me",
+  "artista": "KennedyMclean",
+  "likes": 1,
+  "comentarios": [
+    {
+      "comentario": "Mi cancion favorita",
+      "usuario": "HayfaWooten"
+    },
+    {
+      "comentario": "Directo a me gusta",
+      "usuario": "CoraNorton"
+    }
+  ],
+  "genero": "Tropipop",
+  "duracion": 187,
+  "fecha_de_publicacion": "2022-02-08"
+},{
+  "_id": {
+    "$oid": "63e47cfcba0d3128f10b3177"
+  },
+  "titulo": "No lo nieges",
+  "artista": "SteelLancaster",
+  "likes": 2,
+  "comentarios": [
+    {
+      "comentario": "Me encanta",
+      "usuario": "DeclanNewton"
+    },
+    {
+      "comentario": "Buen trabajo",
+      "usuario": "EmersonAshley"
+    }
+  ],
+  "genero": "Rap",
+  "duracion": 169,
+  "fecha_de_publicacion": "2022-09-16"
+},{
+  "_id": {
+    "$oid": "63e47cfcba0d3128f10b317f"
+  },
+  "titulo": "Zero",
+  "artista": "HamiltonHenson",
+  "likes": 5,
+  "comentarios": [
+    {
+      "comentario": "Wow, me gusta",
+      "usuario": "RaymondAvila"
+    },
+    {
+      "comentario": "Buen trabajo",
+      "usuario": "StevenClark"
+    }
+  ],
+  "genero": "Country",
+  "duracion": 86,
+  "fecha_de_publicacion": "2022-08-07"
+},{
+  "_id": {
+    "$oid": "63e47cfcba0d3128f10b3182"
+  },
+  "titulo": "Esta velada",
+  "artista": "ClaudiaTanner",
+  "likes": 1,
+  "comentarios": [
+    {
+      "comentario": "Buen trabajo",
+      "usuario": "ThorVazquez"
+    },
+    {
+      "comentario": "Que cancion!",
+      "usuario": "KatoDorsey"
+    }
+  ],
+  "genero": "Country",
+  "duracion": 166,
+  "fecha_de_publicacion": "2022-04-19"
+},{
+  "_id": {
+    "$oid": "63e47cfcba0d3128f10b3190"
+  },
+  "titulo": "Exotica",
+  "artista": "TimonHewitt",
+  "likes": 1,
+  "comentarios": [
+    {
+      "comentario": "Que cancion!",
+      "usuario": "SalvadorFlynn"
+    },
+    {
+      "comentario": "Buen ritmo",
+      "usuario": "LacotaBurt"
+    }
+  ],
+  "genero": "Tropipop",
+  "duracion": 129,
+  "fecha_de_publicacion": "2022-05-24"
+},{
+  "_id": {
+    "$oid": "63e47cfcba0d3128f10b3191"
+  },
+  "titulo": "Lo que necesito",
+  "artista": "JoleneVillarreal",
+  "likes": 0,
+  "comentarios": [
+    {
+      "comentario": "Cuando plubicaras mas musica",
+      "usuario": "RahimFields"
+    },
+    {
+      "comentario": "Muy buena cancion",
+      "usuario": "RaeMerritt"
+    }
+  ],
+  "genero": "Tropipop",
+  "duracion": 164,
+  "fecha_de_publicacion": "2022-11-22"
+},{
+  "_id": {
+    "$oid": "63e47cfcba0d3128f10b319d"
+  },
+  "titulo": "No me dejes",
+  "artista": "ThaneDejesus",
+  "likes": 7,
+  "comentarios": [
+    {
+      "comentario": "Wow, me gusta",
+      "usuario": "AlfredaMcclain"
+    },
+    {
+      "comentario": "Que cancion!",
+      "usuario": "ZeusBlanchard"
+    }
+  ],
+  "genero": "Pop",
+  "duracion": 67,
+  "fecha_de_publicacion": "2022-07-06"
+},{
+  "_id": {
+    "$oid": "63e47cfcba0d3128f10b31a0"
+  },
+  "titulo": "let me prove",
+  "artista": "GayGross",
+  "likes": 6,
+  "comentarios": [
+    {
+      "comentario": "Buen ritmo",
+      "usuario": "RossHughes"
+    },
+    {
+      "comentario": "Wow, me gusta",
+      "usuario": "JermaineGross"
+    }
+  ],
+  "genero": "Urbano",
+  "duracion": 146,
+  "fecha_de_publicacion": "2023-01-07"
+},{
+  "_id": {
+    "$oid": "63e47cfcba0d3128f10b31b3"
+  },
+  "titulo": "El proceso",
+  "artista": "EricBruce",
+  "likes": 4,
+  "comentarios": [
+    {
+      "comentario": "Wow, me gusta",
+      "usuario": "MontanaNorris"
+    },
+    {
+      "comentario": "Muy buena cancion",
+      "usuario": "IraBarber"
+    }
+  ],
+  "genero": "Pop",
+  "duracion": 114,
+  "fecha_de_publicacion": "2022-04-27"
+},{
+  "_id": {
+    "$oid": "63e47cfcba0d3128f10b31b6"
+  },
+  "titulo": "Not now",
+  "artista": "HollyVazquez",
+  "likes": 6,
+  "comentarios": [
+    {
+      "comentario": "Me encanta",
+      "usuario": "EmmaBarry"
+    },
+    {
+      "comentario": "Que cancion!",
+      "usuario": "AxelHinton"
+    }
+  ],
+  "genero": "Blues",
+  "duracion": 63,
+  "fecha_de_publicacion": "2022-09-26"
+},{
+  "_id": {
+    "$oid": "63e47cfcba0d3128f10b3168"
+  },
+  "titulo": "Se acabo",
+  "artista": "MaryWalls",
+  "likes": 9,
+  "comentarios": [
+    {
+      "comentario": "Buen ritmo",
+      "usuario": "CharlotteGarcia"
+    },
+    {
+      "comentario": "Que cancion!",
+      "usuario": "HedyCross"
+    }
+  ],
+  "genero": "Rap",
+  "duracion": 146,
+  "fecha_de_publicacion": "2022-12-27"
+},{
+  "_id": {
+    "$oid": "63e47cfcba0d3128f10b317b"
+  },
+  "titulo": "Oh mama",
+  "artista": "TanyaPoole",
+  "likes": 8,
+  "comentarios": [
+    {
+      "comentario": "Buen ritmo",
+      "usuario": "MufutauHowell"
+    },
+    {
+      "comentario": ":) Excelente",
+      "usuario": "MichelleMassey"
+    }
+  ],
+  "genero": "Rock",
+  "duracion": 177,
+  "fecha_de_publicacion": "2023-01-14"
+},{
+  "_id": {
+    "$oid": "63e47cfcba0d3128f10b3185"
+  },
+  "titulo": "Tu altura",
+  "artista": "SelmaHicks",
+  "likes": 6,
+  "comentarios": [
+    {
+      "comentario": "Que cancion!",
+      "usuario": "VioletHolmes"
+    },
+    {
+      "comentario": "Que cancion!",
+      "usuario": "CelestePotter"
+    }
+  ],
+  "genero": "Rock",
+  "duracion": 84,
+  "fecha_de_publicacion": "2023-01-04"
+},{
+  "_id": {
+    "$oid": "63e47cfcba0d3128f10b3188"
+  },
+  "titulo": "Flex",
+  "artista": "JamalMcgee",
+  "likes": 7,
+  "comentarios": [
+    {
+      "comentario": "Me encanta",
+      "usuario": "SophiaCallahan"
+    },
+    {
+      "comentario": "Directo a me gusta",
+      "usuario": "QuailStokes"
+    }
+  ],
+  "genero": "Rock",
+  "duracion": 82,
+  "fecha_de_publicacion": "2022-06-08"
+},{
+  "_id": {
+    "$oid": "63e47cfcba0d3128f10b31b2"
+  },
+  "titulo": "Te descubri",
+  "artista": "JustinGonzales",
+  "likes": 4,
+  "comentarios": [
+    {
+      "comentario": "Buen trabajo",
+      "usuario": "FrancisPhelps"
+    },
+    {
+      "comentario": "Buen ritmo",
+      "usuario": "MartinaCarlson"
+    }
+  ],
+  "genero": "Jazz",
+  "duracion": 120,
+  "fecha_de_publicacion": "2022-07-08"
+},{
+  "_id": {
+    "$oid": "63e47cfcba0d3128f10b31b5"
+  },
+  "titulo": "Dark side",
+  "artista": "TannerSimpson",
+  "likes": 1,
+  "comentarios": [
+    {
+      "comentario": "Tienes talento",
+      "usuario": "PrestonGould"
+    },
+    {
+      "comentario": "Directo a me gusta",
+      "usuario": "RalphKelley"
+    }
+  ],
+  "genero": "Jazz",
+  "duracion": 154,
+  "fecha_de_publicacion": "2022-11-14"
+},{
+  "_id": {
+    "$oid": "63e47cfcba0d3128f10b31b9"
+  },
+  "titulo": "let me prove",
+  "artista": "WallaceGoff",
+  "likes": 5,
+  "comentarios": [
+    {
+      "comentario": "Buen trabajo",
+      "usuario": "KaitlinMckinney"
+    },
+    {
+      "comentario": "Que cancion!",
+      "usuario": "DaltonMichael"
+    }
+  ],
+  "genero": "Pop",
+  "duracion": 85,
+  "fecha_de_publicacion": "2022-02-09"
+},{
+  "_id": {
+    "$oid": "63e47cfcba0d3128f10b316e"
+  },
+  "titulo": "Just to me",
+  "artista": "OlympiaConway",
+  "likes": 3,
+  "comentarios": [
+    {
+      "comentario": ":) Excelente",
+      "usuario": "WadeBowers"
+    },
+    {
+      "comentario": "Directo a me gusta",
+      "usuario": "KadeemHobbs"
+    }
+  ],
+  "genero": "Pop",
+  "duracion": 167,
+  "fecha_de_publicacion": "2022-04-22"
+},{
+  "_id": {
+    "$oid": "63e47cfcba0d3128f10b316f"
+  },
+  "titulo": "Lo que se siente",
+  "artista": "LoisRiddle",
+  "likes": 3,
+  "comentarios": [
+    {
+      "comentario": "Que cancion!",
+      "usuario": "LaraRivera"
+    },
+    {
+      "comentario": "Buen trabajo",
+      "usuario": "BeauPhillips"
+    }
+  ],
+  "genero": "Tropipop",
+  "duracion": 133,
+  "fecha_de_publicacion": "2022-06-20"
+},{
+  "_id": {
+    "$oid": "63e47cfcba0d3128f10b3186"
+  },
+  "titulo": "Focus",
+  "artista": "TimonPowell",
+  "likes": 4,
+  "comentarios": [
+    {
+      "comentario": "Cuando plubicaras mas musica",
+      "usuario": "AphroditeRich"
+    },
+    {
+      "comentario": "Me encanta",
+      "usuario": "MaiaStanley"
+    }
+  ],
+  "genero": "Pop",
+  "duracion": 107,
+  "fecha_de_publicacion": "2022-03-04"
+},{
+  "_id": {
+    "$oid": "63e47cfcba0d3128f10b31ac"
+  },
+  "titulo": "Exotica",
+  "artista": "DavisBurris",
+  "likes": 0,
+  "comentarios": [
+    {
+      "comentario": ":) Excelente",
+      "usuario": "FletcherLynch"
+    },
+    {
+      "comentario": "Me encanta",
+      "usuario": "YokoCampos"
+    }
+  ],
+  "genero": "Tropipop",
+  "duracion": 135,
+  "fecha_de_publicacion": "2022-03-11"
+},{
+  "_id": {
+    "$oid": "63e47cfcba0d3128f10b31ba"
+  },
+  "titulo": "Flex",
+  "artista": "KaitlinMckinney",
+  "likes": 4,
+  "comentarios": [
+    {
+      "comentario": "Cuando plubicaras mas musica",
+      "usuario": "LarissaMays"
+    },
+    {
+      "comentario": "Muy buena cancion",
+      "usuario": "DeclanNewton"
+    }
+  ],
+  "genero": "Rap",
+  "duracion": 128,
+  "fecha_de_publicacion": "2022-02-22"
+},{
+  "_id": {
+    "$oid": "63e47cfcba0d3128f10b3195"
+  },
+  "titulo": "let me prove",
+  "artista": "PaulBlackwell",
+  "likes": 7,
+  "comentarios": [
+    {
+      "comentario": ":) Excelente",
+      "usuario": "LesleyJarvis"
+    },
+    {
+      "comentario": "Tienes talento",
+      "usuario": "EmmaBarry"
+    }
+  ],
+  "genero": "Jazz",
+  "duracion": 147,
+  "fecha_de_publicacion": "2022-05-28"
+},{
+  "_id": {
+    "$oid": "63e47cfcba0d3128f10b3197"
+  },
+  "titulo": "Pecado",
+  "artista": "DeirdreMack",
+  "likes": 2,
+  "comentarios": [
+    {
+      "comentario": "Buen trabajo",
+      "usuario": "CaldwellMcintyre"
+    },
+    {
+      "comentario": "Tienes talento",
+      "usuario": "MartenaHansen"
+    }
+  ],
+  "genero": "Blues",
+  "duracion": 153,
+  "fecha_de_publicacion": "2022-11-19"
+},{
+  "_id": {
+    "$oid": "63e47cfcba0d3128f10b3199"
+  },
+  "titulo": "let me prove",
+  "artista": "ClaudiaTanner",
+  "likes": 5,
+  "comentarios": [
+    {
+      "comentario": ":) Excelente",
+      "usuario": "MartinaCarlson"
+    },
+    {
+      "comentario": "Mi cancion favorita",
+      "usuario": "ChastityWoodard"
+    }
+  ],
+  "genero": "Electronica",
+  "duracion": 82,
+  "fecha_de_publicacion": "2022-09-30"
+},{
+  "_id": {
+    "$oid": "63e47cfcba0d3128f10b31a6"
+  },
+  "titulo": "Te alcanzare",
+  "artista": "CleoJennings",
+  "likes": 2,
+  "comentarios": [
+    {
+      "comentario": "Cuando plubicaras mas musica",
+      "usuario": "XylaBates"
+    },
+    {
+      "comentario": "Me encanta",
+      "usuario": "FerrisMcclure"
+    }
+  ],
+  "genero": "Jazz",
+  "duracion": 124,
+  "fecha_de_publicacion": "2022-11-04"
+},{
+  "_id": {
+    "$oid": "63e47cfcba0d3128f10b319a"
+  },
+  "titulo": "Country club",
+  "artista": "LarissaMays",
+  "likes": 5,
+  "comentarios": [
+    {
+      "comentario": "Me encanta",
+      "usuario": "MarkMacias"
+    },
+    {
+      "comentario": "Tienes talento",
+      "usuario": "GrayOchoa"
+    }
+  ],
+  "genero": "Blues",
+  "duracion": 129,
+  "fecha_de_publicacion": "2022-08-12"
+},{
+  "_id": {
+    "$oid": "63e47cfcba0d3128f10b3164"
+  },
+  "titulo": "Ya no puedo",
+  "artista": "JelaniMolina",
+  "likes": 0,
+  "comentarios": [
+    {
+      "comentario": "Muy buena cancion",
+      "usuario": "DonnaBoone"
+    },
+    {
+      "comentario": "Cuando plubicaras mas musica",
+      "usuario": "AltheaThomas"
+    }
+  ],
+  "genero": "Jazz",
+  "duracion": 151,
+  "fecha_de_publicacion": "2022-08-16"
+},{
+  "_id": {
+    "$oid": "63e47cfcba0d3128f10b316d"
+  },
+  "titulo": "Como cobarde",
+  "artista": "RussellBranch",
+  "likes": 9,
+  "comentarios": [
+    {
+      "comentario": "Muy buena cancion",
+      "usuario": "AbigailKnapp"
+    },
+    {
+      "comentario": ":) Excelente",
+      "usuario": "AbigailKnapp"
+    }
+  ],
+  "genero": "Pop",
+  "duracion": 80,
+  "fecha_de_publicacion": "2022-10-13"
+},{
+  "_id": {
+    "$oid": "63e47cfcba0d3128f10b3169"
+  },
+  "titulo": "Heart",
+  "artista": "WylieBell",
+  "likes": 3,
+  "comentarios": [
+    {
+      "comentario": "Cuando plubicaras mas musica",
+      "usuario": "LanaSykes"
+    },
+    {
+      "comentario": "Buen ritmo",
+      "usuario": "DexterFoley"
+    }
+  ],
+  "genero": "Blues",
+  "duracion": 164,
+  "fecha_de_publicacion": "2022-02-08"
+},{
+  "_id": {
+    "$oid": "63e47cfcba0d3128f10b3174"
+  },
+  "titulo": "Ya no puedo",
+  "artista": "MaiteMiles",
+  "likes": 6,
+  "comentarios": [
+    {
+      "comentario": "Buen trabajo",
+      "usuario": "DorisLittle"
+    },
+    {
+      "comentario": "Que cancion!",
+      "usuario": "LaithFloyd"
+    }
+  ],
+  "genero": "Jazz",
+  "duracion": 151,
+  "fecha_de_publicacion": "2022-07-01"
+},{
+  "_id": {
+    "$oid": "63e47cfcba0d3128f10b318f"
+  },
+  "titulo": "11x3",
+  "artista": "MaiaStanley",
+  "likes": 7,
+  "comentarios": [
+    {
+      "comentario": "Wow, me gusta",
+      "usuario": "MaggyPatel"
+    },
+    {
+      "comentario": "Mi cancion favorita",
+      "usuario": "AnneHobbs"
+    }
+  ],
+  "genero": "Pop",
+  "duracion": 175,
+  "fecha_de_publicacion": "2022-11-26"
+},{
+  "_id": {
+    "$oid": "63e47cfcba0d3128f10b3193"
+  },
+  "titulo": "Esta velada",
+  "artista": "LarsHayes",
+  "likes": 3,
+  "comentarios": [
+    {
+      "comentario": "Muy buena cancion",
+      "usuario": "KaseemMeadows"
+    },
+    {
+      "comentario": "Directo a me gusta",
+      "usuario": "OriAlston"
+    }
+  ],
+  "genero": "Rock",
+  "duracion": 176,
+  "fecha_de_publicacion": "2022-09-12"
+},{
+  "_id": {
+    "$oid": "63e47cfcba0d3128f10b31a2"
+  },
+  "titulo": "Navegando",
+  "artista": "KennedyAguirre",
+  "likes": 9,
+  "comentarios": [
+    {
+      "comentario": "Mi cancion favorita",
+      "usuario": "RothHolden"
+    },
+    {
+      "comentario": "Cuando plubicaras mas musica",
+      "usuario": "LacotaBurt"
+    }
+  ],
+  "genero": "Tropipop",
+  "duracion": 105,
+  "fecha_de_publicacion": "2022-09-21"
+},{
+  "_id": {
+    "$oid": "63e47cfcba0d3128f10b31bb"
+  },
+  "titulo": "Te alcanzare",
+  "artista": "EdanShort",
+  "likes": 5,
+  "comentarios": [
+    {
+      "comentario": "Me encanta",
+      "usuario": "PalomaTerrell"
+    },
+    {
+      "comentario": "Tienes talento",
+      "usuario": "GradySpencer"
+    }
+  ],
+  "genero": "Rock",
+  "duracion": 161,
+  "fecha_de_publicacion": "2022-05-31"
+},{
+  "_id": {
+    "$oid": "63e47cfcba0d3128f10b31bc"
+  },
+  "titulo": "Esta velada",
+  "artista": "SladeSparks",
+  "likes": 4,
+  "comentarios": [
+    {
+      "comentario": "Me encanta",
+      "usuario": "MyraColon"
+    },
+    {
+      "comentario": "Que cancion!",
+      "usuario": "AmenaSanders"
+    }
+  ],
+  "genero": "Blues",
+  "duracion": 143,
+  "fecha_de_publicacion": "2022-02-19"
+},{
+  "_id": {
+    "$oid": "63e47cfcba0d3128f10b31c7"
+  },
+  "titulo": "Perfecta",
+  "artista": "LarsHayes",
+  "likes": 2,
+  "comentarios": [
+    {
+      "comentario": "Que cancion!",
+      "usuario": "AbelBrooks"
+    },
+    {
+      "comentario": "Buen trabajo",
+      "usuario": "RigelFreeman"
+    }
+  ],
+  "genero": "Blues",
+  "duracion": 180,
+  "fecha_de_publicacion": "2022-09-25"
+},{
+  "_id": {
+    "$oid": "63e47cfcba0d3128f10b3173"
+  },
+  "titulo": "Drown me",
+  "artista": "HowardMarks",
+  "likes": 8,
+  "comentarios": [
+    {
+      "comentario": "Muy buena cancion",
+      "usuario": "JudahParks"
+    },
+    {
+      "comentario": "Me encanta",
+      "usuario": "XandraRobles"
+    }
+  ],
+  "genero": "Blues",
+  "duracion": 172,
+  "fecha_de_publicacion": "2022-08-04"
+},{
+  "_id": {
+    "$oid": "63e47cfcba0d3128f10b3181"
+  },
+  "titulo": "Tus besos",
+  "artista": "SachaCain",
+  "likes": 0,
+  "comentarios": [
+    {
+      "comentario": "Muy buena cancion",
+      "usuario": "DeannaRogers"
+    },
+    {
+      "comentario": "Buen ritmo",
+      "usuario": "CairoBeasley"
+    }
+  ],
+  "genero": "Country",
+  "duracion": 70,
+  "fecha_de_publicacion": "2022-02-01"
+},{
+  "_id": {
+    "$oid": "63e47cfcba0d3128f10b31ad"
+  },
+  "titulo": "Not now",
+  "artista": "GloriaHorne",
+  "likes": 1,
+  "comentarios": [
+    {
+      "comentario": "Cuando plubicaras mas musica",
+      "usuario": "ShanaKelley"
+    },
+    {
+      "comentario": "Directo a me gusta",
+      "usuario": "IsaiahHenson"
+    }
+  ],
+  "genero": "Rock",
+  "duracion": 136,
+  "fecha_de_publicacion": "2022-10-20"
+},{
+  "_id": {
+    "$oid": "63e47cfcba0d3128f10b31bf"
+  },
+  "titulo": "Mil fantasias",
+  "artista": "KuameCarrillo",
+  "likes": 1,
+  "comentarios": [
+    {
+      "comentario": "Me encanta",
+      "usuario": "ColbyBrennan"
+    },
+    {
+      "comentario": "Me encanta",
+      "usuario": "GrayOchoa"
+    }
+  ],
+  "genero": "Country",
+  "duracion": 67,
+  "fecha_de_publicacion": "2022-03-25"
+},{
+  "_id": {
+    "$oid": "63e47cfcba0d3128f10b31c3"
+  },
+  "titulo": "My head",
+  "artista": "KuameCarrillo",
+  "likes": 7,
+  "comentarios": [
+    {
+      "comentario": "Que cancion!",
+      "usuario": "ThorVazquez"
+    },
+    {
+      "comentario": "Cuando plubicaras mas musica",
+      "usuario": "AzaliaPittman"
+    }
+  ],
+  "genero": "Electronica",
+  "duracion": 164,
+  "fecha_de_publicacion": "2022-02-10"
+},{
+  "_id": {
+    "$oid": "63e48076ba0d3128f10b31d7"
+  },
+  "titulo": "Por ultima vez",
+  "artista": "TeaganSantos",
+  "likes": 9,
+  "comentarios": [
+    {
+      "comentario": "Cuando plubicaras mas musica",
+      "usuario": "KarlyDickson"
+    }
+  ],
+  "genero": "Blues",
+  "duracion": 163,
+  "fecha_de_publicacion": "2022-08-26"
+},{
+  "_id": {
+    "$oid": "63e48076ba0d3128f10b31ce"
+  },
+  "titulo": "Gone",
+  "artista": "AnastasiaBernard",
+  "likes": 6,
+  "comentarios": [
+    {
+      "comentario": "Wow, me gusta",
+      "usuario": "PrestonGould"
+    }
+  ],
+  "genero": "Rock",
+  "duracion": 89,
+  "fecha_de_publicacion": "2023-01-16"
+},{
+  "_id": {
+    "$oid": "63e48076ba0d3128f10b31d9"
+  },
+  "titulo": "About her",
+  "artista": "BrodyTorres",
+  "likes": 2,
+  "comentarios": [
+    {
+      "comentario": "Buen ritmo",
+      "usuario": "EveByers"
+    }
+  ],
+  "genero": "Rap",
+  "duracion": 73,
+  "fecha_de_publicacion": "2023-01-24"
+},{
+  "_id": {
+    "$oid": "63e48076ba0d3128f10b31e4"
+  },
+  "titulo": "Rosa",
+  "artista": "ThaneHaynes",
+  "likes": 2,
+  "comentarios": [
+    {
+      "comentario": "Que cancion!",
+      "usuario": "CaesarOneil"
+    }
+  ],
+  "genero": "Electronica",
+  "duracion": 167,
+  "fecha_de_publicacion": "2022-07-24"
+},{
+  "_id": {
+    "$oid": "63e48076ba0d3128f10b31f0"
+  },
+  "titulo": "Crime",
+  "artista": "TimonCollier",
+  "likes": 9,
+  "comentarios": [
+    {
+      "comentario": "Directo a me gusta",
+      "usuario": "KuameBoone"
+    }
+  ],
+  "genero": "Tropipop",
+  "duracion": 114,
+  "fecha_de_publicacion": "2022-03-20"
+},{
+  "_id": {
+    "$oid": "63e48076ba0d3128f10b3221"
+  },
+  "titulo": "Work it out",
+  "artista": "JamaliaBurnett",
+  "likes": 3,
+  "comentarios": [
+    {
+      "comentario": "Mi cancion favorita",
+      "usuario": "IsaiahHenson"
+    }
+  ],
+  "genero": "Jazz",
+  "duracion": 101,
+  "fecha_de_publicacion": "2022-07-18"
+},{
+  "_id": {
+    "$oid": "63e48076ba0d3128f10b31eb"
+  },
+  "titulo": "War zone",
+  "artista": "CailinGentry",
+  "likes": 9,
+  "comentarios": [
+    {
+      "comentario": ":) Excelente",
+      "usuario": "EmmanuelEmerson"
+    }
+  ],
+  "genero": "Urbano",
+  "duracion": 107,
+  "fecha_de_publicacion": "2022-08-28"
+},{
+  "_id": {
+    "$oid": "63e48076ba0d3128f10b31f6"
+  },
+  "titulo": "Playing our song",
+  "artista": "UrsulaLove",
+  "likes": 7,
+  "comentarios": [
+    {
+      "comentario": "Wow, me gusta",
+      "usuario": "JaymeSlater"
+    }
+  ],
+  "genero": "Rap",
+  "duracion": 175,
+  "fecha_de_publicacion": "2022-07-04"
+},{
+  "_id": {
+    "$oid": "63e48076ba0d3128f10b3200"
+  },
+  "titulo": "Bad reputation",
+  "artista": "GregoryBryan",
+  "likes": 0,
+  "comentarios": [
+    {
+      "comentario": "Buen ritmo",
+      "usuario": "BaxterRosario"
+    }
+  ],
+  "genero": "Country",
+  "duracion": 140,
+  "fecha_de_publicacion": "2022-08-18"
+},{
+  "_id": {
+    "$oid": "63e48076ba0d3128f10b3206"
+  },
+  "titulo": "Work it out",
+  "artista": "RubyWallace",
+  "likes": 1,
+  "comentarios": [
+    {
+      "comentario": "Cuando plubicaras mas musica",
+      "usuario": "GarethBright"
+    }
+  ],
+  "genero": "Blues",
+  "duracion": 140,
+  "fecha_de_publicacion": "2022-09-23"
+},{
+  "_id": {
+    "$oid": "63e48076ba0d3128f10b320a"
+  },
+  "titulo": "Pretty tough",
+  "artista": "RhiannonChase",
+  "likes": 8,
+  "comentarios": [
+    {
+      "comentario": "Buen trabajo",
+      "usuario": "SydneyMcdowell"
+    }
+  ],
+  "genero": "Tropipop",
+  "duracion": 69,
+  "fecha_de_publicacion": "2022-11-19"
+},{
+  "_id": {
+    "$oid": "63e48076ba0d3128f10b3224"
+  },
+  "titulo": "Heater",
+  "artista": "HowardMarks",
+  "likes": 7,
+  "comentarios": [
+    {
+      "comentario": "Wow, me gusta",
+      "usuario": "DelilahWilkins"
+    }
+  ],
+  "genero": "Rock",
+  "duracion": 128,
+  "fecha_de_publicacion": "2022-03-06"
+},{
+  "_id": {
+    "$oid": "63e48076ba0d3128f10b3228"
+  },
+  "titulo": "Con el tiempo",
+  "artista": "RobertFaulkner",
+  "likes": 2,
+  "comentarios": [
+    {
+      "comentario": "Me encanta",
+      "usuario": "MerrittMcintyre"
+    }
+  ],
+  "genero": "Country",
+  "duracion": 111,
+  "fecha_de_publicacion": "2022-10-08"
+},{
+  "_id": {
+    "$oid": "63e48076ba0d3128f10b31e9"
+  },
+  "titulo": "Make you smile",
+  "artista": "UriahLane",
+  "likes": 4,
+  "comentarios": [
+    {
+      "comentario": "Buen ritmo",
+      "usuario": "FrancisDickson"
+    }
+  ],
+  "genero": "Pop",
+  "duracion": 157,
+  "fecha_de_publicacion": "2023-01-20"
+},{
+  "_id": {
+    "$oid": "63e48076ba0d3128f10b31d2"
+  },
+  "titulo": "Pretty tough",
+  "artista": "LacotaBurt",
+  "likes": 3,
+  "comentarios": [
+    {
+      "comentario": "Wow, me gusta",
+      "usuario": "ScottCook"
+    }
+  ],
+  "genero": "Urbano",
+  "duracion": 60,
+  "fecha_de_publicacion": "2022-04-17"
+},{
+  "_id": {
+    "$oid": "63e48076ba0d3128f10b31d1"
+  },
+  "titulo": "How to forget",
+  "artista": "MaggieDunn",
+  "likes": 2,
+  "comentarios": [
+    {
+      "comentario": "Me encanta",
+      "usuario": "DanaNoel"
+    }
+  ],
+  "genero": "Pop",
+  "duracion": 123,
+  "fecha_de_publicacion": "2022-11-05"
+},{
+  "_id": {
+    "$oid": "63e48076ba0d3128f10b31d6"
+  },
+  "titulo": "Ella",
+  "artista": "HuCabrera",
+  "likes": 1,
+  "comentarios": [
+    {
+      "comentario": "Wow, me gusta",
+      "usuario": "ChaimBerry"
+    }
+  ],
+  "genero": "Electronica",
+  "duracion": 148,
+  "fecha_de_publicacion": "2022-06-06"
+},{
+  "_id": {
+    "$oid": "63e48076ba0d3128f10b31fe"
+  },
+  "titulo": "Morado",
+  "artista": "JillianCooke",
+  "likes": 0,
+  "comentarios": [
+    {
+      "comentario": "Buen ritmo",
+      "usuario": "AshtonGilliam"
+    }
+  ],
+  "genero": "Jazz",
+  "duracion": 149,
+  "fecha_de_publicacion": "2022-08-02"
+},{
+  "_id": {
+    "$oid": "63e48076ba0d3128f10b3202"
+  },
+  "titulo": "For you",
+  "artista": "CullenRomero",
+  "likes": 9,
+  "comentarios": [
+    {
+      "comentario": "Buen ritmo",
+      "usuario": "AthenaLane"
+    }
+  ],
+  "genero": "Rap",
+  "duracion": 91,
+  "fecha_de_publicacion": "2022-10-16"
+},{
+  "_id": {
+    "$oid": "63e48076ba0d3128f10b3203"
+  },
+  "titulo": "Show up",
+  "artista": "JordanBullock",
+  "likes": 7,
+  "comentarios": [
+    {
+      "comentario": "Buen trabajo",
+      "usuario": "ZacharyBeard"
+    }
+  ],
+  "genero": "Electronica",
+  "duracion": 92,
+  "fecha_de_publicacion": "2022-10-14"
+},{
+  "_id": {
+    "$oid": "63e48076ba0d3128f10b31dd"
+  },
+  "titulo": "Hey",
+  "artista": "ChandaAlexander",
+  "likes": 0,
+  "comentarios": [
+    {
+      "comentario": "Buen ritmo",
+      "usuario": "KelsieBrennan"
+    }
+  ],
+  "genero": "Electronica",
+  "duracion": 112,
+  "fecha_de_publicacion": "2022-11-13"
+},{
+  "_id": {
+    "$oid": "63e48076ba0d3128f10b31f2"
+  },
+  "titulo": "La amarilla",
+  "artista": "FarrahHoover",
+  "likes": 4,
+  "comentarios": [
+    {
+      "comentario": "Que cancion!",
+      "usuario": "KuameCarrillo"
+    }
+  ],
+  "genero": "Jazz",
+  "duracion": 165,
+  "fecha_de_publicacion": "2022-06-21"
+},{
+  "_id": {
+    "$oid": "63e48076ba0d3128f10b31f9"
+  },
+  "titulo": "Show up",
+  "artista": "ThaddeusByrd",
+  "likes": 7,
+  "comentarios": [
+    {
+      "comentario": ":) Excelente",
+      "usuario": "AltheaThomas"
+    }
+  ],
+  "genero": "Rock",
+  "duracion": 70,
+  "fecha_de_publicacion": "2022-03-20"
+},{
+  "_id": {
+    "$oid": "63e48076ba0d3128f10b320f"
+  },
+  "titulo": "Ground",
+  "artista": "XavierKerr",
+  "likes": 9,
+  "comentarios": [
+    {
+      "comentario": "Me encanta",
+      "usuario": "IraBuck"
+    }
+  ],
+  "genero": "Electronica",
+  "duracion": 166,
+  "fecha_de_publicacion": "2022-09-30"
+},{
+  "_id": {
+    "$oid": "63e48076ba0d3128f10b3214"
+  },
+  "titulo": "Machine gun",
+  "artista": "HuCabrera",
+  "likes": 5,
+  "comentarios": [
+    {
+      "comentario": "Mi cancion favorita",
+      "usuario": "MartenaHansen"
+    }
+  ],
+  "genero": "Urbano",
+  "duracion": 126,
+  "fecha_de_publicacion": "2022-03-14"
+},{
+  "_id": {
+    "$oid": "63e48076ba0d3128f10b321a"
+  },
+  "titulo": "Crime",
+  "artista": "MelvinWilliam",
+  "likes": 3,
+  "comentarios": [
+    {
+      "comentario": "Buen trabajo",
+      "usuario": "ScottCole"
+    }
+  ],
+  "genero": "Rap",
+  "duracion": 147,
+  "fecha_de_publicacion": "2022-09-18"
+},{
+  "_id": {
+    "$oid": "63e48076ba0d3128f10b321c"
+  },
+  "titulo": "Get use to",
+  "artista": "RaeMerritt",
+  "likes": 0,
+  "comentarios": [
+    {
+      "comentario": "Mi cancion favorita",
+      "usuario": "ZoeHall"
+    }
+  ],
+  "genero": "Rap",
+  "duracion": 74,
+  "fecha_de_publicacion": "2022-05-12"
+},{
+  "_id": {
+    "$oid": "63e48076ba0d3128f10b31d4"
+  },
+  "titulo": "Te dejo solita",
+  "artista": "LarissaMays",
+  "likes": 7,
+  "comentarios": [
+    {
+      "comentario": "Buen ritmo",
+      "usuario": "SalvadorChan"
+    }
+  ],
+  "genero": "Pop",
+  "duracion": 94,
+  "fecha_de_publicacion": "2022-05-05"
+},{
+  "_id": {
+    "$oid": "63e48076ba0d3128f10b31da"
+  },
+  "titulo": "Dont try to call",
+  "artista": "AlfredaTalley",
+  "likes": 8,
+  "comentarios": [
+    {
+      "comentario": "Buen trabajo",
+      "usuario": "KatelynFischer"
+    }
+  ],
+  "genero": "Rock",
+  "duracion": 113,
+  "fecha_de_publicacion": "2022-10-24"
+},{
+  "_id": {
+    "$oid": "63e48076ba0d3128f10b31ec"
+  },
+  "titulo": "Pretty tough",
+  "artista": "RalphKelley",
+  "likes": 5,
+  "comentarios": [
+    {
+      "comentario": "Buen ritmo",
+      "usuario": "PrescottCasey"
+    }
+  ],
+  "genero": "Electronica",
+  "duracion": 177,
+  "fecha_de_publicacion": "2022-10-01"
+},{
+  "_id": {
+    "$oid": "63e48076ba0d3128f10b31fb"
+  },
+  "titulo": "Another way",
+  "artista": "LuciusRatliff",
+  "likes": 6,
+  "comentarios": [
+    {
+      "comentario": "Cuando plubicaras mas musica",
+      "usuario": "KarlyDickson"
+    }
+  ],
+  "genero": "Urbano",
+  "duracion": 162,
+  "fecha_de_publicacion": "2023-01-04"
+},{
+  "_id": {
+    "$oid": "63e48076ba0d3128f10b320b"
+  },
+  "titulo": "No one else",
+  "artista": "RossHughes",
+  "likes": 9,
+  "comentarios": [
+    {
+      "comentario": "Directo a me gusta",
+      "usuario": "KelsieBrennan"
+    }
+  ],
+  "genero": "Pop",
+  "duracion": 149,
+  "fecha_de_publicacion": "2022-03-26"
+},{
+  "_id": {
+    "$oid": "63e48076ba0d3128f10b3215"
+  },
+  "titulo": "Rosa",
+  "artista": "DonnaBoone",
+  "likes": 0,
+  "comentarios": [
+    {
+      "comentario": "Cuando plubicaras mas musica",
+      "usuario": "RyleeChan"
+    }
+  ],
+  "genero": "Country",
+  "duracion": 67,
+  "fecha_de_publicacion": "2022-09-04"
+},{
+  "_id": {
+    "$oid": "63e48076ba0d3128f10b321d"
+  },
+  "titulo": "Blackout",
+  "artista": "JillianCooke",
+  "likes": 6,
+  "comentarios": [
+    {
+      "comentario": "Directo a me gusta",
+      "usuario": "MayaBenton"
+    }
+  ],
+  "genero": "Rock",
+  "duracion": 147,
+  "fecha_de_publicacion": "2022-03-20"
+},{
+  "_id": {
+    "$oid": "63e48076ba0d3128f10b3222"
+  },
+  "titulo": "Sing along",
+  "artista": "ChelseaMassey",
+  "likes": 6,
+  "comentarios": [
+    {
+      "comentario": ":) Excelente",
+      "usuario": "EmmaBarry"
+    }
+  ],
+  "genero": "Electronica",
+  "duracion": 104,
+  "fecha_de_publicacion": "2022-12-15"
+},{
+  "_id": {
+    "$oid": "63e48076ba0d3128f10b31de"
+  },
+  "titulo": "Goldmine",
+  "artista": "ZeleniaNolan",
+  "likes": 6,
+  "comentarios": [
+    {
+      "comentario": "Me encanta",
+      "usuario": "HiramSkinner"
+    }
+  ],
+  "genero": "Country",
+  "duracion": 133,
+  "fecha_de_publicacion": "2022-03-14"
+},{
+  "_id": {
+    "$oid": "63e48076ba0d3128f10b31e5"
+  },
+  "titulo": "By the phone",
+  "artista": "HayfaChurch",
+  "likes": 7,
+  "comentarios": [
+    {
+      "comentario": "Directo a me gusta",
+      "usuario": "HayfaCraig"
+    }
+  ],
+  "genero": "Pop",
+  "duracion": 171,
+  "fecha_de_publicacion": "2022-08-30"
+},{
+  "_id": {
+    "$oid": "63e48076ba0d3128f10b31e7"
+  },
+  "titulo": "Naturally",
+  "artista": "GriffithCarpenter",
+  "likes": 9,
+  "comentarios": [
+    {
+      "comentario": "Directo a me gusta",
+      "usuario": "CallumWilkerson"
+    }
+  ],
+  "genero": "Electronica",
+  "duracion": 131,
+  "fecha_de_publicacion": "2022-11-28"
+},{
+  "_id": {
+    "$oid": "63e48076ba0d3128f10b3211"
+  },
+  "titulo": "By the phone",
+  "artista": "SheaParker",
+  "likes": 3,
+  "comentarios": [
+    {
+      "comentario": "Tienes talento",
+      "usuario": "NoelaniStone"
+    }
+  ],
+  "genero": "Blues",
+  "duracion": 181,
+  "fecha_de_publicacion": "2022-07-12"
+},{
+  "_id": {
+    "$oid": "63e48076ba0d3128f10b3216"
+  },
+  "titulo": "Serenata",
+  "artista": "IdolaOsborn",
+  "likes": 4,
+  "comentarios": [
+    {
+      "comentario": "Buen ritmo",
+      "usuario": "LeeWilliams"
+    }
+  ],
+  "genero": "Electronica",
+  "duracion": 90,
+  "fecha_de_publicacion": "2022-10-31"
+},{
+  "_id": {
+    "$oid": "63e48076ba0d3128f10b3217"
+  },
+  "titulo": "I might die",
+  "artista": "MiraSimon",
+  "likes": 9,
+  "comentarios": [
+    {
+      "comentario": "Muy buena cancion",
+      "usuario": "RothHolden"
+    }
+  ],
+  "genero": "Pop",
+  "duracion": 137,
+  "fecha_de_publicacion": "2023-01-01"
+},{
+  "_id": {
+    "$oid": "63e48076ba0d3128f10b321f"
+  },
+  "titulo": "Mad game",
+  "artista": "OliverHopper",
+  "likes": 5,
+  "comentarios": [
+    {
+      "comentario": "Buen ritmo",
+      "usuario": "DillonHardin"
+    }
+  ],
+  "genero": "Urbano",
+  "duracion": 184,
+  "fecha_de_publicacion": "2022-05-26"
+},{
+  "_id": {
+    "$oid": "63e48076ba0d3128f10b31cd"
+  },
+  "titulo": "Rosa",
+  "artista": "AlinePrice",
+  "likes": 3,
+  "comentarios": [
+    {
+      "comentario": "Buen ritmo",
+      "usuario": "QuynNorton"
+    }
+  ],
+  "genero": "Tropipop",
+  "duracion": 176,
+  "fecha_de_publicacion": "2022-05-25"
+},{
+  "_id": {
+    "$oid": "63e48076ba0d3128f10b31e3"
+  },
+  "titulo": "Drunk",
+  "artista": "OliverHopper",
+  "likes": 3,
+  "comentarios": [
+    {
+      "comentario": "Mi cancion favorita",
+      "usuario": "AlinePrice"
+    }
+  ],
+  "genero": "Blues",
+  "duracion": 131,
+  "fecha_de_publicacion": "2022-08-20"
+},{
+  "_id": {
+    "$oid": "63e48076ba0d3128f10b31c9"
+  },
+  "titulo": "Rosa",
+  "artista": "JenetteMcneil",
+  "likes": 4,
+  "comentarios": [
+    {
+      "comentario": "Wow, me gusta",
+      "usuario": "BrendenJoseph"
+    }
+  ],
+  "genero": "Pop",
+  "duracion": 147,
+  "fecha_de_publicacion": "2022-07-08"
+},{
+  "_id": {
+    "$oid": "63e48076ba0d3128f10b31cf"
+  },
+  "titulo": "Siempre tarde",
+  "artista": "AlfredaTalley",
+  "likes": 5,
+  "comentarios": [
+    {
+      "comentario": "Que cancion!",
+      "usuario": "LeeWilliams"
+    }
+  ],
+  "genero": "Blues",
+  "duracion": 93,
+  "fecha_de_publicacion": "2022-07-26"
+},{
+  "_id": {
+    "$oid": "63e48076ba0d3128f10b31e8"
+  },
+  "titulo": "Keep watching",
+  "artista": "EveByers",
+  "likes": 0,
+  "comentarios": [
+    {
+      "comentario": "Wow, me gusta",
+      "usuario": "CobyBoyle"
+    }
+  ],
+  "genero": "Country",
+  "duracion": 130,
+  "fecha_de_publicacion": "2022-03-18"
+},{
+  "_id": {
+    "$oid": "63e48076ba0d3128f10b3205"
+  },
+  "titulo": "I hope",
+  "artista": "AlexisMckay",
+  "likes": 5,
+  "comentarios": [
+    {
+      "comentario": "Que cancion!",
+      "usuario": "ClarePatterson"
+    }
+  ],
+  "genero": "Urbano",
+  "duracion": 123,
+  "fecha_de_publicacion": "2023-01-18"
+},{
+  "_id": {
+    "$oid": "63e48076ba0d3128f10b320c"
+  },
+  "titulo": "Morado",
+  "artista": "JennaAcosta",
+  "likes": 0,
+  "comentarios": [
+    {
+      "comentario": "Mi cancion favorita",
+      "usuario": "GageChen"
+    }
+  ],
+  "genero": "Country",
+  "duracion": 95,
+  "fecha_de_publicacion": "2022-12-06"
+},{
+  "_id": {
+    "$oid": "63e48076ba0d3128f10b320d"
+  },
+  "titulo": "Never cry",
+  "artista": "BrendenJoseph",
+  "likes": 7,
+  "comentarios": [
+    {
+      "comentario": "Mi cancion favorita",
+      "usuario": "RigelFreeman"
+    }
+  ],
+  "genero": "Jazz",
+  "duracion": 181,
+  "fecha_de_publicacion": "2023-01-13"
+},{
+  "_id": {
+    "$oid": "63e48076ba0d3128f10b3210"
+  },
+  "titulo": "Fame",
+  "artista": "JamaliaBurnett",
+  "likes": 0,
+  "comentarios": [
+    {
+      "comentario": "Tienes talento",
+      "usuario": "ReubenWilliams"
+    }
+  ],
+  "genero": "Jazz",
+  "duracion": 88,
+  "fecha_de_publicacion": "2023-01-31"
+},{
+  "_id": {
+    "$oid": "63e48076ba0d3128f10b3220"
+  },
+  "titulo": "Another way",
+  "artista": "JoleneVillarreal",
+  "likes": 8,
+  "comentarios": [
+    {
+      "comentario": "Me encanta",
+      "usuario": "GannonSchultz"
+    }
+  ],
+  "genero": "Country",
+  "duracion": 90,
+  "fecha_de_publicacion": "2022-08-08"
+},{
+  "_id": {
+    "$oid": "63e48076ba0d3128f10b3225"
+  },
+  "titulo": "Lie to me",
+  "artista": "TanyaPoole",
+  "likes": 6,
+  "comentarios": [
+    {
+      "comentario": "Mi cancion favorita",
+      "usuario": "BaxterHouse"
+    }
+  ],
+  "genero": "Pop",
+  "duracion": 141,
+  "fecha_de_publicacion": "2022-12-23"
+},{
+  "_id": {
+    "$oid": "63e48076ba0d3128f10b31fa"
+  },
+  "titulo": "Machine gun",
+  "artista": "HedyNguyen",
+  "likes": 5,
+  "comentarios": [
+    {
+      "comentario": "Mi cancion favorita",
+      "usuario": "KennedyAguirre"
+    }
+  ],
+  "genero": "Rap",
+  "duracion": 64,
+  "fecha_de_publicacion": "2022-05-08"
+},{
+  "_id": {
+    "$oid": "63e48076ba0d3128f10b3207"
+  },
+  "titulo": "Goldmine",
+  "artista": "DaraBowen",
+  "likes": 3,
+  "comentarios": [
+    {
+      "comentario": "Muy buena cancion",
+      "usuario": "GayGross"
+    }
+  ],
+  "genero": "Urbano",
+  "duracion": 142,
+  "fecha_de_publicacion": "2022-11-21"
+},{
+  "_id": {
+    "$oid": "63e48076ba0d3128f10b320e"
+  },
+  "titulo": "Wildest dreams",
+  "artista": "VioletGiles",
+  "likes": 3,
+  "comentarios": [
+    {
+      "comentario": "Muy buena cancion",
+      "usuario": "KatoDorsey"
+    }
+  ],
+  "genero": "Rap",
+  "duracion": 77,
+  "fecha_de_publicacion": "2022-08-03"
+},{
+  "_id": {
+    "$oid": "63e48076ba0d3128f10b3229"
+  },
+  "titulo": "Why?",
+  "artista": "SybillWoods",
+  "likes": 0,
+  "comentarios": [
+    {
+      "comentario": "Tienes talento",
+      "usuario": "UriahLane"
+    }
+  ],
+  "genero": "Rock",
+  "duracion": 170,
+  "fecha_de_publicacion": "2022-05-17"
+},{
+  "_id": {
+    "$oid": "63e48076ba0d3128f10b31d0"
+  },
+  "titulo": "Dont try to call",
+  "artista": "RussellBranch",
+  "likes": 0,
+  "comentarios": [
+    {
+      "comentario": "Tienes talento",
+      "usuario": "CailinGentry"
+    }
+  ],
+  "genero": "Jazz",
+  "duracion": 169,
+  "fecha_de_publicacion": "2022-09-17"
+},{
+  "_id": {
+    "$oid": "63e48076ba0d3128f10b31f7"
+  },
+  "titulo": "Morado",
+  "artista": "VannaPollard",
+  "likes": 5,
+  "comentarios": [
+    {
+      "comentario": "Muy buena cancion",
+      "usuario": "ColbyBrennan"
+    }
+  ],
+  "genero": "Rap",
+  "duracion": 90,
+  "fecha_de_publicacion": "2022-03-08"
+},{
+  "_id": {
+    "$oid": "63e48076ba0d3128f10b31fc"
+  },
+  "titulo": "For you",
+  "artista": "ChaimBerry",
+  "likes": 0,
+  "comentarios": [
+    {
+      "comentario": "Tienes talento",
+      "usuario": "CoraNorton"
+    }
+  ],
+  "genero": "Electronica",
+  "duracion": 110,
+  "fecha_de_publicacion": "2023-01-09"
+},{
+  "_id": {
+    "$oid": "63e48076ba0d3128f10b31db"
+  },
+  "titulo": "Pretty tough",
+  "artista": "ArmandBrennan",
+  "likes": 7,
+  "comentarios": [
+    {
+      "comentario": "Buen trabajo",
+      "usuario": "FarrahHoover"
+    }
+  ],
+  "genero": "Tropipop",
+  "duracion": 136,
+  "fecha_de_publicacion": "2023-01-11"
+},{
+  "_id": {
+    "$oid": "63e48076ba0d3128f10b31e2"
+  },
+  "titulo": "How to forget",
+  "artista": "AmalJackson",
+  "likes": 3,
+  "comentarios": [
+    {
+      "comentario": "Muy buena cancion",
+      "usuario": "PaulBlackwell"
+    }
+  ],
+  "genero": "Urbano",
+  "duracion": 96,
+  "fecha_de_publicacion": "2022-11-02"
+},{
+  "_id": {
+    "$oid": "63e48076ba0d3128f10b31ef"
+  },
+  "titulo": "Another life",
+  "artista": "GageChen",
+  "likes": 7,
+  "comentarios": [
+    {
+      "comentario": "Muy buena cancion",
+      "usuario": "HarrietJefferson"
+    }
+  ],
+  "genero": "Tropipop",
+  "duracion": 68,
+  "fecha_de_publicacion": "2022-03-20"
+},{
+  "_id": {
+    "$oid": "63e48076ba0d3128f10b3213"
+  },
+  "titulo": "Good",
+  "artista": "IraBarber",
+  "likes": 4,
+  "comentarios": [
+    {
+      "comentario": "Tienes talento",
+      "usuario": "EmmaBarry"
+    }
+  ],
+  "genero": "Rock",
+  "duracion": 174,
+  "fecha_de_publicacion": "2022-04-10"
+},{
+  "_id": {
+    "$oid": "63e48076ba0d3128f10b31d5"
+  },
+  "titulo": "Wildest dreams",
+  "artista": "HannaFlynn",
+  "likes": 9,
+  "comentarios": [
+    {
+      "comentario": "Directo a me gusta",
+      "usuario": "MirandaBrowning"
+    }
+  ],
+  "genero": "Pop",
+  "duracion": 114,
+  "fecha_de_publicacion": "2023-01-20"
+},{
+  "_id": {
+    "$oid": "63e48076ba0d3128f10b31c8"
+  },
+  "titulo": "Rosa",
+  "artista": "LuciusRatliff",
+  "likes": 3,
+  "comentarios": [
+    {
+      "comentario": "Mi cancion favorita",
+      "usuario": "HyattClay"
+    }
+  ],
+  "genero": "Pop",
+  "duracion": 140,
+  "fecha_de_publicacion": "2022-09-28"
+},{
+  "_id": {
+    "$oid": "63e48076ba0d3128f10b31d8"
+  },
+  "titulo": "Come back",
+  "artista": "MyraColon",
+  "likes": 2,
+  "comentarios": [
+    {
+      "comentario": "Me encanta",
+      "usuario": "CelesteDiaz"
+    }
+  ],
+  "genero": "Urbano",
+  "duracion": 97,
+  "fecha_de_publicacion": "2022-12-25"
+},{
+  "_id": {
+    "$oid": "63e48076ba0d3128f10b31cc"
+  },
+  "titulo": "For you",
+  "artista": "JordanSantos",
+  "likes": 8,
+  "comentarios": [
+    {
+      "comentario": "Wow, me gusta",
+      "usuario": "FreyaHunt"
+    }
+  ],
+  "genero": "Country",
+  "duracion": 96,
+  "fecha_de_publicacion": "2022-02-17"
+},{
+  "_id": {
+    "$oid": "63e48076ba0d3128f10b31cb"
+  },
+  "titulo": "Show up",
+  "artista": "HarrietBond",
+  "likes": 1,
+  "comentarios": [
+    {
+      "comentario": "Me encanta",
+      "usuario": "AnneHobbs"
+    }
+  ],
+  "genero": "Rap",
+  "duracion": 127,
+  "fecha_de_publicacion": "2022-12-06"
+},{
+  "_id": {
+    "$oid": "63e48076ba0d3128f10b31e6"
+  },
+  "titulo": "Another life",
+  "artista": "KimCrosby",
+  "likes": 6,
+  "comentarios": [
+    {
+      "comentario": "Me encanta",
+      "usuario": "LuciusRatliff"
+    }
+  ],
+  "genero": "Electronica",
+  "duracion": 95,
+  "fecha_de_publicacion": "2022-02-06"
+},{
+  "_id": {
+    "$oid": "63e48076ba0d3128f10b31dc"
+  },
+  "titulo": "Hope to cheat",
+  "artista": "OliverHopper",
+  "likes": 4,
+  "comentarios": [
+    {
+      "comentario": "Que cancion!",
+      "usuario": "RebeccaMcdaniel"
+    }
+  ],
+  "genero": "Jazz",
+  "duracion": 177,
+  "fecha_de_publicacion": "2023-01-26"
+},{
+  "_id": {
+    "$oid": "63e48076ba0d3128f10b31ea"
+  },
+  "titulo": "Hey",
+  "artista": "LeoBonner",
+  "likes": 3,
+  "comentarios": [
+    {
+      "comentario": "Buen trabajo",
+      "usuario": "GloriaHorne"
+    }
+  ],
+  "genero": "Rock",
+  "duracion": 184,
+  "fecha_de_publicacion": "2022-09-11"
+},{
+  "_id": {
+    "$oid": "63e48076ba0d3128f10b31f3"
+  },
+  "titulo": "Take me down",
+  "artista": "RileyBarnett",
+  "likes": 9,
+  "comentarios": [
+    {
+      "comentario": "Que cancion!",
+      "usuario": "RalphGood"
+    }
+  ],
+  "genero": "Pop",
+  "duracion": 163,
+  "fecha_de_publicacion": "2022-10-22"
+},{
+  "_id": {
+    "$oid": "63e48076ba0d3128f10b3201"
+  },
+  "titulo": "Only the stars",
+  "artista": "SydneyKnowles",
+  "likes": 6,
+  "comentarios": [
+    {
+      "comentario": "Muy buena cancion",
+      "usuario": "MacKensieMcneil"
+    }
+  ],
+  "genero": "Country",
+  "duracion": 186,
+  "fecha_de_publicacion": "2022-07-28"
+},{
+  "_id": {
+    "$oid": "63e48076ba0d3128f10b3204"
+  },
+  "titulo": "Serenata",
+  "artista": "IraBuck",
+  "likes": 8,
+  "comentarios": [
+    {
+      "comentario": "Cuando plubicaras mas musica",
+      "usuario": "KermitHolmes"
+    }
+  ],
+  "genero": "Urbano",
+  "duracion": 95,
+  "fecha_de_publicacion": "2022-06-09"
+},{
+  "_id": {
+    "$oid": "63e48076ba0d3128f10b3227"
+  },
+  "titulo": "Heater",
+  "artista": "HedyNguyen",
+  "likes": 8,
+  "comentarios": [
+    {
+      "comentario": "Directo a me gusta",
+      "usuario": "SydneyMcdowell"
+    }
+  ],
+  "genero": "Urbano",
+  "duracion": 89,
+  "fecha_de_publicacion": "2022-03-18"
+},{
+  "_id": {
+    "$oid": "63e48076ba0d3128f10b31ee"
+  },
+  "titulo": "Alma perdida",
+  "artista": "JosephLindsey",
+  "likes": 8,
+  "comentarios": [
+    {
+      "comentario": "Que cancion!",
+      "usuario": "OriAlston"
+    }
+  ],
+  "genero": "Rap",
+  "duracion": 158,
+  "fecha_de_publicacion": "2022-04-25"
+},{
+  "_id": {
+    "$oid": "63e48076ba0d3128f10b3208"
+  },
+  "titulo": "Te dejo solita",
+  "artista": "JelaniMolina",
+  "likes": 1,
+  "comentarios": [
+    {
+      "comentario": "Wow, me gusta",
+      "usuario": "ClarePatterson"
+    }
+  ],
+  "genero": "Rap",
+  "duracion": 170,
+  "fecha_de_publicacion": "2022-08-01"
+},{
+  "_id": {
+    "$oid": "63e48076ba0d3128f10b3212"
+  },
+  "titulo": "Mad game",
+  "artista": "CairoBeasley",
+  "likes": 8,
+  "comentarios": [
+    {
+      "comentario": "Tienes talento",
+      "usuario": "HashimHoffman"
+    }
+  ],
+  "genero": "Rap",
+  "duracion": 71,
+  "fecha_de_publicacion": "2022-08-29"
+},{
+  "_id": {
+    "$oid": "63e48076ba0d3128f10b321b"
+  },
+  "titulo": "Oh baby",
+  "artista": "ReganMcclure",
+  "likes": 0,
+  "comentarios": [
+    {
+      "comentario": "Muy buena cancion",
+      "usuario": "KaitlinMckinney"
+    }
+  ],
+  "genero": "Tropipop",
+  "duracion": 163,
+  "fecha_de_publicacion": "2022-06-02"
+},{
+  "_id": {
+    "$oid": "63e48076ba0d3128f10b31d3"
+  },
+  "titulo": "Blue",
+  "artista": "AdaraShaffer",
+  "likes": 5,
+  "comentarios": [
+    {
+      "comentario": "Tienes talento",
+      "usuario": "OliviaBrennan"
+    }
+  ],
+  "genero": "Blues",
+  "duracion": 154,
+  "fecha_de_publicacion": "2022-06-15"
+},{
+  "_id": {
+    "$oid": "63e48076ba0d3128f10b31df"
+  },
+  "titulo": "War zone",
+  "artista": "CarlosBush",
+  "likes": 1,
+  "comentarios": [
+    {
+      "comentario": "Tienes talento",
+      "usuario": "RubyWallace"
+    }
+  ],
+  "genero": "Pop",
+  "duracion": 79,
+  "fecha_de_publicacion": "2022-10-16"
+},{
+  "_id": {
+    "$oid": "63e48076ba0d3128f10b31ed"
+  },
+  "titulo": "La amarilla",
+  "artista": "JamaliaBurnett",
+  "likes": 9,
+  "comentarios": [
+    {
+      "comentario": "Tienes talento",
+      "usuario": "JermaineGross"
+    }
+  ],
+  "genero": "Urbano",
+  "duracion": 179,
+  "fecha_de_publicacion": "2022-08-12"
+},{
+  "_id": {
+    "$oid": "63e48076ba0d3128f10b31ff"
+  },
+  "titulo": "Twisted people",
+  "artista": "AquilaSkinner",
+  "likes": 5,
+  "comentarios": [
+    {
+      "comentario": ":) Excelente",
+      "usuario": "PenelopeJefferson"
+    }
+  ],
+  "genero": "Blues",
+  "duracion": 92,
+  "fecha_de_publicacion": "2022-03-15"
+},{
+  "_id": {
+    "$oid": "63e48076ba0d3128f10b3223"
+  },
+  "titulo": "Alma perdida",
+  "artista": "MichelleMassey",
+  "likes": 4,
+  "comentarios": [
+    {
+      "comentario": "Mi cancion favorita",
+      "usuario": "GraceHarris"
+    }
+  ],
+  "genero": "Jazz",
+  "duracion": 149,
+  "fecha_de_publicacion": "2022-09-06"
+},{
+  "_id": {
+    "$oid": "63e48076ba0d3128f10b3226"
+  },
+  "titulo": "You are so happy",
+  "artista": "JamalHarding",
+  "likes": 5,
+  "comentarios": [
+    {
+      "comentario": "Muy buena cancion",
+      "usuario": "ClarePatterson"
+    }
+  ],
+  "genero": "Urbano",
+  "duracion": 88,
+  "fecha_de_publicacion": "2022-11-19"
+},{
+  "_id": {
+    "$oid": "63e48076ba0d3128f10b322a"
+  },
+  "titulo": "Naturally",
+  "artista": "FerrisMcclure",
+  "likes": 8,
+  "comentarios": [
+    {
+      "comentario": "Que cancion!",
+      "usuario": "MargaretEllis"
+    }
+  ],
+  "genero": "Urbano",
+  "duracion": 148,
+  "fecha_de_publicacion": "2022-09-02"
+},{
+  "_id": {
+    "$oid": "63e48076ba0d3128f10b322b"
+  },
+  "titulo": "Show up",
+  "artista": "ChelseaMassey",
+  "likes": 5,
+  "comentarios": [
+    {
+      "comentario": "Que cancion!",
+      "usuario": "HayfaWooten"
+    }
+  ],
+  "genero": "Rock",
+  "duracion": 158,
+  "fecha_de_publicacion": "2022-01-30"
+},{
+  "_id": {
+    "$oid": "63e48076ba0d3128f10b31f4"
+  },
+  "titulo": "Another way",
+  "artista": "BurtonFowler",
+  "likes": 4,
+  "comentarios": [
+    {
+      "comentario": "Me encanta",
+      "usuario": "DrakeMcfadden"
+    }
+  ],
+  "genero": "Tropipop",
+  "duracion": 88,
+  "fecha_de_publicacion": "2022-10-03"
+},{
+  "_id": {
+    "$oid": "63e48076ba0d3128f10b31f5"
+  },
+  "titulo": "Thinking you",
+  "artista": "IsaiahHenson",
+  "likes": 9,
+  "comentarios": [
+    {
+      "comentario": "Directo a me gusta",
+      "usuario": "MayaBenton"
+    }
+  ],
+  "genero": "Jazz",
+  "duracion": 88,
+  "fecha_de_publicacion": "2022-09-20"
+},{
+  "_id": {
+    "$oid": "63e48076ba0d3128f10b31f8"
+  },
+  "titulo": "Alma perdida",
+  "artista": "MarisWhitaker",
+  "likes": 5,
+  "comentarios": [
+    {
+      "comentario": "Buen trabajo",
+      "usuario": "SavannahMckenzie"
+    }
+  ],
+  "genero": "Rock",
+  "duracion": 184,
+  "fecha_de_publicacion": "2022-11-16"
+},{
+  "_id": {
+    "$oid": "63e48076ba0d3128f10b3219"
+  },
+  "titulo": "Keep watching",
+  "artista": "PandoraMays",
+  "likes": 6,
+  "comentarios": [
+    {
+      "comentario": "Muy buena cancion",
+      "usuario": "RubyWallace"
+    }
+  ],
+  "genero": "Rock",
+  "duracion": 173,
+  "fecha_de_publicacion": "2022-09-28"
+},{
+  "_id": {
+    "$oid": "63e48076ba0d3128f10b321e"
+  },
+  "titulo": "Only the stars",
+  "artista": "LawrenceVance",
+  "likes": 3,
+  "comentarios": [
+    {
+      "comentario": "Mi cancion favorita",
+      "usuario": "CharlesSoto"
+    }
+  ],
+  "genero": "Urbano",
+  "duracion": 107,
+  "fecha_de_publicacion": "2022-03-10"
+},{
+  "_id": {
+    "$oid": "63e48076ba0d3128f10b31ca"
+  },
+  "titulo": "Get use to",
+  "artista": "McKenzieDonovan",
+  "likes": 5,
+  "comentarios": [
+    {
+      "comentario": "Buen ritmo",
+      "usuario": "HedyNguyen"
+    }
+  ],
+  "genero": "Urbano",
+  "duracion": 142,
+  "fecha_de_publicacion": "2022-09-16"
+},{
+  "_id": {
+    "$oid": "63e48076ba0d3128f10b3218"
+  },
+  "titulo": "Wildest dreams",
+  "artista": "NathanGraves",
+  "likes": 3,
+  "comentarios": [
+    {
+      "comentario": "Que cancion!",
+      "usuario": "SydneyMcdowell"
+    }
+  ],
+  "genero": "Blues",
+  "duracion": 85,
+  "fecha_de_publicacion": "2023-01-16"
+},{
+  "_id": {
+    "$oid": "63e48076ba0d3128f10b31e0"
+  },
+  "titulo": "Por ultima vez",
+  "artista": "PalomaTerrell",
+  "likes": 2,
+  "comentarios": [
+    {
+      "comentario": "Me encanta",
+      "usuario": "ArdenClayton"
+    }
+  ],
+  "genero": "Urbano",
+  "duracion": 68,
+  "fecha_de_publicacion": "2022-09-07"
+},{
+  "_id": {
+    "$oid": "63e48076ba0d3128f10b31e1"
+  },
+  "titulo": "Why?",
+  "artista": "JelaniMolina",
+  "likes": 0,
+  "comentarios": [
+    {
+      "comentario": "Tienes talento",
+      "usuario": "ReubenMatthews"
+    }
+  ],
+  "genero": "Blues",
+  "duracion": 102,
+  "fecha_de_publicacion": "2022-02-18"
+},{
+  "_id": {
+    "$oid": "63e48076ba0d3128f10b31f1"
+  },
+  "titulo": "Mad game",
+  "artista": "JamalMcgee",
+  "likes": 6,
+  "comentarios": [
+    {
+      "comentario": "Directo a me gusta",
+      "usuario": "LewisLester"
+    }
+  ],
+  "genero": "Blues",
+  "duracion": 173,
+  "fecha_de_publicacion": "2022-02-15"
+},{
+  "_id": {
+    "$oid": "63e48076ba0d3128f10b31fd"
+  },
+  "titulo": "Ella",
+  "artista": "RaphaelMorrow",
+  "likes": 4,
+  "comentarios": [
+    {
+      "comentario": "Mi cancion favorita",
+      "usuario": "FreyaHunt"
+    }
+  ],
+  "genero": "Country",
+  "duracion": 71,
+  "fecha_de_publicacion": "2022-02-12"
+},{
+  "_id": {
+    "$oid": "63e48076ba0d3128f10b3209"
+  },
+  "titulo": "Hey",
+  "artista": "FrancescaRamirez",
+  "likes": 9,
+  "comentarios": [
+    {
+      "comentario": "Cuando plubicaras mas musica",
+      "usuario": "HadleyWalker"
+    }
+  ],
+  "genero": "Pop",
+  "duracion": 91,
+  "fecha_de_publicacion": "2022-12-15"
+},{
+  "_id": {
+    "$oid": "63e67661c6c03726e24c204a"
+  },
+  "titulo": "HigherGround",
+  "artista": "gabrielaGuerra",
+  "likes": 0,
+  "comentarios": [
+    {
+      "comentario": "Me encanta!",
+      "username": "rodrigoNoriega"
+    },
+    {
+      "comentario": "Tienes talento",
+      "username": "glendyMolina"
+    }
+  ],
+  "genero": "Blues",
+  "duracion": 192,
+  "fecha_de_publicacion": "2023-01-01"
+},{
+  "_id": {
+    "$oid": "63e67686c6c03726e24c204b"
+  },
+  "titulo": "As It Was - Cover",
+  "artista": "glendyMolina",
+  "likes": 0,
+  "comentarios": [
+    {
+      "comentario": "Me encanta!",
+      "username": "paoDeLeon"
+    }
+  ],
+  "genero": "Pop",
+  "duracion": 130,
+  "fecha_de_publicacion": "2023-01-01"
+},{
+  "_id": {
+    "$oid": "63e9807fcb3a3a589a10b24c"
+  },
+  "titulo": "Golden Hour - Cover",
+  "artista": "paoDeLeon",
+  "likes": 0,
+  "genero": "Pop",
+  "duracion": "220",
+  "fecha_de_publicacion": "2023-02-12"
+},{
+  "_id": {
+    "$oid": "63e98fc338284e25c38ec848"
+  },
+  "titulo": "My Life - Cover",
+  "artista": "andreHernandez",
+  "likes": 0,
+  "genero": "Pop",
+  "duracion": "240",
+  "fecha_de_publicacion": "2023-02-12"
+},{
+  "_id": {
+    "$oid": "63ed7a6bdb4a1fff4904cff5"
+  },
+  "titulo": "La inocente",
+  "artista": "maco123",
+  "likes": 0,
+  "genero": "Urbano",
+  "duracion": "200",
+  "fecha_de_publicacion": "2023-02-15"
+}]
