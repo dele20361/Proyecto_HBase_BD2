@@ -174,19 +174,28 @@ ________________________________________________________________________________
             print(f"\n@! La tabla '{self.name}' se encuentra deshabilitada.")
     
 
-    def get(self, row_key:str, family_column:str, column_qualifier:str):
+    def get(self, row_key:str, family_column:str=None, column_qualifier:str=None):
         found = False
         if self.enabled:
             for data_dict in self.table:
                 columInfo = data_dict['column_key']
-                if data_dict['row_key'] == row_key and columInfo[0] == family_column and columInfo[1] == column_qualifier:
-                    data = data_dict["cell_data"]
-                    timestamp = list(data.keys())[0]
-                    value = data[timestamp]
-                    found = True
+                if family_column is None and column_qualifier is None:
+                    if data_dict['row_key'] == row_key:
+                        data = data_dict["cell_data"]
+                        timestamp = list(data.keys())[0]
+                        value = data[timestamp]
+                        found = True
 
-                    print(f" - Row = {row_key} \n", f"- Columns = {family_column}:{column_qualifier}\n", f"- Timestamp = {timestamp} \n", f"- Value = {value} \n")
-            
+                        print(f" - Row = {row_key} \n", f"- Columns = {columInfo[0]}:{columInfo[1]}\n", f"- Timestamp = {timestamp} \n", f"- Value = {value} \n")
+                else:
+                    if data_dict['row_key'] == row_key and columInfo[0] == family_column and columInfo[1] == column_qualifier:
+                        data = data_dict["cell_data"]
+                        timestamp = list(data.keys())[0]
+                        value = data[timestamp]
+                        found = True
+
+                        print(f" - Row = {row_key} \n", f"- Columns = {family_column}:{column_qualifier}\n", f"- Timestamp = {timestamp} \n", f"- Value = {value} \n")
+
             if not found:
                 print(f"\n@! La información dada no se encuentra en la tabla '{self.name}'.\n")
         else:

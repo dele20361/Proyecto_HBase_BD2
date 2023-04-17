@@ -243,20 +243,34 @@ class HBase:
             print(f"@! La tabla '{table_name}' no existe.\n   Details: \n     '{table_name}' is not defined in HBase tables.\n")
 
     
-    def getTable(self,table_name:str, row_key:str,family_column:str, column_qualifier:str):
+    def getTable(self,table_name:str, row_key:str,family_column:str=None, column_qualifier:str=None):
+        '''
+        
+        Ejemplo:
+        --------
+        >>> # Obtener información dada un table_name y row_key.
+        >>> get "Ejemplo", "row1"
+        
+        >>> # Obtener información dada un table_name, row_key, family_column y column_qualifier.
+        >>> get "Ejemplo", "row1", {COLUMN => "family_column:column_qualifier"}
+
+        '''
         if table_name in self.tables.keys():
             tableObj = self.tables[table_name]
-            tableObj.get(table_name, row_key, family_column, column_qualifier)
+            if family_column is not None and column_qualifier is not None:
+                tableObj.get(row_key, family_column, column_qualifier)
+            else:
+                tableObj.get(row_key)
         else:
             print(f"@! La tabla '{table_name}' no existe.\n   Details: \n     '{table_name}' is not defined in HBase tables.\n")
 
 
 if __name__ == "__main__":
-    table = HFile()
+    hbase = HBase()
+    hbase.createTable('Ejemplo', 'family_column', 'family_column2')
     cell_data = {'Monday': "value"}
     cell_data2 = {'Wednesday': "value2"}
-    table.create('Ejemplo','family_column','family_column2')
-    table.table =   [
+    hbase.tables['Ejemplo'].table =   [
                         {
                             'row_key': 'row1',
                             'column_key': ['family_column', 'column_qualifier'],
@@ -268,4 +282,5 @@ if __name__ == "__main__":
                             'cell_data': cell_data2
                         }
                     ]
-    table.get('row1', 'family_columnn', 'column_qualifier')
+    hbase.getTable('Ejemplo','row1', 'family_column', 'column_qualifier')
+    # table.get('row1')

@@ -47,7 +47,6 @@ class ShellUI:
             
             #delete all data 
             elif command.strip()[:len('deleteall')].lower() == 'deleteall':
-                print("addd")
                 hbase.deleteall()
 
             # deleteTable
@@ -56,7 +55,6 @@ class ShellUI:
                 if len(params) != 1 or (len(params) == 1 and params[0] == ''):
                     print(f"@! Error.\n   Details: \n     Se pasaron {len(params)} parámetros de 1 parámetro necesario.\n")
                 else:
-                    print("adadad")
                     hbase.deleteTable(params[0][1:-1]) # Quitar commilas del parámetro
             
             # disableTable
@@ -86,7 +84,6 @@ class ShellUI:
 
                 params = [param.strip() for param in command[len('alter'):].split(',') if param.strip() != '']
                 params = [param.replace(" ", "") for param in params]
-                print(params)
                 if len(params) != 3 or (len(params) == 3 and params[0] == ''):
                     print(f"@! Error.\n   Details: \n     Se pasaron {len(params)} parámetros de 3 parámetros necesario.\n")
                 else:
@@ -176,12 +173,25 @@ class ShellUI:
             #get table 
             elif command.strip()[:len('get')].lower() == 'get':
                 params = [param.strip() for param in command[len('get'):].split(',') if param.strip() != '']
-                
-                if len(params) != 2 or (len(params) == 2 and params[0] == ''):
-                    print(f"@! Error.\n   Details: \n     Se pasaron {len(params)} parámetros de 2 parámetro necesario.\n")
+                params = [param.replace(" ", "") for param in params]
 
-                else:   
+                if len(params) != 2 and len(params) != 3:
+                    print(f"@! Error.\n   Details: \n     Se pasaron {len(params)} parámetros de 2 a 3 parámetros necesario.\n")
+                elif len(params) == 2:
                     hbase.getTable(params[0][1:-1], params[1][1:-1]) # Quitar comillas
+                elif len(params) == 3:
+                    name_fc = params[2]
+                    method = name_fc[1:name_fc.index('=>')]
+                    if method == 'COLUMN':
+                        columnInfo = name_fc[name_fc.index('=>')+len("=>")+1:-2]
+                        columnParts = columnInfo.split(':')
+                        table_name = params[0][1:-1]
+                        row_key = params[1][1:-1]
+                        column_family = columnParts[0]
+                        column_qualifier = columnParts[1]
+                        hbase.getTable(table_name, row_key, column_family, column_qualifier)
+                    else:
+                        print(f"@! Error.\n   Details: \n     Método no definido. Si deseas buscar la infomación de un column family y una column utiliza COLUMN.\n")
 
             elif command == 'Clear' or command == 'clear' or command == 'clr':
                 window['-OUTPUT-'].update('')
