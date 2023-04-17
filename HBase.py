@@ -27,7 +27,9 @@ class HBase:
         '''
             Drop de todas las tablas en base de datos.
         '''
+        oldSize = len(list(self.tables))
         self.tables = {}
+        print(f"Dropall realizado exitosamente!\n  Details: \n     Tables size: before({oldSize}) -> after ({len(list(self.tables))})\n")
 
 
     def deleteTable(self, table_name:str):
@@ -233,7 +235,7 @@ class HBase:
             tableObj = self.tables[table_name]
             tableObj.truncate()
         else:
-            print("@! El nombre indicado ya existe.\n   Details: \n     Duplicated table names can not be accepted.\n")
+            print(f"@! La tabla '{table_name}' no existe.\n   Details: \n     '{table_name}' is not defined in HBase tables.\n")
 
     def putTable(self,table_name,row_id,family,clasificator,value):
         if table_name in self.tables.keys():

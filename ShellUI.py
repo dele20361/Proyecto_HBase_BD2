@@ -77,7 +77,7 @@ class ShellUI:
             elif command.strip()[:len('alter')].lower() == 'alter':
                 # EJEMPLOS
                 # Cambiar nombre de column family
-                # ALTER 'Ejemplo', {NAME => 'fam1', NEW_NAME => 'new_fam1}
+                # ALTER 'Ejemplo', {NAME => 'family_column', NEW_NAME => 'new_fam1}
 
                 # Eliminar column family
                 # ALTER 'Ejemplo', {NAME => 'fam1', METHOD => 'delete' }
@@ -130,8 +130,8 @@ class ShellUI:
                     hbase.countTable(params[0][1:-1]) # Quitar comillas
             
             # trucateTable
-            elif command.strip()[:len('trucate')].lower() == 'trucate':
-                params = [param.strip() for param in command[len('trucate'):].split(',') if param.strip() != '']
+            elif command.strip()[:len('truncate')].lower() == 'truncate':
+                params = [param.strip() for param in command[len('truncate'):].split(',') if param.strip() != '']
                 if len(params) != 1 or (len(params) == 1 and params[0] == ''):
                     print(f"@! Error.\n   Details: \n     Se pasaron {len(params)} parámetros de 1 parámetro necesario.\n")
                 else:
@@ -141,7 +141,7 @@ class ShellUI:
             elif command.strip()[:len('create')].lower() == 'create':
                 params = [param.strip().strip('\'\"') for param in command[len('create'):].split(',') if param.strip() != '']
                 if len(params) < 2 and params[0] == '':
-                    print(f"@! Error.\n   Detacreils: \n     Se pasaron {len(params)} parámetros.\n")
+                    print(f"@! Error.\n   Details: \n     Se pasaron {len(params)} parámetros.\n")
                 else:
                     hbase.createTable(*params) # Pasar argumentos sin comillas
 
@@ -169,7 +169,6 @@ class ShellUI:
                 else:   
                     hbase.scanTable(params[0][1:-1]) # Quitar comillas
 
-#-------------------------------------------------------------------------------------------------------------------
             #get table 
             elif command.strip()[:len('get')].lower() == 'get':
                 params = [param.strip() for param in command[len('get'):].split(',') if param.strip() != '']
@@ -193,6 +192,7 @@ class ShellUI:
                     else:
                         print(f"@! Error.\n   Details: \n     Método no definido. Si deseas buscar la infomación de un column family y una column utiliza COLUMN.\n")
 
+#-------------------------------------------------------------------------------------------------------------------
             elif command == 'Clear' or command == 'clear' or command == 'clr':
                 window['-OUTPUT-'].update('')
         # Cerrar la ventana

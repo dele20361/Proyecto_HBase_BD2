@@ -31,7 +31,7 @@ class HFile:
             Mostrar data de la tabla 
         '''
         if self.enabled:
-            print("\t\t-- Mostrando datos de la tabla {self.name} --\n")
+            print(f"\t\t-- Mostrando datos de la tabla '{self.name}' --\n")
             for row in self.table:
                 rows = row['row_key']
                 colum = row['column_key']
@@ -128,7 +128,7 @@ class HFile:
         '''
             Elimina toda la información de la tabla.
         '''
-        print(f"... Eliminando información de tabla '{self.name}'.")
+        print(f"\n> Información de tabla '{self.name}' eliminada.")
         self.table = []
         self.column_families = {}
         self.enabled = False
@@ -219,9 +219,9 @@ ________________________________________________________________________________
         print("\nTRUNCATE PROCESS...")
         self.disable()
         self.table = []
-        print(f"> La información de la tabla {self.name} ha sido eliminada exitosamente!.")
+        print(f"\n> La información de la tabla {self.name} ha sido eliminada exitosamente!.")
         self.enabled = True        
-        print(f"> La tabla '{self.name}' ha sido habilitada exitosamente!.")
+        print(f"\n> La tabla '{self.name}' ha sido habilitada exitosamente!.")
         print("\nTRUNCATE COMPLETED!")
 
     
