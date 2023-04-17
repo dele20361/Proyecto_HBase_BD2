@@ -12,9 +12,8 @@ def Music_table():
     family_name2 = "interacction"
 
     for item in contenido:
-        row_key = (item['_id']['$oid'])
+        row_key = (item['artista'])
         titulo = (item['titulo'])
-        artista = (item['artista'])
         genero = (item['genero'])
         duracion = (item['duracion'])
         fecha_de_publicacion = (item['fecha_de_publicacion'])
@@ -22,7 +21,6 @@ def Music_table():
 
 
         hb.putTable(table_name,row_key,family_name1,'titulo',titulo)
-        hb.putTable(table_name,row_key,family_name1,'artista',artista)
         hb.putTable(table_name,row_key,family_name1,'genero',genero)
         hb.putTable(table_name,row_key,family_name1,'duracion',duracion)
         hb.putTable(table_name,row_key,family_name1,'fecha_de_publicacion',fecha_de_publicacion)
