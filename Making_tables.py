@@ -1,6 +1,4 @@
 from HBase import HBase
-from datetime import datetime
-import time
 import json
 
 with open('TablesInfo/Musica.json', 'r') as f:
@@ -9,7 +7,6 @@ with open('TablesInfo/Musica.json', 'r') as f:
 
 hb = HBase()
 hb.createTable("Musica","information","interacction")
-time = datetime.fromtimestamp(time.time()).strftime('%Y-%m-%d %H:%M:%S')
 table_name = "Musica"
 family_name1 = "information"
 family_name2 = "interacction"
