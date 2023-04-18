@@ -160,18 +160,37 @@ ________________________________________________________________________________
                 print(f"\n@! La tabla '{self.name}' se encuentra deshabilitada.")
 
 
-    def put(self,table_name,row_id,family,clasificator,value):
+    def put(self, table_name, row_id, family, clasificator, value):
         if self.enabled:
+            for data_dict in self.table:
+                if data_dict['row_key'] == row_id and data_dict['column_key'][0] == family and data_dict['column_key'][1] == clasificator:
+                    print(list(data_dict['cell_data'].keys()))
+                    #data_dict['cell_data'][list(data_dict['cell_data'].keys())[0]] = value
+                    old_timestamp = list(data_dict['cell_data'].keys())[0]
+                    data_dict['cell_data'][datetime.fromtimestamp(time.time()).strftime('%Y-%m-%d %H:%M:%S')] = value
+                    del data_dict['cell_data'][old_timestamp]
+                    
+                    print(f"-> Valor de celda actualizado en la tabla '{table_name}' para la fila '{row_id}', familia '{family}', clasificator '{clasificator}'.")
+                    return
+                elif data_dict['row_key'] == row_id and data_dict['column_key'][0] == family and value in data_dict['cell_data'].values():
+                    timestamp = [k for k, v in data_dict['cell_data'].items() if v == value][0]
+                    del data_dict['cell_data'][timestamp]
+                    temp2 = {datetime.fromtimestamp(time.time()).strftime('%Y-%m-%d %H:%M:%S'): value}
+                    data_dict['cell_data'].update(temp2)
+                    data_dict['column_key'][1] = clasificator
+                    print(f"-> Valor de celda actualizado en la tabla '{table_name}' para la fila '{row_id}', familia '{family}', valor '{value}'.")
+                    return
+            # Si no se encontró una fila existente con el row_id, family y clasificator especificados, agregar una nueva fila
             temp = {}
             temp2 = {datetime.fromtimestamp(time.time()).strftime('%Y-%m-%d %H:%M:%S'): value}
             temp['row_key'] = row_id
-            temp['column_key'] = [family,clasificator]
+            temp['column_key'] = [family, clasificator]
             temp['cell_data'] = temp2
             self.table.append(temp)
-            
             print(f"-> '{row_id}' ha sido agregado a la tabla '{table_name}'.")
         else:
             print(f"\n@! La tabla '{self.name}' se encuentra deshabilitada.")
+
     
 
     def get(self, row_key:str, family_column:str=None, column_qualifier:str=None):

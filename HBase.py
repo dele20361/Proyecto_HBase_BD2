@@ -267,22 +267,23 @@ class HBase:
             print(f"@! La tabla '{table_name}' no existe.\n   Details: \n     '{table_name}' is not defined in HBase tables.\n")
 
 
-if __name__ == "__main__":
-    hbase = HBase()
-    hbase.createTable('Ejemplo', 'family_column', 'family_column2')
-    cell_data = {'Monday': "value"}
-    cell_data2 = {'Wednesday': "value2"}
-    hbase.tables['Ejemplo'].table =   [
-                        {
-                            'row_key': 'row1',
-                            'column_key': ['family_column', 'column_qualifier'],
-                            'cell_data': cell_data
-                        }, 
-                        {
-                            'row_key': 'row2',
-                            'column_key': ['family_column2', 'column_qualifier2'],
-                            'cell_data': cell_data2
-                        }
-                    ]
-    hbase.getTable('Ejemplo','row1', 'family_column', 'column_qualifier')
-    # table.get('row1')
+# if __name__ == "__main__":
+#     hbase = HBase()
+#     hbase.createTable('Ejemplo', 'family_column', 'family_column2')
+#     cell_data = {'Monday': "value"}
+#     cell_data2 = {'Wednesday': "value2"}
+#     hbase.tables['Ejemplo'].table =   [
+#                         {
+#                             'row_key': 'row1',
+#                             'column_key': ['family_column', 'column_qualifier'],
+#                             'cell_data': cell_data
+#                         }, 
+#                         {
+#                             'row_key': 'row2',
+#                             'column_key': ['family_column2', 'column_qualifier2'],
+#                             'cell_data': cell_data2
+#                         }
+#                     ]
+#     #hbase.getTable('Ejemplo','row1', 'family_column', 'column_qualifier')
+#     hbase.putTable('Ejemplo','row1', 'family_column', 'column_qualifier',"value5")
+#     hbase.getTable('Ejemplo',"row1")
