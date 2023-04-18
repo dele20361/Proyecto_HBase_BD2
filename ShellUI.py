@@ -169,17 +169,13 @@ class ShellUI:
                     self.hbase.getTable(params[0][1:-1], params[1][1:-1]) # Quitar comillas
                 elif len(params) == 3:
                     name_fc = params[2]
-                    method = name_fc[1:name_fc.index('=>')]
-                    if method == 'COLUMN':
-                        columnInfo = name_fc[name_fc.index('=>')+len("=>")+1:-2]
-                        columnParts = columnInfo.split(':')
-                        table_name = params[0][1:-1]
-                        row_key = params[1][1:-1]
-                        column_family = columnParts[0]
-                        column_qualifier = columnParts[1]
-                        self.hbase.getTable(table_name, row_key, column_family, column_qualifier)
-                    else:
-                        print(f"@! Error.\n   Details: \n     Método no definido. Si deseas buscar la infomación de un column family y una column utiliza COLUMN.\n")
+                    columnParts = name_fc.split(':')
+                    table_name = params[0][1:-1]
+                    row_key = params[1][1:-1]
+                    column_family = columnParts[0][1:]
+                    column_qualifier = columnParts[1][:-1]
+                    print(table_name, row_key,column_family, column_qualifier)
+                    self.hbase.getTable(table_name, row_key, column_family, column_qualifier)
 
 #-------------------------------------------------------------------------------------------------------------------
             elif command == 'Clear' or command == 'clear' or command == 'clr':
