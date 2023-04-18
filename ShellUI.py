@@ -177,6 +177,14 @@ class ShellUI:
                     print(table_name, row_key,column_family, column_qualifier)
                     self.hbase.getTable(table_name, row_key, column_family, column_qualifier)
 
+            elif command.strip()[:len('hfile')].lower() == 'hfile':
+                params = [param.strip() for param in command[len('delete'):].split(',') if param.strip() != '']
+                if len(params) == 1:
+                    print(params[0][1:-1])
+                    self.hbase.HFile(params[0][1:-1])
+                elif len(params) == 0:
+                    self.hbase.HFile()
+
 #-------------------------------------------------------------------------------------------------------------------
             elif command == 'Clear' or command == 'clear' or command == 'clr':
                 window['-OUTPUT-'].update('')

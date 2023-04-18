@@ -9,6 +9,7 @@ class HFile:
         self.table = []
         self.column_families = {}
         self.enabled = True
+        self.region = 'server1'
 
 
     def create(self, name:str, *args:str):
@@ -33,6 +34,24 @@ class HFile:
         if self.enabled:
             print(f"\t\t-- Mostrando datos de la tabla '{self.name}' --\n")
             for row in self.table:
+                rows = row['row_key']
+                colum = row['column_key']
+                data = row["cell_data"]
+                
+                timestamp = list(data.keys())[0]
+                value = data[timestamp]
+                print(f" - Row = {rows} \n", f"- Columns = {colum[0]}:{colum[1]}\n", f"- Timestamp = {timestamp} \n", f"- Value = {value} \n")
+        else:
+            print(f"\n@! La tabla '{self.name}' se encuentra deshabilitada.")
+    
+    
+    def scanHFile(self, sortedTable):
+        '''
+            Mostrar data de la tabla 
+        '''
+        if self.enabled:
+            print(f"\t\t-- Mostrando datos de la tabla '{self.name}' --\n")
+            for row in sortedTable:
                 rows = row['row_key']
                 colum = row['column_key']
                 data = row["cell_data"]

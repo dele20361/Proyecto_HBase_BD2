@@ -176,6 +176,13 @@ class HBase:
         for table_name in self.tables.keys():
             tableObj = self.tables[table_name]
             tableObj.scan()
+    
+    
+    def scanTableHFile(self,table_name:str, sortedTable):
+        # Conectar con HFile
+        for table_name in self.tables.keys():
+            tableObj = self.tables[table_name]
+            tableObj.scan(sortedTable)
 
 
     def createTable(self, table_name:str, *args:str):
@@ -265,6 +272,27 @@ class HBase:
                 tableObj.get(row_key)
         else:
             print(f"@! La tabla '{table_name}' no existe.\n   Details: \n     '{table_name}' is not defined in HBase tables.\n")
+
+
+    def HFile(self, table_name:str = None):
+        if table_name is None:
+            for key in self.tables:
+                tableObj = self.tables[key]
+                sorted_table = sorted(tableObj.table, key=lambda x: x['row_key'])
+                print("Table Name", tableObj.name)
+                print("Table object", tableObj)
+                print("Region :",tableObj.region)
+                tableObj.scanHFile(sorted_table)
+        else:
+            if table_name in self.tables.keys():
+                tableObj = self.tables[table_name]
+                sorted_table = sorted(tableObj.table, key=lambda x: x['row_key'])
+                print("Table Name", tableObj.name)
+                print("Table object", tableObj)
+                print("Region :",tableObj.region)
+                tableObj.scanHFile(sorted_table)
+            else:
+                print(f"@! La tabla '{table_name}' no existe.\n   Details: \n     '{table_name}' is not defined in HBase tables.\n")
 
 
 # if __name__ == "__main__":
