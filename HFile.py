@@ -164,12 +164,8 @@ ________________________________________________________________________________
         if self.enabled:
             for data_dict in self.table:
                 if data_dict['row_key'] == row_id and data_dict['column_key'][0] == family and data_dict['column_key'][1] == clasificator:
-                    print(list(data_dict['cell_data'].keys()))
-                    #data_dict['cell_data'][list(data_dict['cell_data'].keys())[0]] = value
-                    old_timestamp = list(data_dict['cell_data'].keys())[0]
-                    data_dict['cell_data'][datetime.fromtimestamp(time.time()).strftime('%Y-%m-%d %H:%M:%S')] = value
-                    del data_dict['cell_data'][old_timestamp]
-                    
+                    newValue = {datetime.fromtimestamp(time.time()).strftime('%Y-%m-%d %H:%M:%S'): value}
+                    data_dict['cell_data'] = newValue
                     print(f"-> Valor de celda actualizado en la tabla '{table_name}' para la fila '{row_id}', familia '{family}', clasificator '{clasificator}'.")
                     return
                 elif data_dict['row_key'] == row_id and data_dict['column_key'][0] == family and value in data_dict['cell_data'].values():
